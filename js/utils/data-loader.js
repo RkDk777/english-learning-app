@@ -1,8 +1,14 @@
 // JSON data loader with memory cache
+// Uses jsDelivr CDN for faster loading in China (GitHub Pages origin)
 class DataLoader {
   constructor() {
     this._cache = new Map();
-    this._basePath = './data';
+    // Detect if we're on GitHub Pages (no custom domain)
+    const isGitHubPages = location.hostname.endsWith('.github.io');
+    // jsDelivr mirrors GitHub repos, with CDN nodes in China
+    this._basePath = isGitHubPages
+      ? 'https://cdn.jsdelivr.net/gh/RkDk777/english-learning-app@master/data'
+      : './data';
   }
 
   async load(path) {
@@ -20,6 +26,17 @@ class DataLoader {
       return data;
     } catch (e) {
       console.error(`DataLoader error: ${e.message}`);
+      // Fallback: try local path
+      if (this._basePath !== './data') {
+        try {
+          const fallbackResp = await fetch(`./data/${path}`);
+          if (fallbackResp.ok) {
+            const data = await fallbackResp.json();
+            this._cache.set(key, data);
+            return data;
+          }
+        } catch { /* give up */ }
+      }
       throw e;
     }
   }
