@@ -4,199 +4,16 @@
   "units": [
     {
       "unit": 1,
-      "title": "选必四 U1 Science Fiction",
+      "title": "Unit 1",
       "words": [
         {
-          "en": "fiction",
-          "zh": "小说",
-          "phonetic": "/ˈfɪkʃn/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "test out",
-          "zh": "测试",
+          "en": "salesman",
+          "zh": "",
           "phonetic": "",
-          "pos": "phr.",
+          "pos": "",
           "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "bonus",
-          "zh": "奖金",
-          "phonetic": "/ˈboʊnəs/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "ridiculous",
-          "zh": "荒谬的",
-          "phonetic": "/rɪˈdɪkjələs/",
-          "pos": "adj.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "integrity",
-          "zh": "诚信",
-          "phonetic": "/ɪnˈteɡrəti/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "dignity",
-          "zh": "尊严",
-          "phonetic": "/ˈdɪɡnəti/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "salary",
-          "zh": "薪水",
-          "phonetic": "/ˈsæləri/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "absurd",
-          "zh": "荒谬的",
-          "phonetic": "/əbˈsɜːrd/",
-          "pos": "adj.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "appointment",
-          "zh": "预约",
-          "phonetic": "/əˈpɔɪntmənt/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "nail",
-          "zh": "指甲；钉子",
-          "phonetic": "/neɪl/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "guilty",
-          "zh": "内疚的",
-          "phonetic": "/ˈɡɪlti/",
-          "pos": "adj.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "suspend",
-          "zh": "暂停",
-          "phonetic": "/səˈspend/",
-          "pos": "vt.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "ladder",
-          "zh": "梯子",
-          "phonetic": "/ˈlædər/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "dismiss",
-          "zh": "解散",
-          "phonetic": "/dɪsˈmɪs/",
-          "pos": "vt.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "declare",
-          "zh": "宣称",
-          "phonetic": "/dɪˈkler/",
-          "pos": "vt.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "whereas",
-          "zh": "然而",
-          "phonetic": "/ˌwerˈæz/",
-          "pos": "conj.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "rumour",
-          "zh": "谣言",
-          "phonetic": "/ˈruːmər/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "presume",
-          "zh": "假设",
-          "phonetic": "/prɪˈzuːm/",
-          "pos": "vt.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "fare",
-          "zh": "车费",
-          "phonetic": "/fer/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "weekly",
-          "zh": "每周的",
-          "phonetic": "/ˈwiːkli/",
-          "pos": "adj.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "calculate",
-          "zh": "计算",
-          "phonetic": "/ˈkælkjuleɪt/",
-          "pos": "vt.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "gramme",
-          "zh": "克",
-          "phonetic": "/ɡræm/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "flour",
-          "zh": "面粉",
-          "phonetic": "/ˈflaʊər/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "venue",
-          "zh": "场地",
-          "phonetic": "/ˈvenjuː/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "auto"
         },
         {
           "en": "alien",
@@ -204,7 +21,17 @@
           "phonetic": "/ˈeɪliən/",
           "pos": "n.&adj.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "blurred",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
         },
         {
           "en": "superior",
@@ -212,15 +39,53 @@
           "phonetic": "/suːˈpɪriər/",
           "pos": "adj.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
         },
         {
-          "en": "inaction",
-          "zh": "不行动",
-          "phonetic": "/ɪnˈækʃn/",
+          "en": "bonus",
+          "zh": "奖金",
+          "phonetic": "/ˈboʊnəs/",
           "pos": "n.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "ridiculous",
+          "zh": "荒谬的",
+          "phonetic": "/rɪˈdɪkjələs/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "integrity",
+          "zh": "诚信",
+          "phonetic": "/ɪnˈteɡrəti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "dignity",
+          "zh": "尊严",
+          "phonetic": "/ˈdɪɡnəti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "salary",
+          "zh": "薪水",
+          "phonetic": "/ˈsæləri/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
         },
         {
           "en": "labour",
@@ -228,7 +93,26 @@
           "phonetic": "/ˈleɪbər/",
           "pos": "n.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "absurd",
+          "zh": "荒谬的",
+          "phonetic": "/əbˈsɜːrd/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "appointment",
+          "zh": "预约",
+          "phonetic": "/əˈpɔɪntmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
         },
         {
           "en": "leather",
@@ -236,15 +120,17 @@
           "phonetic": "/ˈleðər/",
           "pos": "n.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
         },
         {
-          "en": "lever",
-          "zh": "操纵杆",
-          "phonetic": "/ˈliːvər/",
+          "en": "nail",
+          "zh": "指甲；钉子",
+          "phonetic": "/neɪl/",
           "pos": "n.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
         },
         {
           "en": "panel",
@@ -252,15 +138,26 @@
           "phonetic": "/ˈpænl/",
           "pos": "n.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
         },
         {
-          "en": "inch",
-          "zh": "英寸",
-          "phonetic": "/ɪntʃ/",
-          "pos": "n.",
+          "en": "SaleSWoman",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "guilty",
+          "zh": "内疚的",
+          "phonetic": "/ˈɡɪlti/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
         },
         {
           "en": "backwards",
@@ -268,7 +165,26 @@
           "phonetic": "/ˈbækwərdz/",
           "pos": "adv.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "suspend",
+          "zh": "暂停",
+          "phonetic": "/səˈspend/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "ladder",
+          "zh": "梯子",
+          "phonetic": "/ˈlædər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
         },
         {
           "en": "grip",
@@ -276,7 +192,17 @@
           "phonetic": "/ɡrɪp/",
           "pos": "vt.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "dismiss",
+          "zh": "解散",
+          "phonetic": "/dɪsˈmɪs/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
         },
         {
           "en": "hazy",
@@ -284,7 +210,8 @@
           "phonetic": "/ˈheɪzi/",
           "pos": "adj.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
         },
         {
           "en": "niece",
@@ -292,7 +219,17 @@
           "phonetic": "/niːs/",
           "pos": "n.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "declare",
+          "zh": "宣称",
+          "phonetic": "/dɪˈkler/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
         },
         {
           "en": "fetch",
@@ -300,111 +237,17 @@
           "phonetic": "/fetʃ/",
           "pos": "vt.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
         },
         {
-          "en": "lamp",
-          "zh": "灯",
-          "phonetic": "/læmp/",
-          "pos": "n.",
+          "en": "whereas",
+          "zh": "然而",
+          "phonetic": "/ˌwerˈæz/",
+          "pos": "conj.",
           "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "turn out",
-          "zh": "结果是",
-          "phonetic": "",
-          "pos": "phr.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "pace",
-          "zh": "速度",
-          "phonetic": "/peɪs/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "division",
-          "zh": "分开",
-          "phonetic": "/dɪˈvɪʒn/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "urge",
-          "zh": "冲动；催促",
-          "phonetic": "/ɜːrdʒ/",
-          "pos": "n.&vt.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "random",
-          "zh": "随机的",
-          "phonetic": "/ˈrændəm/",
-          "pos": "adj.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "maximum",
-          "zh": "最大",
-          "phonetic": "/ˈmæksɪməm/",
-          "pos": "adj.&n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "explode",
-          "zh": "爆炸",
-          "phonetic": "/ɪkˈsploʊd/",
-          "pos": "vi.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "jolt",
-          "zh": "震动",
-          "phonetic": "/dʒoʊlt/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "flip",
-          "zh": "翻转",
-          "phonetic": "/flɪp/",
-          "pos": "vt.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "stun",
-          "zh": "使震惊",
-          "phonetic": "/stʌn/",
-          "pos": "vt.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "mud",
-          "zh": "泥",
-          "phonetic": "/mʌd/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
-        },
-        {
-          "en": "overstatement",
-          "zh": "夸大",
-          "phonetic": "/ˈoʊvərsteɪtmənt/",
-          "pos": "n.",
-          "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
         },
         {
           "en": "handkerchief",
@@ -412,7 +255,1940 @@
           "phonetic": "/ˈhæŋkərtʃɪf/",
           "pos": "n.",
           "example": "",
-          "exampleZh": ""
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "rumour",
+          "zh": "谣言",
+          "phonetic": "/ˈruːmər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "lamp",
+          "zh": "灯",
+          "phonetic": "/læmp/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "presume",
+          "zh": "假设",
+          "phonetic": "/prɪˈzuːm/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "pace",
+          "zh": "速度",
+          "phonetic": "/peɪs/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "fare",
+          "zh": "车费",
+          "phonetic": "/fer/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "weekly",
+          "zh": "每周的",
+          "phonetic": "/ˈwiːkli/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "division",
+          "zh": "分开",
+          "phonetic": "/dɪˈvɪʒn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "puff",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "calculate",
+          "zh": "计算",
+          "phonetic": "/ˈkælkjuleɪt/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "chairwoman",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "random",
+          "zh": "随机的",
+          "phonetic": "/ˈrændəm/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "flour",
+          "zh": "面粉",
+          "phonetic": "/ˈflaʊər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "maximum",
+          "zh": "最大",
+          "phonetic": "/ˈmæksɪməm/",
+          "pos": "adj.&n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "explode",
+          "zh": "爆炸",
+          "phonetic": "/ɪkˈsploʊd/",
+          "pos": "vi.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "frog",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "jolt",
+          "zh": "震动",
+          "phonetic": "/dʒoʊlt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "arrow",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "entitle",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "flip",
+          "zh": "翻转",
+          "phonetic": "/flɪp/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "stun",
+          "zh": "使震惊",
+          "phonetic": "/stʌn/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "dive",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "mud",
+          "zh": "泥",
+          "phonetic": "/mʌd/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "overstatement",
+          "zh": "夸大",
+          "phonetic": "/ˈoʊvərsteɪtmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "kayaking",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Asimov",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "freedom",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Belmont",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "domain",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Claire",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Sponsor",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Claffern",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "liberty",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "strait",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Hugo",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "monument",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Unit 2",
+      "words": [
+        {
+          "en": "geyser",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "sulphuric",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "manuka",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "bungee",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "flock",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "distribution",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "pouch",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "foundation",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "political",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "located",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "equator",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "barbecue",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "temporary",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Phase",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "trunk",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "licensed",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "butcher",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "premier",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "herb",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "sim",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "hollow",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "violence",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "vibrate",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "horn",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "pitch",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "biology",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "straightforward",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "slogan",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "minister",
+          "zh": "大臣",
+          "phonetic": "/ˈmɪnɪstər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "fence",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "prison",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "grand",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Sydney",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "haka",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Edmonds",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Felicity",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Tasmanian",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Tasmania",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "platypus",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Unit 3",
+      "words": [
+        {
+          "en": "tale",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "merchant",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "extend",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "negotiate",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "behold",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "league",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "royal",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "spice",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "withdraw",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "channel",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "maritime",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "bond",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "politics",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "profession",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "tournament",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "mixture",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "laptop",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "coverage",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "applaud",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "tax",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "manned",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "submersible",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "underwater",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "capsule",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "directory",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "meanwhile",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "exploit",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "murder",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "possession",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "opponent",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "log",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "marine",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Columbus",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Ceylon",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Churchill",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Magellan",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Sunderland",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Graham",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Unit 4",
+      "words": [
+        {
+          "en": "parcel",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "jam",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "drag",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "mail",
+          "zh": "邮寄",
+          "phonetic": "/meɪl/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "privilege",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "secondary",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "plug",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "dust",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "disabled",
+          "zh": "残疾的",
+          "phonetic": "/dɪsˈeɪbld/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "resign",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "dusty",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "deserve",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "weed",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "lately",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "input",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "chorus",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "tune",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "cotton",
+          "zh": "棉花",
+          "phonetic": "/ˈkɑːtn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": "",
+          "source": "dict"
+        },
+        {
+          "en": "contract",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "uniform",
+          "zh": "校服",
+          "phonetic": "/ˈjuːnɪfɔːrm/",
+          "pos": "n.",
+          "example": "School uniform.",
+          "exampleZh": "校服。",
+          "source": "dict"
+        },
+        {
+          "en": "grant",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "rubber",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "rigid",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "cardiac",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "bubble",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "tube",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "disability",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "circus",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "consultation",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "chemist",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "relay",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "shade",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "criterion",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "criteria",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "wrinkle",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "stability",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "pray",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "hut",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "housing",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "platform",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Guinea",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "fireplace",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Saucer",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Ghana",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "kettle",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Congo",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "pan",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "jar",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "ripe",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Unit 5",
+      "words": [
+        {
+          "en": "grill",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "doorway",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "bounce",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "leftover",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "handshake",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "aptitude",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "canal",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "scenario",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "lawyer",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "supervise",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "assemble",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "handwriting",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "drawer",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "parking",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "camel",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "breast",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "hydrogen",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "radium",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "purse",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "wrist",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "sew",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "bridegroom",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "knit",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "debt",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "categorise",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "rofile",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "participant",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "cage",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "code",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "collar",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "detective",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "finance",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "graphic",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "receipt",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "estate",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "certificate",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "employer",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "accountant",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "acquire",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "justice",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Manifesto",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "accuse",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "Olivia",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "greedy",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "entrepreneur",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "receptionist",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "socialist",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "communist",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "dedicate",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "fox",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
+        },
+        {
+          "en": "council",
+          "zh": "",
+          "phonetic": "",
+          "pos": "",
+          "example": "",
+          "exampleZh": "",
+          "source": "auto"
         }
       ]
     }
