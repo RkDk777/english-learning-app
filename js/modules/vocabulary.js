@@ -7,19 +7,19 @@ import { createWordList } from '../components/word-list.js';
 import { generateVocabQuiz, generateSpellingQuiz, generateListeningQuiz, calculateScore } from '../utils/quiz-engine.js';
 
 const JUNIOR_BOOKS = {
-  grade7: { name: '初一（七年级）', sub: '上下册 · 716词', icon: '📗' },
-  grade8: { name: '初二（八年级）', sub: '上下册 · 437词', icon: '📘' },
-  grade9: { name: '初三（九年级）', sub: '全一册 · 352词', icon: '📙' },
+  grade7: { name: '初一（七年级）', sub: '上下册 · 283词', icon: '📗' },
+  grade8: { name: '初二（八年级）', sub: '上下册 · 335词', icon: '📘' },
+  grade9: { name: '初三（九年级）', sub: '全一册 · 330词', icon: '📙' },
 };
 
 const SENIOR_BOOKS = {
-  book_b1:  { name: '必修 第一册', sub: 'Welcome + U1-U5 · 253词', icon: '📒' },
-  book_b2:  { name: '必修 第二册', sub: 'U1-U5 · 237词', icon: '📒' },
-  book_b3:  { name: '必修 第三册', sub: 'U1-U5 · 256词', icon: '📒' },
-  book_xb1: { name: '选择性必修 第一册', sub: 'U1-U5 · 171词', icon: '📓' },
-  book_xb2: { name: '选择性必修 第二册', sub: 'U1-U5 · 244词', icon: '📓' },
-  book_xb3: { name: '选择性必修 第三册', sub: 'U1-U5 · 136词', icon: '📓' },
-  book_xb4: { name: '选择性必修 第四册', sub: 'U1-U5 · 51词', icon: '📓' },
+  book_b1:  { name: '必修 第一册', sub: 'Welcome + U1-U5 · 211词', icon: '📒' },
+  book_b2:  { name: '必修 第二册', sub: 'U1-U5 · 212词', icon: '📒' },
+  book_b3:  { name: '必修 第三册', sub: 'U1-U5 · 134词', icon: '📒' },
+  book_xb1: { name: '选择性必修 第一册', sub: 'U1-U5 · 153词', icon: '📓' },
+  book_xb2: { name: '选择性必修 第二册', sub: 'U1-U5 · 205词', icon: '📓' },
+  book_xb3: { name: '选择性必修 第三册', sub: 'U1-U5 · 265词', icon: '📓' },
+  book_xb4: { name: '选择性必修 第四册', sub: 'U1-U5 · 240词', icon: '📓' },
 };
 
 const ALL_BOOKS = { ...JUNIOR_BOOKS, ...SENIOR_BOOKS };
@@ -134,7 +134,7 @@ export async function showVocabularyGrade(grade) {
         <div class="grid-2">
           ${data.units.map((unit, i) => `
             <div class="unit-card" data-unit="${i}">
-              <h4>📦 Unit ${unit.unit}</h4>
+              <h4>📦 ${unit.unit != null ? 'Unit ' + unit.unit : ''}</h4>
               <div style="font-size:var(--fs-sm);color:var(--color-text-secondary);margin-bottom:4px;">${unit.title}</div>
               <div class="unit-word-count">${unit.words.length} 个单词</div>
             </div>
@@ -170,7 +170,7 @@ function showUnitPage(grade, unit, allWords) {
     <div class="page">
       <div class="page-header">
         <button class="btn btn-secondary btn-sm mb-1" id="btn-back">← 返回</button>
-        <h1>📦 Unit ${unit.unit}: ${unit.title}</h1>
+        <h1>📦 ${unit.unit != null ? 'Unit ' + unit.unit + ': ' : ''}${unit.title}</h1>
         <p>${words.length} 个单词</p>
       </div>
       <div class="vocab-mode-selector">
