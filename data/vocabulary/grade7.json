@@ -1,0 +1,120 @@
+{
+  "grade": "七年级",
+  "semester": "全学年",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unit 1 My name's Gina.",
+      "words": [
+        {"en": "name", "zh": "名字；名称", "phonetic": "/neɪm/", "pos": "n.", "example": "My name is Tom.", "exampleZh": "我的名字叫汤姆。"},
+        {"en": "nice", "zh": "好的；令人愉快的", "phonetic": "/naɪs/", "pos": "adj.", "example": "Nice to meet you.", "exampleZh": "很高兴见到你。"},
+        {"en": "meet", "zh": "遇见；相逢", "phonetic": "/miːt/", "pos": "v.", "example": "I'm glad to meet you.", "exampleZh": "我很高兴认识你。"},
+        {"en": "too", "zh": "也；太", "phonetic": "/tuː/", "pos": "adv.", "example": "I like it, too.", "exampleZh": "我也喜欢它。"},
+        {"en": "your", "zh": "你的；你们的", "phonetic": "/jɔːr/", "pos": "pron.", "example": "What's your name?", "exampleZh": "你叫什么名字？"},
+        {"en": "his", "zh": "他的", "phonetic": "/hɪz/", "pos": "pron.", "example": "His name is Eric.", "exampleZh": "他的名字叫埃里克。"},
+        {"en": "her", "zh": "她的", "phonetic": "/hɜːr/", "pos": "pron.", "example": "Her bag is red.", "exampleZh": "她的包是红色的。"},
+        {"en": "yes", "zh": "是的；可以", "phonetic": "/jes/", "pos": "adv.", "example": "Yes, I am.", "exampleZh": "是的，我是。"},
+        {"en": "hello", "zh": "你好；喂", "phonetic": "/həˈləʊ/", "pos": "interj.", "example": "Hello! How are you?", "exampleZh": "你好！你好吗？"},
+        {"en": "number", "zh": "号码；数字", "phonetic": "/ˈnʌmbər/", "pos": "n.", "example": "What's your phone number?", "exampleZh": "你的电话号码是多少？"},
+        {"en": "first", "zh": "第一", "phonetic": "/fɜːrst/", "pos": "adj.", "example": "My first name is Jack.", "exampleZh": "我的名字是杰克。"},
+        {"en": "last", "zh": "最后的；上一个的", "phonetic": "/læst/", "pos": "adj.", "example": "Green is my last name.", "exampleZh": "格林是我的姓。"},
+        {"en": "friend", "zh": "朋友", "phonetic": "/frend/", "pos": "n.", "example": "She is my best friend.", "exampleZh": "她是我最好的朋友。"},
+        {"en": "school", "zh": "学校", "phonetic": "/skuːl/", "pos": "n.", "example": "I go to school every day.", "exampleZh": "我每天去上学。"},
+        {"en": "middle", "zh": "中间的；中等的", "phonetic": "/ˈmɪdl/", "pos": "adj.", "example": "I'm a middle school student.", "exampleZh": "我是一名中学生。"}
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Unit 2 This is my sister.",
+      "words": [
+        {"en": "sister", "zh": "姐；妹", "phonetic": "/ˈsɪstər/", "pos": "n.", "example": "This is my sister.", "exampleZh": "这是我的姐姐。"},
+        {"en": "mother", "zh": "母亲；妈妈", "phonetic": "/ˈmʌðər/", "pos": "n.", "example": "My mother is a teacher.", "exampleZh": "我的妈妈是一名教师。"},
+        {"en": "father", "zh": "父亲；爸爸", "phonetic": "/ˈfɑːðər/", "pos": "n.", "example": "My father works in a hospital.", "exampleZh": "我爸爸在医院工作。"},
+        {"en": "parent", "zh": "父（母）亲", "phonetic": "/ˈperənt/", "pos": "n.", "example": "My parents are very kind.", "exampleZh": "我的父母很善良。"},
+        {"en": "brother", "zh": "兄；弟", "phonetic": "/ˈbrʌðər/", "pos": "n.", "example": "I have two brothers.", "exampleZh": "我有两个兄弟。"},
+        {"en": "family", "zh": "家庭；家族", "phonetic": "/ˈfæməli/", "pos": "n.", "example": "I love my family.", "exampleZh": "我爱我的家人。"},
+        {"en": "those", "zh": "那些", "phonetic": "/ðəʊz/", "pos": "pron.", "example": "Those are my grandparents.", "exampleZh": "那些是我的祖父母。"},
+        {"en": "these", "zh": "这些", "phonetic": "/ðiːz/", "pos": "pron.", "example": "These are my books.", "exampleZh": "这些是我的书。"},
+        {"en": "who", "zh": "谁；什么人", "phonetic": "/huː/", "pos": "pron.", "example": "Who is that girl?", "exampleZh": "那个女孩是谁？"},
+        {"en": "they", "zh": "他（她；它）们", "phonetic": "/ðeɪ/", "pos": "pron.", "example": "They are my classmates.", "exampleZh": "他们是我的同学。"},
+        {"en": "well", "zh": "好；对；不错地", "phonetic": "/wel/", "pos": "adv.", "example": "Well done!", "exampleZh": "做得好！"},
+        {"en": "have", "zh": "有；拥有", "phonetic": "/hæv/", "pos": "v.", "example": "I have a happy family.", "exampleZh": "我有一个幸福的家庭。"},
+        {"en": "day", "zh": "天；白天；一天", "phonetic": "/deɪ/", "pos": "n.", "example": "Have a good day!", "exampleZh": "祝你拥有美好的一天！"},
+        {"en": "bye", "zh": "再见", "phonetic": "/baɪ/", "pos": "interj.", "example": "Bye! See you tomorrow.", "exampleZh": "再见！明天见。"}
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Unit 3 Is this your pencil?",
+      "words": [
+        {"en": "pencil", "zh": "铅笔", "phonetic": "/ˈpensl/", "pos": "n.", "example": "Is this your pencil?", "exampleZh": "这是你的铅笔吗？"},
+        {"en": "book", "zh": "书", "phonetic": "/bʊk/", "pos": "n.", "example": "This book is very interesting.", "exampleZh": "这本书很有趣。"},
+        {"en": "eraser", "zh": "橡皮", "phonetic": "/ɪˈreɪzər/", "pos": "n.", "example": "May I borrow your eraser?", "exampleZh": "我可以借你的橡皮吗？"},
+        {"en": "schoolbag", "zh": "书包", "phonetic": "/ˈskuːlbæɡ/", "pos": "n.", "example": "My schoolbag is heavy.", "exampleZh": "我的书包很重。"},
+        {"en": "dictionary", "zh": "词典；字典", "phonetic": "/ˈdɪkʃəneri/", "pos": "n.", "example": "I need an English dictionary.", "exampleZh": "我需要一本英语词典。"},
+        {"en": "teacher", "zh": "老师；教师", "phonetic": "/ˈtiːtʃər/", "pos": "n.", "example": "Our English teacher is very nice.", "exampleZh": "我们的英语老师非常好。"},
+        {"en": "help", "zh": "帮助；援助", "phonetic": "/help/", "pos": "v. & n.", "example": "Can you help me?", "exampleZh": "你能帮我吗？"},
+        {"en": "welcome", "zh": "受欢迎的；不必表示感谢的", "phonetic": "/ˈwelkəm/", "pos": "adj.", "example": "You're welcome.", "exampleZh": "不用谢。"},
+        {"en": "baseball", "zh": "棒球", "phonetic": "/ˈbeɪsbɔːl/", "pos": "n.", "example": "I like playing baseball.", "exampleZh": "我喜欢打棒球。"},
+        {"en": "watch", "zh": "手表；观看", "phonetic": "/wɒtʃ/", "pos": "n. & v.", "example": "I watch TV every evening.", "exampleZh": "我每晚看电视。"},
+        {"en": "computer", "zh": "电脑；计算机", "phonetic": "/kəmˈpjuːtər/", "pos": "n.", "example": "I have a new computer.", "exampleZh": "我有一台新电脑。"},
+        {"en": "game", "zh": "游戏；比赛", "phonetic": "/ɡeɪm/", "pos": "n.", "example": "Let's play a game.", "exampleZh": "我们来玩游戏吧。"},
+        {"en": "card", "zh": "卡片；纸牌", "phonetic": "/kɑːrd/", "pos": "n.", "example": "I got a birthday card.", "exampleZh": "我收到了生日贺卡。"},
+        {"en": "notebook", "zh": "笔记本", "phonetic": "/ˈnəʊtbʊk/", "pos": "n.", "example": "Write it in your notebook.", "exampleZh": "把它写在你的笔记本上。"},
+        {"en": "ring", "zh": "戒指；环状物", "phonetic": "/rɪŋ/", "pos": "n.", "example": "She wears a gold ring.", "exampleZh": "她戴着一枚金戒指。"}
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Unit 4 Where's my schoolbag?",
+      "words": [
+        {"en": "where", "zh": "在哪里；去哪里", "phonetic": "/weər/", "pos": "adv.", "example": "Where is my schoolbag?", "exampleZh": "我的书包在哪里？"},
+        {"en": "table", "zh": "桌子", "phonetic": "/ˈteɪbl/", "pos": "n.", "example": "The book is on the table.", "exampleZh": "书在桌子上。"},
+        {"en": "bed", "zh": "床", "phonetic": "/bed/", "pos": "n.", "example": "My hat is on the bed.", "exampleZh": "我的帽子在床上。"},
+        {"en": "chair", "zh": "椅子", "phonetic": "/tʃeər/", "pos": "n.", "example": "Sit on the chair, please.", "exampleZh": "请坐在椅子上。"},
+        {"en": "under", "zh": "在……下面", "phonetic": "/ˈʌndər/", "pos": "prep.", "example": "The cat is under the table.", "exampleZh": "猫在桌子下面。"},
+        {"en": "know", "zh": "知道；了解", "phonetic": "/nəʊ/", "pos": "v.", "example": "I don't know.", "exampleZh": "我不知道。"},
+        {"en": "room", "zh": "房间", "phonetic": "/ruːm/", "pos": "n.", "example": "My room is very clean.", "exampleZh": "我的房间很干净。"},
+        {"en": "desk", "zh": "书桌", "phonetic": "/desk/", "pos": "n.", "example": "There is a lamp on the desk.", "exampleZh": "书桌上有一盏台灯。"},
+        {"en": "think", "zh": "想；认为", "phonetic": "/θɪŋk/", "pos": "v.", "example": "I think it's a good idea.", "exampleZh": "我认为这是个好主意。"},
+        {"en": "always", "zh": "总是", "phonetic": "/ˈɔːlweɪz/", "pos": "adv.", "example": "She is always happy.", "exampleZh": "她总是很开心。"}
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Unit 5 Do you have a soccer ball?",
+      "words": [
+        {"en": "soccer", "zh": "足球", "phonetic": "/ˈsɒkər/", "pos": "n.", "example": "Do you play soccer?", "exampleZh": "你踢足球吗？"},
+        {"en": "ball", "zh": "球", "phonetic": "/bɔːl/", "pos": "n.", "example": "I have a new ball.", "exampleZh": "我有一个新球。"},
+        {"en": "basketball", "zh": "篮球", "phonetic": "/ˈbæskɪtbɔːl/", "pos": "n.", "example": "He is good at basketball.", "exampleZh": "他擅长打篮球。"},
+        {"en": "tennis", "zh": "网球", "phonetic": "/ˈtenɪs/", "pos": "n.", "example": "Let's play tennis.", "exampleZh": "我们打网球吧。"},
+        {"en": "sport", "zh": "体育运动", "phonetic": "/spɔːrt/", "pos": "n.", "example": "Sports are good for health.", "exampleZh": "运动对健康有益。"},
+        {"en": "play", "zh": "玩；播放；参加", "phonetic": "/pleɪ/", "pos": "v.", "example": "Let's play together.", "exampleZh": "我们一起玩吧。"},
+        {"en": "same", "zh": "相同的", "phonetic": "/seɪm/", "pos": "adj.", "example": "We are in the same class.", "exampleZh": "我们在同一个班级。"},
+        {"en": "love", "zh": "爱；喜爱", "phonetic": "/lʌv/", "pos": "v. & n.", "example": "I love English.", "exampleZh": "我喜爱英语。"},
+        {"en": "with", "zh": "和……在一起；带有", "phonetic": "/wɪð/", "pos": "prep.", "example": "I play with my friends.", "exampleZh": "我和朋友们一起玩。"},
+        {"en": "only", "zh": "只；仅仅", "phonetic": "/ˈəʊnli/", "pos": "adv.", "example": "I only have one brother.", "exampleZh": "我只有一个兄弟。"},
+        {"en": "easy", "zh": "容易的；不费力的", "phonetic": "/ˈiːzi/", "pos": "adj.", "example": "This question is easy.", "exampleZh": "这个问题很简单。"},
+        {"en": "class", "zh": "班级；课", "phonetic": "/klæs/", "pos": "n.", "example": "Our class has 45 students.", "exampleZh": "我们班有45名学生。"}
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Unit 6 Do you like bananas?",
+      "words": [
+        {"en": "banana", "zh": "香蕉", "phonetic": "/bəˈnænə/", "pos": "n.", "example": "I like bananas.", "exampleZh": "我喜欢香蕉。"},
+        {"en": "apple", "zh": "苹果", "phonetic": "/ˈæpl/", "pos": "n.", "example": "An apple a day keeps the doctor away.", "exampleZh": "一天一苹果，医生远离我。"},
+        {"en": "orange", "zh": "橙子；橘色的", "phonetic": "/ˈɒrɪndʒ/", "pos": "n. & adj.", "example": "I'd like some orange juice.", "exampleZh": "我想要一些橙汁。"},
+        {"en": "food", "zh": "食物", "phonetic": "/fuːd/", "pos": "n.", "example": "Chinese food is delicious.", "exampleZh": "中国食物很美味。"},
+        {"en": "chicken", "zh": "鸡肉；鸡", "phonetic": "/ˈtʃɪkɪn/", "pos": "n.", "example": "We had chicken for dinner.", "exampleZh": "我们晚饭吃了鸡肉。"},
+        {"en": "vegetable", "zh": "蔬菜", "phonetic": "/ˈvedʒtəbl/", "pos": "n.", "example": "Eat more vegetables.", "exampleZh": "多吃蔬菜。"},
+        {"en": "fruit", "zh": "水果", "phonetic": "/fruːt/", "pos": "n.", "example": "Fresh fruit is healthy.", "exampleZh": "新鲜水果是健康的。"},
+        {"en": "rice", "zh": "米饭；大米", "phonetic": "/raɪs/", "pos": "n.", "example": "I eat rice every day.", "exampleZh": "我每天吃米饭。"},
+        {"en": "egg", "zh": "鸡蛋", "phonetic": "/eɡ/", "pos": "n.", "example": "I had two eggs for breakfast.", "exampleZh": "我早餐吃了两个鸡蛋。"},
+        {"en": "carrot", "zh": "胡萝卜", "phonetic": "/ˈkærət/", "pos": "n.", "example": "Rabbits like carrots.", "exampleZh": "兔子喜欢胡萝卜。"},
+        {"en": "healthy", "zh": "健康的", "phonetic": "/ˈhelθi/", "pos": "adj.", "example": "It's important to eat healthy food.", "exampleZh": "吃健康食物很重要。"},
+        {"en": "habit", "zh": "习惯", "phonetic": "/ˈhæbɪt/", "pos": "n.", "example": "Reading is a good habit.", "exampleZh": "阅读是个好习惯。"}
+      ]
+    }
+  ]
+}

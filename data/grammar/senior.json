@@ -1,0 +1,228 @@
+{
+  "level": "senior",
+  "description": "高中英语语法（10-12年级）",
+  "categories": [
+    {
+      "name": "进阶时态",
+      "items": [
+        {
+          "id": "past-perfect",
+          "title": "过去完成时",
+          "category": "进阶时态",
+          "explanation": "过去完成时表示在过去某一时间或动作之前已经完成的动作，即\"过去的过去\"。\n\n1. **构成**：主语 + had + 过去分词。\n2. **用法**：表示在过去某一时间点之前已完成的动作，常与by the time, before, when等连用。\n3. **常用于间接引语**：当主句是过去时，从句中原来现在完成时要变为过去完成时。",
+          "formula": "肯定：主语 + had + 过去分词\n否定：主语 + hadn't + 过去分词\n疑问：Had + 主语 + 过去分词?",
+          "examples": [
+            {"en": "By the time I arrived, the film had already started.", "zh": "我到的时候，电影已经开始了。"},
+            {"en": "She had never seen such a beautiful place before.", "zh": "她以前从未见过这么美的地方。"},
+            {"en": "He said he had finished the project.", "zh": "他说他已经完成了项目。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "After I had ate dinner, I went out.", "right": "After I had eaten dinner, I went out.", "note": "eat的过去分词是eaten，不是ate"},
+            {"wrong": "When I arrived, she left.", "right": "When I arrived, she had left.", "note": "如果\"她离开\"发生在\"我到达\"之前，需要用过去完成时"}
+          ],
+          "exercises": [
+            {"question": "When I got to the station, the train ___ .", "options": ["left", "had left", "has left", "leaves"], "answer": "had left", "explanation": "火车离开发生在我到达之前（过去的过去），用过去完成时。"},
+            {"question": "By the end of last month, we ___ 2000 words.", "options": ["learned", "have learned", "had learned", "will learn"], "answer": "had learned", "explanation": "by+过去时间，用过去完成时。"}
+          ]
+        },
+        {
+          "id": "future-continuous",
+          "title": "将来进行时",
+          "category": "进阶时态",
+          "explanation": "将来进行时表示在将来某一时间正在进行的动作。\n\n1. **构成**：主语 + will be + V-ing。\n2. **用法**：将来某时刻正在进行的动作、已安排好一定会发生的事。",
+          "formula": "肯定：主语 + will be + V-ing\n否定：主语 + won't be + V-ing",
+          "examples": [
+            {"en": "This time tomorrow, I will be flying to London.", "zh": "明天这个时候，我将正在飞往伦敦的飞机上。"},
+            {"en": "I will be waiting for you at the airport.", "zh": "我会在机场等你。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "At 8pm tonight, I watch TV.", "right": "At 8pm tonight, I will be watching TV.", "note": "将来特定时刻正在进行的动作用将来进行时"}
+          ],
+          "exercises": [
+            {"question": "Don't call me at 7pm. I ___ dinner then.", "options": ["have", "will have", "will be having", "had"], "answer": "will be having", "explanation": "将来某一时刻正在进行的动作用将来进行时。"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "非谓语动词",
+      "items": [
+        {
+          "id": "infinitive",
+          "title": "动词不定式",
+          "category": "非谓语动词",
+          "explanation": "动词不定式（to do）是非谓语动词的一种，在句中可作主语、宾语、宾语补足语、定语、状语等。\n\n1. **作主语**：To learn English well is important. (常用it作形式主语：It's important to learn English well.)\n2. **作宾语**：常见动词有want, hope, decide, plan, refuse, promise等。\n3. **作宾补**：ask/tell/want sb. to do sth.\n4. **作定语**：放在被修饰词之后（something to eat）。\n5. **作状语**：表目的（in order to, so as to）。",
+          "formula": "to + 动词原形（否定: not to do）\nIt is + adj. + for/of sb. + to do sth.",
+          "examples": [
+            {"en": "To see is to believe.", "zh": "眼见为实。"},
+            {"en": "He promised to help me.", "zh": "他答应帮我。"},
+            {"en": "I have a lot of homework to do.", "zh": "我有很多作业要做。"},
+            {"en": "She got up early to catch the first bus.", "zh": "她早起是为了赶第一班公交车。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "I want go to college.", "right": "I want to go to college.", "note": "want后面跟带to的不定式"},
+            {"wrong": "Let's go to shopping.", "right": "Let's go shopping.", "note": "go shopping是固定搭配，go+doing"}
+          ],
+          "exercises": [
+            {"question": "It's necessary for us ___ enough sleep.", "options": ["get", "getting", "to get", "got"], "answer": "to get", "explanation": "It is + adj. + for sb. + to do sth. 句型，不定式作真正的主语。"},
+            {"question": "He raised his voice ___ himself heard.", "options": ["make", "to make", "making", "made"], "answer": "to make", "explanation": "不定式作目的状语。"}
+          ]
+        },
+        {
+          "id": "gerund",
+          "title": "动名词",
+          "category": "非谓语动词",
+          "explanation": "动名词（V-ing）具有名词的性质，在句中可作主语、宾语、表语、定语。\n\n1. **作主语**：Reading is my hobby.\n2. **作宾语**：常见动词enjoy, finish, mind, suggest, practice, avoid, consider等后用动名词。\n3. **介词+动名词**：I'm interested in learning English.\n4. **固定搭配**：look forward to doing, be used to doing, can't help doing等。",
+          "formula": "V-ing 作主语/宾语\nprep. + V-ing（介词后必须用动名词）",
+          "examples": [
+            {"en": "Swimming is good exercise.", "zh": "游泳是很好的锻炼。"},
+            {"en": "Would you mind opening the window?", "zh": "你介意打开窗户吗？"},
+            {"en": "I'm looking forward to hearing from you.", "zh": "我期待收到你的来信。"},
+            {"en": "He avoided answering my question.", "zh": "他回避回答我的问题。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "I look forward to hear from you.", "right": "I look forward to hearing from you.", "note": "look forward to中to是介词，后面跟动名词"},
+            {"wrong": "He suggested to go by train.", "right": "He suggested going by train.", "note": "suggest后跟动名词，不跟不定式"}
+          ],
+          "exercises": [
+            {"question": "He is used to ___ early.", "options": ["get up", "getting up", "got up", "gets up"], "answer": "getting up", "explanation": "be used to doing sth. 习惯做某事，to是介词。"},
+            {"question": "I can't help ___ when I heard the news.", "options": ["laugh", "to laugh", "laughing", "laughed"], "answer": "laughing", "explanation": "can't help doing 忍不住做某事。"}
+          ]
+        },
+        {
+          "id": "participle",
+          "title": "分词",
+          "category": "非谓语动词",
+          "explanation": "分词包括现在分词（V-ing）和过去分词（V-ed），具有形容词和副词的性质。\n\n1. **现在分词（V-ing）**：表示主动或正在进行。\n   - 作定语：the sleeping boy（正在睡觉的男孩）\n   - 作状语：Hearing the news, she burst into tears.\n2. **过去分词（V-ed）**：表示被动或已经完成。\n   - 作定语：a broken window（被打碎的窗户）\n   - 作状语：Seen from the top, the city looks beautiful.\n3. **分词作宾补**：see/hear sb. doing（正在做）/ see/hear sth. done（被做）。",
+          "formula": "现在分词(V-ing) = 主动/进行\n过去分词(V-ed) = 被动/完成",
+          "examples": [
+            {"en": "The girl standing there is my sister.", "zh": "站在那里的女孩是我妹妹。"},
+            {"en": "Walking in the park, I met an old friend.", "zh": "在公园散步时，我遇到了一位老朋友。"},
+            {"en": "The house built last year is very modern.", "zh": "去年建的房子非常现代化。"},
+            {"en": "I had my hair cut yesterday.", "zh": "我昨天理了发。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "Seeing from the hill, the city is beautiful.", "right": "Seen from the hill, the city is beautiful.", "note": "城市是被看的，用过去分词"},
+            {"wrong": "I heard her sang in the next room.", "right": "I heard her singing in the next room.", "note": "hear sb. doing 听到某人正在做某事"}
+          ],
+          "exercises": [
+            {"question": "___ from the top of the mountain, the town looks small.", "options": ["Seeing", "Seen", "To see", "See"], "answer": "Seen", "explanation": "小镇是被看的，用过去分词表被动。"},
+            {"question": "The man ___ a lecture is our new teacher.", "options": ["give", "giving", "given", "to give"], "answer": "giving", "explanation": "正在做讲座的男人，主动进行用现在分词。"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "虚拟语气",
+      "items": [
+        {
+          "id": "subjunctive-condition",
+          "title": "虚拟条件句",
+          "category": "虚拟语气",
+          "explanation": "虚拟语气表示说话人的愿望、假设、猜测或建议，而不是客观事实。\n\n1. **与现在事实相反**：If + 主语 + 过去式(were), 主语 + would/could/might + 动词原形。\n2. **与过去事实相反**：If + 主语 + had + 过去分词, 主语 + would/could/might + have + 过去分词。\n3. **与将来事实相反**：If + 主语 + were to/should + 动词原形, 主语 + would/could/might + 动词原形。\n4. **错综时间条件句**：主句和从句时间不一致，各自按对应时间调整。\n5. **含蓄条件句**：用but for, without等代替if从句。",
+          "formula": "现在：If + 主语 + did/were, 主语 + would do\n过去：If + 主语 + had done, 主语 + would have done\n将来：If + 主语 + were to do/should do, 主语 + would do",
+          "examples": [
+            {"en": "If I were you, I would accept the offer.", "zh": "如果我是你，我会接受这个工作机会。"},
+            {"en": "If he had studied harder, he would have passed the exam.", "zh": "如果他当初更努力学习，他就通过考试了。"},
+            {"en": "Without your help, I couldn't have succeeded.", "zh": "没有你的帮助，我不可能成功。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "If I was you, I would go.", "right": "If I were you, I would go.", "note": "虚拟条件中be动词通常用were，无论主语是什么人称"},
+            {"wrong": "If he studied harder, he would have passed.", "right": "If he had studied harder, he would have passed.", "note": "与过去事实相反，从句用had done"}
+          ],
+          "exercises": [
+            {"question": "If I ___ a bird, I ___ fly freely in the sky.", "options": ["am; will", "were; would", "was; will", "were; will"], "answer": "were; would", "explanation": "与现在事实相反的虚拟语气，be动词用were，主句用would+动词原形。"},
+            {"question": "If she ___ earlier, she wouldn't have missed the train.", "options": ["got up", "had got up", "gets up", "would get up"], "answer": "had got up", "explanation": "与过去事实相反，从句用had+过去分词。"}
+          ]
+        },
+        {
+          "id": "subjunctive-noun-clause",
+          "title": "名词性从句中的虚拟语气",
+          "category": "虚拟语气",
+          "explanation": "在表示建议、要求、命令、必要性等含义的名词性从句中，谓语用(should) + 动词原形。\n\n1. **常见动词**：suggest, advise, recommend, require, demand, insist, order, command等。\n2. **常见形容词**：necessary, important, essential, strange等。\n3. **常见名词**：suggestion, advice, requirement, order等。",
+          "formula": "suggest/recommend/require + that + 主语 + (should) + 动词原形\nIt is necessary/important + that + 主语 + (should) + 动词原形",
+          "examples": [
+            {"en": "I suggest that he (should) take a rest.", "zh": "我建议他休息一下。"},
+            {"en": "It is necessary that everyone (should) obey the rules.", "zh": "每个人都有必要遵守规则。"},
+            {"en": "The doctor advised that she (should) give up smoking.", "zh": "医生建议她戒烟。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "I suggest him to go there.", "right": "I suggest that he (should) go there.", "note": "suggest后不跟sb. to do，要用that从句"},
+            {"wrong": "She insisted that she was right.", "right": "She insisted that she (should) be right.", "note": "如果insist表示\"坚持认为\"（事实），则不用虚拟语气；如果表示\"坚持要求\"，则用虚拟语气"}
+          ],
+          "exercises": [
+            {"question": "The teacher suggested that every student ___ the book carefully.", "options": ["reads", "read", "reading", "to read"], "answer": "read", "explanation": "suggest后的that从句用(should)+动词原形，should可以省略。"},
+            {"question": "It is required that all students ___ the school uniform.", "options": ["wear", "wears", "wearing", "wore"], "answer": "wear", "explanation": "required后的主语从句用虚拟语气(should) wear。"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "特殊句型",
+      "items": [
+        {
+          "id": "inversion",
+          "title": "倒装句",
+          "category": "特殊句型",
+          "explanation": "倒装分为完全倒装和部分倒装。\n\n**一、完全倒装**（谓语全部置于主语前）：\n1. here/there/now/then开头的句子，主语是名词时倒装。\n2. 表示地点/方向的介词短语放句首。\n\n**二、部分倒装**（助动词/情态动词置于主语前）：\n1. 否定词/短语放句首：never, seldom, hardly, not until, no sooner...than, hardly...when。\n2. Only + 状语放句首。\n3. so/neither/nor 表示\"也……/也不……\"。\n4. so...that/such...that结构中so/such部分放句首。",
+          "formula": "完全倒装：Here comes the bus.\n部分倒装：Never have I seen such a beautiful sight.\n          Only in this way can we solve the problem.",
+          "examples": [
+            {"en": "Here comes the teacher.", "zh": "老师来了。"},
+            {"en": "Never have I seen such a beautiful sunset.", "zh": "我从未见过如此美丽的日落。"},
+            {"en": "Not until he finished the work did he realize how hard it was.", "zh": "直到完成工作，他才意识到有多难。"},
+            {"en": "Only by working hard can you achieve your goal.", "zh": "只有努力工作，你才能实现目标。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "Never I have seen such a thing.", "right": "Never have I seen such a thing.", "note": "否定词放句首要用部分倒装"},
+            {"wrong": "Hardly he had arrived when it began to rain.", "right": "Hardly had he arrived when it began to rain.", "note": "Hardly...when结构中hardly所在主句要倒装"}
+          ],
+          "exercises": [
+            {"question": "Not until the meeting was over ___ that he had left his notes at home.", "options": ["he realized", "did he realize", "he had realized", "had he realized"], "answer": "did he realize", "explanation": "Not until放句首，主句要用部分倒装。"},
+            {"question": "Only after the accident ___ the importance of safety.", "options": ["he understood", "did he understand", "he understands", "does he understand"], "answer": "did he understand", "explanation": "Only+状语放句首用部分倒装，事故发生在过去用did。"}
+          ]
+        },
+        {
+          "id": "emphasis",
+          "title": "强调句",
+          "category": "特殊句型",
+          "explanation": "强调句用来突出句子的某一成分。\n\n1. **It is/was...that/who...**：强调除谓语外的任何成分。\n   - 强调主语：It was Tom who/that broke the window.\n   - 强调宾语：It was the window that Tom broke.\n   - 强调状语：It was yesterday that Tom broke the window.\n2. **do/does/did + 动词原形**：强调谓语动词。\n   - I do believe you.\n   - She did come yesterday.",
+          "formula": "It is/was + 被强调部分 + that/who + 句子剩余部分\n强调谓语：do/does/did + 动词原形",
+          "examples": [
+            {"en": "It was in the library that I met her.", "zh": "是在图书馆我遇见了她。"},
+            {"en": "He did tell the truth.", "zh": "他确实说了真话。"},
+            {"en": "It is your attitude that matters most.", "zh": "最重要的是你的态度。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "It was at the school where we met.", "right": "It was at the school that we met.", "note": "强调句型用that/who，不是where/when"},
+            {"wrong": "It is I who is to blame.", "right": "It is I who am to blame.", "note": "who后的谓语与前面的被强调主语保持一致"}
+          ],
+          "exercises": [
+            {"question": "It was in the park ___ I saw the accident.", "options": ["where", "that", "which", "when"], "answer": "that", "explanation": "强调句型用that，强调地点状语。"},
+            {"question": "He ___ come to see you yesterday, but you were not at home.", "options": ["does", "did", "do", "really"], "answer": "did", "explanation": "强调过去时谓语用did+动词原形。"}
+          ]
+        },
+        {
+          "id": "attributive-clause",
+          "title": "定语从句",
+          "category": "特殊句型",
+          "explanation": "定语从句修饰名词或代词。\n\n1. **关系代词**：\n   - who（指人，作主语/宾语）\n   - whom（指人，作宾语）\n   - whose（指人或物，表所属关系）\n   - which（指物，作主语/宾语）\n   - that（指人或物，作主语/宾语）\n2. **关系副词**：\n   - when（指时间）\n   - where（指地点）\n   - why（指原因）\n3. **限制性 vs 非限制性**：非限制性定语从句用逗号隔开，不能用that引导。\n4. **介词+关系代词**：介词后只能用which/whom，不能用that。",
+          "formula": "先行词 + 关系代词/副词 + 从句\n非限制性：先行词, which/who/whom + 从句",
+          "examples": [
+            {"en": "The man who is speaking is my uncle.", "zh": "正在说话的那个人是我叔叔。"},
+            {"en": "This is the house where I was born.", "zh": "这就是我出生的房子。"},
+            {"en": "Beijing, which is the capital of China, is a beautiful city.", "zh": "北京，中国的首都，是一座美丽的城市。"},
+            {"en": "The reason why he was late is still unknown.", "zh": "他迟到的原因仍然未知。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "This is the house where I bought last year.", "right": "This is the house which/that I bought last year.", "note": "house在从句中作宾语，用which/that而非where"},
+            {"wrong": "He is the man who I met him yesterday.", "right": "He is the man whom I met yesterday.", "note": "met的宾语在从句中已经由关系代词充当，不能再出现him"}
+          ],
+          "exercises": [
+            {"question": "The factory ___ my father works is far from here.", "options": ["which", "where", "that", "when"], "answer": "where", "explanation": "先行词factory在从句中作地点状语(in the factory)，用where。"},
+            {"question": "Do you know the girl ___ is dancing on the stage?", "options": ["which", "who", "whom", "whose"], "answer": "who", "explanation": "先行词girl指人，在从句中作主语，用who。"}
+          ]
+        }
+      ]
+    }
+  ]
+}

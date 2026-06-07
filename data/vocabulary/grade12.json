@@ -1,0 +1,54 @@
+{
+  "grade": "高三",
+  "semester": "全学年",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unit 1 Great Scientists",
+      "words": [
+        {"en": "brilliant", "zh": "杰出的；明亮的", "phonetic": "/ˈbrɪliənt/", "pos": "adj.", "example": "She has a brilliant mind.", "exampleZh": "她有一个杰出的头脑。"},
+        {"en": "contribution", "zh": "贡献；捐款", "phonetic": "/ˌkɒntrɪˈbjuːʃn/", "pos": "n.", "example": "He made great contributions to science.", "exampleZh": "他对科学做出了巨大贡献。"},
+        {"en": "revolution", "zh": "革命；巨变", "phonetic": "/ˌrevəˈluːʃn/", "pos": "n.", "example": "The Internet brought a revolution in communication.", "exampleZh": "互联网带来了通信革命。"},
+        {"en": "enthusiasm", "zh": "热情；热心", "phonetic": "/ɪnˈθjuːziæzəm/", "pos": "n.", "example": "He showed great enthusiasm for learning.", "exampleZh": "他表现出极大的学习热情。"},
+        {"en": "cautious", "zh": "小心的；谨慎的", "phonetic": "/ˈkɔːʃəs/", "pos": "adj.", "example": "Be cautious when crossing the road.", "exampleZh": "过马路时要小心。"},
+        {"en": "suspect", "zh": "怀疑；嫌疑犯", "phonetic": "/səˈspekt/", "pos": "v. & n.", "example": "I suspect he is telling a lie.", "exampleZh": "我怀疑他在说谎。"},
+        {"en": "blame", "zh": "责备；把……归咎于", "phonetic": "/bleɪm/", "pos": "v.", "example": "Don't blame others for your mistakes.", "exampleZh": "不要把你的错误归咎于别人。"},
+        {"en": "handle", "zh": "处理；把手", "phonetic": "/ˈhændl/", "pos": "v. & n.", "example": "Can you handle this problem?", "exampleZh": "你能处理这个问题吗？"},
+        {"en": "expose", "zh": "暴露；揭露", "phonetic": "/ɪkˈspəʊz/", "pos": "v.", "example": "Don't expose yourself to the sun too long.", "exampleZh": "不要长时间暴露在阳光下。"},
+        {"en": "absorb", "zh": "吸收；吸引", "phonetic": "/əbˈsɔːrb/", "pos": "v.", "example": "Plants absorb sunlight for growth.", "exampleZh": "植物吸收阳光以生长。"}
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Unit 2 Poems",
+      "words": [
+        {"en": "poetry", "zh": "诗歌（总称）", "phonetic": "/ˈpəʊətri/", "pos": "n.", "example": "Poetry can express deep emotions.", "exampleZh": "诗歌能表达深刻的情感。"},
+        {"en": "rhyme", "zh": "押韵；韵脚", "phonetic": "/raɪm/", "pos": "n. & v.", "example": "The poem has a nice rhyme.", "exampleZh": "这首诗有美妙的韵律。"},
+        {"en": "emotion", "zh": "情感；情绪", "phonetic": "/ɪˈməʊʃn/", "pos": "n.", "example": "She couldn't control her emotions.", "exampleZh": "她无法控制自己的情绪。"},
+        {"en": "convey", "zh": "传达；表达", "phonetic": "/kənˈveɪ/", "pos": "v.", "example": "Words cannot convey how I feel.", "exampleZh": "言语无法传达我的感受。"},
+        {"en": "transform", "zh": "转变；改造", "phonetic": "/trænsˈfɔːrm/", "pos": "v.", "example": "Education can transform lives.", "exampleZh": "教育可以改变人生。"},
+        {"en": "sorrow", "zh": "悲伤；悲痛", "phonetic": "/ˈsɒrəʊ/", "pos": "n.", "example": "She expressed her sorrow in the poem.", "exampleZh": "她在诗中表达了她的悲伤。"},
+        {"en": "bare", "zh": "光秃秃的；赤裸的", "phonetic": "/beər/", "pos": "adj.", "example": "The trees are bare in winter.", "exampleZh": "冬天树木光秃秃的。"},
+        {"en": "exchange", "zh": "交换；交流", "phonetic": "/ɪksˈtʃeɪndʒ/", "pos": "v. & n.", "example": "We exchange gifts at Christmas.", "exampleZh": "我们在圣诞节交换礼物。"},
+        {"en": "sponsor", "zh": "赞助人；赞助", "phonetic": "/ˈspɒnsər/", "pos": "n. & v.", "example": "The company sponsored the event.", "exampleZh": "公司赞助了这次活动。"},
+        {"en": "eventually", "zh": "最终；终于", "phonetic": "/ɪˈventʃuəli/", "pos": "adv.", "example": "Eventually, he achieved his dream.", "exampleZh": "最终，他实现了梦想。"}
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Unit 3 A Healthy Life",
+      "words": [
+        {"en": "abuse", "zh": "滥用；虐待", "phonetic": "/əˈbjuːz/", "pos": "n. & v.", "example": "Drug abuse ruins many lives.", "exampleZh": "药物滥用毁了许多人的生命。"},
+        {"en": "ban", "zh": "禁止；禁令", "phonetic": "/bæn/", "pos": "v. & n.", "example": "Smoking is banned in public places.", "exampleZh": "公共场所禁止吸烟。"},
+        {"en": "quit", "zh": "停止；戒掉", "phonetic": "/kwɪt/", "pos": "v.", "example": "He decided to quit smoking.", "exampleZh": "他决定戒烟。"},
+        {"en": "tough", "zh": "艰苦的；坚强的", "phonetic": "/tʌf/", "pos": "adj.", "example": "It's a tough decision to make.", "exampleZh": "这是一个艰难的决定。"},
+        {"en": "mental", "zh": "精神的；心理的", "phonetic": "/ˈmentl/", "pos": "adj.", "example": "Mental health is as important as physical health.", "exampleZh": "心理健康和身体健康一样重要。"},
+        {"en": "withdraw", "zh": "撤回；退出", "phonetic": "/wɪðˈdrɔː/", "pos": "v.", "example": "He decided to withdraw from the competition.", "exampleZh": "他决定退出比赛。"},
+        {"en": "effect", "zh": "效果；影响", "phonetic": "/ɪˈfekt/", "pos": "n.", "example": "The medicine had a positive effect.", "exampleZh": "药物产生了积极的效果。"},
+        {"en": "strengthen", "zh": "加强；巩固", "phonetic": "/ˈstreŋθn/", "pos": "v.", "example": "Exercise can strengthen your body.", "exampleZh": "运动能强健你的身体。"},
+        {"en": "accustomed", "zh": "习惯的；通常的", "phonetic": "/əˈkʌstəmd/", "pos": "adj.", "example": "I'm not accustomed to getting up so early.", "exampleZh": "我不习惯这么早起床。"},
+        {"en": "desperate", "zh": "绝望的；不顾一切的", "phonetic": "/ˈdespərət/", "pos": "adj.", "example": "He was desperate to find a solution.", "exampleZh": "他不顾一切地想找到解决办法。"}
+      ]
+    }
+  ]
+}

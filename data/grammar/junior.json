@@ -1,0 +1,263 @@
+{
+  "level": "junior",
+  "description": "初中英语语法（7-9年级）",
+  "categories": [
+    {
+      "name": "词法",
+      "items": [
+        {
+          "id": "noun",
+          "title": "名词",
+          "category": "词法",
+          "explanation": "名词是表示人、事物、地点或抽象概念的词。初中阶段需要掌握：\n\n1. **可数名词与不可数名词**：可数名词有单复数形式（book→books），不可数名词没有复数形式（water, money）。\n2. **名词所有格**：'s所有格（Tom's book）、of所有格（the door of the room）。\n3. **集体名词**：family, class, team等，作为整体时看作单数，指成员时看作复数。",
+          "formula": "可数名词复数规则：一般+s/es；辅音+y→ies；f/fe→ves；特殊变化（child→children）",
+          "examples": [
+            {"en": "There are many books on the desk.", "zh": "书桌上有很多书。"},
+            {"en": "I need some information about the school.", "zh": "我需要关于这所学校的一些信息。"},
+            {"en": "This is Tom's bicycle.", "zh": "这是汤姆的自行车。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "I have many homeworks to do.", "right": "I have much homework to do.", "note": "homework是不可数名词，不能用many修饰"},
+            {"wrong": "There are two sheeps on the farm.", "right": "There are two sheep on the farm.", "note": "sheep的单复数同形"}
+          ],
+          "exercises": [
+            {"question": "There are many ___ in the room.", "options": ["child", "children", "childs", "childrens"], "answer": "children", "explanation": "child的复数是children，不规则变化。"},
+            {"question": "I'd like to have a cup of ___.", "options": ["coffees", "coffee", "a coffee", "the coffees"], "answer": "coffee", "explanation": "coffee是不可数名词，用a cup of修饰。"},
+            {"question": "This is ___ room.", "options": ["Tom and Jim", "Tom's and Jim's", "Tom and Jim's", "Toms and Jims"], "answer": "Tom and Jim's", "explanation": "两人共有的房间，只在最后一个人名后加's。"}
+          ]
+        },
+        {
+          "id": "pronoun",
+          "title": "代词",
+          "category": "词法",
+          "explanation": "代词是用来代替名词的词。初中阶段需掌握：\n\n1. **人称代词**：主格（I, you, he, she, it, we, they）和宾格（me, you, him, her, it, us, them）。\n2. **物主代词**：形容词性（my, your, his, her, its, our, their）和名词性（mine, yours, his, hers, its, ours, theirs）。\n3. **反身代词**：myself, yourself, himself, herself, itself, ourselves, yourselves, themselves。\n4. **指示代词**：this/that（单数），these/those（复数）。\n5. **不定代词**：some, any, no, every等及其复合词。",
+          "formula": "形容词性物主代词 + 名词 = 名词性物主代词（This is my book. = This book is mine.）",
+          "examples": [
+            {"en": "She gave me a present.", "zh": "她给了我一份礼物。"},
+            {"en": "This is not my pen. Mine is on the desk.", "zh": "这不是我的笔。我的在书桌上。"},
+            {"en": "I made the cake by myself.", "zh": "我自己做的蛋糕。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "Me and Tom went to the park.", "right": "Tom and I went to the park.", "note": "主语位置用人称代词主格，且通常把I放在最后"},
+            {"wrong": "This book is my.", "right": "This book is mine.", "note": "作表语时用名词性物主代词"}
+          ],
+          "exercises": [
+            {"question": "This is ___ book. ___ is on the desk.", "options": ["my; Mine", "mine; My", "my; My", "mine; Mine"], "answer": "my; Mine", "explanation": "第一空修饰名词book用形容词性物主代词my；第二空作主语用名词性物主代词Mine。"},
+            {"question": "Nobody taught her. She learned it by ___.", "options": ["herself", "her", "hers", "she"], "answer": "herself", "explanation": "by oneself是固定搭配，意为\"靠自己\"。"}
+          ]
+        },
+        {
+          "id": "adjective-adverb",
+          "title": "形容词与副词",
+          "category": "词法",
+          "explanation": "形容词用来修饰名词，说明事物的特征。副词用来修饰动词、形容词或整个句子。\n\n1. **形容词的位置**：通常放在名词前或系动词后（be, look, sound, feel等）。\n2. **副词的构成**：许多副词由形容词+ly构成（quick→quickly, careful→carefully）。\n3. **比较级与最高级**：规则变化（+er/est, more/most）、不规则变化（good→better→best）。",
+          "formula": "比较级：A + be + 形容词比较级 + than + B\n最高级：A + be + the + 形容词最高级 + 范围",
+          "examples": [
+            {"en": "She is taller than her sister.", "zh": "她比她姐姐高。"},
+            {"en": "He runs faster than me.", "zh": "他跑得比我快。"},
+            {"en": "This is the most interesting book I've ever read.", "zh": "这是我读过的最有趣的书。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "She is more taller than me.", "right": "She is taller than me.", "note": "比较级不能与more重复使用"},
+            {"wrong": "He speaks English good.", "right": "He speaks English well.", "note": "修饰动词speaks要用副词well而非形容词good"}
+          ],
+          "exercises": [
+            {"question": "Of the three boys, Tom is the ___ one.", "options": ["taller", "tallest", "more tall", "most tall"], "answer": "tallest", "explanation": "三者比较用最高级，tall的最高级是tallest。"},
+            {"question": "Please listen ___ in class.", "options": ["careful", "carefully", "more careful", "most careful"], "answer": "carefully", "explanation": "修饰动词listen用副词carefully。"},
+            {"question": "The weather is getting ___ and ___.", "options": ["cold; cold", "colder; colder", "more cold; more cold", "coldest; coldest"], "answer": "colder; colder", "explanation": "\"比较级+and+比较级\"表示\"越来越......\"。"}
+          ]
+        },
+        {
+          "id": "preposition",
+          "title": "介词",
+          "category": "词法",
+          "explanation": "介词表示名词或代词与其他词之间的关系。\n\n1. **时间介词**：at（具体时刻）, in（年/月/季节/早上/下午/晚上）, on（具体某天/星期）。\n2. **地点介词**：at（小地点）, in（大地点/空间内）, on（在……上面/表面）。\n3. **方式介词**：by（通过……方式）, with（用……工具）, in（用……语言/材料）。",
+          "formula": "at + 具体时间点 / in + 时间段 / on + 具体日期\nin + 大地点 / at + 小地点",
+          "examples": [
+            {"en": "I get up at 6:30 every morning.", "zh": "我每天早上六点半起床。"},
+            {"en": "My birthday is on May 10th.", "zh": "我的生日在5月10日。"},
+            {"en": "We go to school by bus.", "zh": "我们坐公交车上学。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "I was born in May 3rd, 2008.", "right": "I was born on May 3rd, 2008.", "note": "具体到某一天用on"},
+            {"wrong": "He went to Beijing by a plane.", "right": "He went to Beijing by plane.", "note": "by+交通工具，不加冠词"}
+          ],
+          "exercises": [
+            {"question": "We usually have lunch ___ noon.", "options": ["at", "in", "on", "by"], "answer": "at", "explanation": "at noon是固定搭配。"},
+            {"question": "He left ___ a cold winter morning.", "options": ["at", "in", "on", "by"], "answer": "on", "explanation": "具体某一天的早上用on。"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "时态",
+      "items": [
+        {
+          "id": "simple-present",
+          "title": "一般现在时",
+          "category": "时态",
+          "explanation": "一般现在时表示经常性、习惯性的动作或现在的状态。\n\n1. **构成**：主语 + 动词原形（主语为第三人称单数时动词+s/es）。\n2. **用法**：经常性动作、客观真理、现在的状态或能力。\n3. **标志词**：often, usually, always, sometimes, every day/week等。",
+          "formula": "肯定：主语 + V(s/es)\n否定：主语 + don't/doesn't + V\n疑问：Do/Does + 主语 + V?",
+          "examples": [
+            {"en": "She goes to school on foot every day.", "zh": "她每天步行上学。"},
+            {"en": "The sun rises in the east.", "zh": "太阳从东方升起。"},
+            {"en": "He doesn't like coffee.", "zh": "他不喜欢咖啡。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "He go to school by bus.", "right": "He goes to school by bus.", "note": "第三人称单数动词要加s/es"},
+            {"wrong": "Does she likes apples?", "right": "Does she like apples?", "note": "疑问句中助动词does后要用动词原形"}
+          ],
+          "exercises": [
+            {"question": "My father ___ to work at 7:00 every morning.", "options": ["go", "goes", "going", "went"], "answer": "goes", "explanation": "主语是第三人称单数，动词用goes。"},
+            {"question": "___ your brother often ___ TV after dinner?", "options": ["Do; watch", "Does; watch", "Is; watching", "Does; watches"], "answer": "Does; watch", "explanation": "一般现在时疑问句用Does+主语+动词原形。"}
+          ]
+        },
+        {
+          "id": "present-continuous",
+          "title": "现在进行时",
+          "category": "时态",
+          "explanation": "现在进行时表示现在正在进行的动作或当前一段时间内的活动。\n\n1. **构成**：主语 + am/is/are + V-ing。\n2. **用法**：说话时正在进行的动作、当前一段时间内的活动、即将发生的动作（come/go/leave等）。\n3. **标志词**：now, at the moment, look, listen等。",
+          "formula": "肯定：主语 + am/is/are + V-ing\n否定：主语 + am/is/are + not + V-ing\n疑问：Am/Is/Are + 主语 + V-ing?",
+          "examples": [
+            {"en": "The students are reading in the classroom.", "zh": "学生们正在教室里阅读。"},
+            {"en": "Look! It is raining outside.", "zh": "看！外面正在下雨。"},
+            {"en": "I am coming!", "zh": "我来了！（即将发生）"}
+          ],
+          "commonMistakes": [
+            {"wrong": "He is swim in the pool.", "right": "He is swimming in the pool.", "note": "双写m再加ing（重读闭音节）"},
+            {"wrong": "They are runing on the playground.", "right": "They are running on the playground.", "note": "run的现在分词要双写n"}
+          ],
+          "exercises": [
+            {"question": "Listen! Someone ___ in the next room.", "options": ["sings", "is singing", "sang", "sing"], "answer": "is singing", "explanation": "Listen!提示说话时正在进行的动作，用现在进行时。"},
+            {"question": "She ___ (write) a letter at the moment.", "options": ["writes", "is writing", "wrote", "write"], "answer": "is writing", "explanation": "at the moment提示现在进行时。"}
+          ]
+        },
+        {
+          "id": "simple-past",
+          "title": "一般过去时",
+          "category": "时态",
+          "explanation": "一般过去时表示过去发生的动作或存在的状态。\n\n1. **构成**：主语 + 动词过去式。\n2. **用法**：过去某个时间发生的动作、过去经常发生的动作。\n3. **标志词**：yesterday, last week, ago, in 2010等。\n4. **动词过去式规则变化**：+ed；e结尾+d；辅音+y变i+ed；重读闭音节双写+ed。",
+          "formula": "肯定：主语 + V-ed\n否定：主语 + didn't + V\n疑问：Did + 主语 + V?",
+          "examples": [
+            {"en": "I visited my grandparents last weekend.", "zh": "我上周末去看望了爷爷奶奶。"},
+            {"en": "She didn't come to school yesterday.", "zh": "她昨天没来上学。"},
+            {"en": "Did you finish your homework?", "zh": "你完成作业了吗？"}
+          ],
+          "commonMistakes": [
+            {"wrong": "I goed to the park yesterday.", "right": "I went to the park yesterday.", "note": "go的过去式是不规则变化went"},
+            {"wrong": "Did you went to the party?", "right": "Did you go to the party?", "note": "疑问句助动词did后要用动词原形"}
+          ],
+          "exercises": [
+            {"question": "He ___ his bike to school yesterday.", "options": ["rides", "rode", "riding", "ride"], "answer": "rode", "explanation": "yesterday提示用一般过去时，ride的过去式是rode。"},
+            {"question": "They ___ (not go) to the museum last Sunday.", "options": ["don't go", "didn't go", "doesn't go", "not went"], "answer": "didn't go", "explanation": "过去时的否定用didn't + 动词原形。"}
+          ]
+        },
+        {
+          "id": "simple-future",
+          "title": "一般将来时",
+          "category": "时态",
+          "explanation": "一般将来时表示将来要发生的动作或存在的状态。\n\n1. **will/shall + 动词原形**：表示将来的动作或预测。\n2. **be going to + 动词原形**：表示计划、打算或将发生的迹象。\n3. **现在进行时表将来**：come/go/leave/arrive等动词的进行时态可表将来。\n4. **标志词**：tomorrow, next week, in the future, soon等。",
+          "formula": "will + V / be going to + V\n肯定：主语 + will + V\n否定：主语 + won't + V\n疑问：Will + 主语 + V?",
+          "examples": [
+            {"en": "I will call you when I get home.", "zh": "我到家后会给你打电话。"},
+            {"en": "It is going to rain. Look at the clouds.", "zh": "要下雨了。看那些云。"},
+            {"en": "We are leaving for Shanghai tomorrow.", "zh": "我们明天动身去上海。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "I will to go to college next year.", "right": "I will go to college next year.", "note": "will后直接跟动词原形，不加to"},
+            {"wrong": "If it will rain tomorrow, we will stay home.", "right": "If it rains tomorrow, we will stay home.", "note": "条件状语从句中用一般现在时代替一般将来时（主将从现）"}
+          ],
+          "exercises": [
+            {"question": "There ___ a football match tomorrow.", "options": ["is", "will be", "was", "will have"], "answer": "will be", "explanation": "tomorrow提示将来时，there be句型将来时为there will be。"},
+            {"question": "I ___ (tell) him the news as soon as he ___ (come) back.", "options": ["will tell; comes", "tell; will come", "will tell; will come", "tell; comes"], "answer": "will tell; comes", "explanation": "主句用将来时，as soon as引导的时间状语从句用一般现在时（主将从现）。"}
+          ]
+        },
+        {
+          "id": "present-perfect",
+          "title": "现在完成时",
+          "category": "时态",
+          "explanation": "现在完成时表示过去发生的动作对现在造成的影响或结果，或从过去开始持续到现在的动作。\n\n1. **构成**：主语 + have/has + 过去分词。\n2. **用法1**：过去动作对现在的影响（already, yet, just, ever, never）。\n3. **用法2**：过去开始持续到现在的动作（since+时间点, for+时间段）。\n4. **have been to**：去过某地（已回来）；**have gone to**：去了某地（还没回来）。",
+          "formula": "肯定：主语 + have/has + 过去分词\n否定：主语 + haven't/hasn't + 过去分词\n疑问：Have/Has + 主语 + 过去分词?",
+          "examples": [
+            {"en": "I have already finished my homework.", "zh": "我已经完成了作业。"},
+            {"en": "She has lived here since 2010.", "zh": "她从2010年起就住在这里。"},
+            {"en": "Have you ever been to Beijing?", "zh": "你去过北京吗？"}
+          ],
+          "commonMistakes": [
+            {"wrong": "I have finished my homework yesterday.", "right": "I finished my homework yesterday.", "note": "现在完成时不能与具体的过去时间连用（yesterday, last week等）"},
+            {"wrong": "He has gone to Beijing three times.", "right": "He has been to Beijing three times.", "note": "has gone to表示\"去了还没回来\"；has been to表示\"去过（已回来）\""}
+          ],
+          "exercises": [
+            {"question": "I ___ (read) the book. It's very interesting.", "options": ["have read", "read", "reads", "am reading"], "answer": "have read", "explanation": "表示已经读过了，对现在的影响是知道这本书很有趣。"},
+            {"question": "She ___ in this city since she was born.", "options": ["lives", "has lived", "lived", "is living"], "answer": "has lived", "explanation": "since引导的时间状语从句表示从过去持续到现在，用现在完成时。"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "句法",
+      "items": [
+        {
+          "id": "passive-voice",
+          "title": "被动语态",
+          "category": "句法",
+          "explanation": "被动语态表示主语是动作的承受者。\n\n1. **构成**：主语 + be + 过去分词（+ by + 动作执行者）。\n2. **各种时态的被动语态**：\n   - 一般现在时：am/is/are + 过去分词\n   - 一般过去时：was/were + 过去分词\n   - 一般将来时：will be + 过去分词\n   - 现在完成时：have/has been + 过去分词\n   - 含情态动词：情态动词 + be + 过去分词\n3. **用法**：不知道或没必要说出动作执行者时；强调动作的承受者时。",
+          "formula": "主语（承受者）+ be + 过去分词 + (by + 执行者)\n一般现在时：am/is/are + done\n一般过去时：was/were + done",
+          "examples": [
+            {"en": "English is spoken all over the world.", "zh": "全世界都说英语。"},
+            {"en": "The window was broken by Tom.", "zh": "窗户被汤姆打破了。"},
+            {"en": "The bridge will be built next year.", "zh": "这座桥将于明年建造。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "The book was wrote by Lu Xun.", "right": "The book was written by Lu Xun.", "note": "write的过去分词是written，不是wrote"},
+            {"wrong": "English speaks in many countries.", "right": "English is spoken in many countries.", "note": "\"英语\"是被说的，需要用被动语态"}
+          ],
+          "exercises": [
+            {"question": "The classroom ___ every day.", "options": ["cleans", "is cleaned", "cleaned", "is cleaning"], "answer": "is cleaned", "explanation": "教室是被打扫的，用被动语态is cleaned。"},
+            {"question": "A new hospital ___ in my hometown last year.", "options": ["built", "was built", "is built", "builds"], "answer": "was built", "explanation": "last year提示用一般过去时的被动语态。"}
+          ]
+        },
+        {
+          "id": "object-clause",
+          "title": "宾语从句",
+          "category": "句法",
+          "explanation": "宾语从句是在复合句中充当宾语的从句。\n\n1. **引导词**：that（陈述句）, if/whether（一般疑问句）, 疑问词what/who/when/where/why/how（特殊疑问句）。\n2. **语序**：宾语从句必须用陈述语序（主语+谓语），不使用疑问语序。\n3. **时态呼应**：主句是现在时，从句用任何时态；主句是过去时，从句用相应的过去时态（客观真理除外）。",
+          "formula": "主句 + 引导词 + 陈述语序从句",
+          "examples": [
+            {"en": "I think (that) he is right.", "zh": "我认为他是对的。"},
+            {"en": "She asked if I could help her.", "zh": "她问我能不能帮她。"},
+            {"en": "I don't know what he wants.", "zh": "我不知道他想要什么。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "Can you tell me where is the hospital?", "right": "Can you tell me where the hospital is?", "note": "宾语从句要用陈述语序，不用疑问语序"},
+            {"wrong": "He said that he will come tomorrow.", "right": "He said that he would come the next day.", "note": "主句是过去时(said)，从句要用过去将来时(would come)"}
+          ],
+          "exercises": [
+            {"question": "Could you tell me ___ the post office?", "options": ["where is", "where can I find", "where I can find", "how can I find"], "answer": "where I can find", "explanation": "宾语从句用陈述语序。"},
+            {"question": "He said that the earth ___ around the sun.", "options": ["goes", "went", "going", "go"], "answer": "goes", "explanation": "客观真理（地球绕太阳转）在任何时态的主句后都用一般现在时。"}
+          ]
+        },
+        {
+          "id": "conditional",
+          "title": "条件状语从句",
+          "category": "句法",
+          "explanation": "条件状语从句由if（如果）、unless（除非）、as long as（只要）等引导。\n\n1. **主将从现**：if引导的条件状语从句中，从句用一般现在时，主句用一般将来时。\n2. **unless = if...not**：unless表示\"除非\"，相当于\"if not\"。\n3. **as long as**：表示\"只要\"，引导条件状语从句。",
+          "formula": "If + 一般现在时, 主句 + 一般将来时（will/can/may + V）",
+          "examples": [
+            {"en": "If it rains tomorrow, I will stay at home.", "zh": "如果明天下雨，我就待在家。"},
+            {"en": "You won't pass the exam unless you study hard.", "zh": "除非你努力学习，否则你不会通过考试。"},
+            {"en": "As long as you try your best, you will succeed.", "zh": "只要你尽力，你就会成功。"}
+          ],
+          "commonMistakes": [
+            {"wrong": "If it will rain, we won't go out.", "right": "If it rains, we won't go out.", "note": "if条件句中不用将来时，用一般现在时代替（主将从现）"},
+            {"wrong": "I will go unless it doesn't rain.", "right": "I will go unless it rains.", "note": "unless本身含有否定意义，后面直接跟肯定形式"}
+          ],
+          "exercises": [
+            {"question": "If it ___ fine tomorrow, we ___ a picnic.", "options": ["is; will have", "will be; have", "is; have", "will be; will have"], "answer": "is; will have", "explanation": "if从句用一般现在时，主句用一般将来时（主将从现）。"},
+            {"question": "You will be late ___ you hurry up.", "options": ["if", "unless", "when", "because"], "answer": "unless", "explanation": "unless=if not，表示\"如果不赶快就会迟到\"。"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>英语学习助手 — 初中到高中英语学习系统</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">☰</button>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-logo">
+        <div class="logo-icon">📚</div>
+        <div>
+          <div class="logo-text">英语学习助手</div>
+          <div class="logo-sub">初中 · 高中</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">学习</div>
+        <div class="nav-item active" data-route="/">
+          <span class="nav-icon">🏠</span> 首页
+        </div>
+        <div class="nav-item" data-route="/vocabulary">
+          <span class="nav-icon">📚</span> 单词学习
+        </div>
+        <div class="nav-item" data-route="/grammar">
+          <span class="nav-icon">📝</span> 语法学习
+        </div>
+        <div class="nav-item" data-route="/reading">
+          <span class="nav-icon">📖</span> 阅读理解
+        </div>
+        <div class="nav-item" data-route="/listening">
+          <span class="nav-icon">🎧</span> 听力练习
+        </div>
+
+        <div class="nav-section-title">测试</div>
+        <div class="nav-item" data-route="/exam">
+          <span class="nav-icon">📝</span> 模拟考试
+        </div>
+
+        <div class="nav-section-title">分析</div>
+        <div class="nav-item" data-route="/stats">
+          <span class="nav-icon">📊</span> 学习统计
+        </div>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button class="nav-item" id="theme-toggle" style="width:100%;">
+          <span class="nav-icon">🌙</span> 暗色模式
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+      <div class="page" style="text-align:center;padding:80px 0;" id="loading-indicator">
+        <div class="spinner"></div>
+        <p style="color:var(--color-text-secondary);margin-top:16px;">加载中...</p>
+        <p style="color:var(--color-text-muted);font-size:12px;margin-top:8px;" id="loading-hint"></p>
+      </div>
+    </main>
+  </div>
+
+  <!-- Fallback: if the module script doesn't render anything within 8s, show error -->
+  <script>
+    (function(){
+      var el = document.getElementById('loading-indicator');
+      if (!el) return;
+      var hint = document.getElementById('loading-hint');
+      var count = 0;
+      var timer = setInterval(function(){
+        count++;
+        if (count === 3) hint.textContent = '正在加载模块...';
+        if (count >= 8) {
+          clearInterval(timer);
+          el.innerHTML = '<div style="font-size:3rem;margin-bottom:16px;">⚠️</div>'
+            + '<h2 style="color:var(--color-danger);">页面加载超时</h2>'
+            + '<p style="color:var(--color-text-secondary);margin-top:8px;">请尝试以下方法：</p>'
+            + '<ul style="text-align:left;max-width:500px;margin:12px auto;color:var(--color-text-secondary);font-size:14px;list-style:disc;padding-left:24px;">'
+            + '<li>按 <strong>Ctrl + Shift + R</strong> 强制刷新清除缓存</li>'
+            + '<li>打开浏览器控制台 (F12 → Console) 查看红色错误信息</li>'
+            + '<li>确认使用 <strong>localhost:端口号</strong> 访问，而非 file:// 路径</li>'
+            + '<li>确认服务器支持 ES Module (Content-Type: application/javascript)</li>'
+            + '</ul>'
+            + '<button class="btn btn-primary mt-2" onclick="location.reload()" style="cursor:pointer;">强制刷新</button>'
+            + '<button class="btn btn-secondary mt-2" style="margin-left:8px;" onclick="window.open(\'https://\', \'_self\')">切换到 HTTPS</button>';
+        }
+      }, 1000);
+    })();
+  </script>
+
+  <!-- App Script (ES Module) -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

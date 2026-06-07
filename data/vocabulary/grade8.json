@@ -1,0 +1,90 @@
+{
+  "grade": "八年级",
+  "semester": "全学年",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unit 1 Where did you go on vacation?",
+      "words": [
+        {"en": "vacation", "zh": "假期；休假", "phonetic": "/veɪˈkeɪʃn/", "pos": "n.", "example": "Where did you go on vacation?", "exampleZh": "你假期去哪里了？"},
+        {"en": "anyone", "zh": "任何人", "phonetic": "/ˈeniwʌn/", "pos": "pron.", "example": "Did you meet anyone interesting?", "exampleZh": "你遇到什么有趣的人了吗？"},
+        {"en": "wonderful", "zh": "精彩的；绝妙的", "phonetic": "/ˈwʌndərfl/", "pos": "adj.", "example": "We had a wonderful time.", "exampleZh": "我们玩得很开心。"},
+        {"en": "myself", "zh": "我自己", "phonetic": "/maɪˈself/", "pos": "pron.", "example": "I did it by myself.", "exampleZh": "我自己做的。"},
+        {"en": "yourself", "zh": "你自己", "phonetic": "/jɔːrˈself/", "pos": "pron.", "example": "Help yourself to some food.", "exampleZh": "随便吃点东西。"},
+        {"en": "seem", "zh": "好像；似乎；看来", "phonetic": "/siːm/", "pos": "v.", "example": "You seem happy today.", "exampleZh": "你今天似乎很开心。"},
+        {"en": "decide", "zh": "决定；选定", "phonetic": "/dɪˈsaɪd/", "pos": "v.", "example": "I decided to learn English.", "exampleZh": "我决定学英语。"},
+        {"en": "try", "zh": "尝试；努力", "phonetic": "/traɪ/", "pos": "v. & n.", "example": "Try your best.", "exampleZh": "尽你最大的努力。"},
+        {"en": "enough", "zh": "足够的；充分的", "phonetic": "/ɪˈnʌf/", "pos": "adj. & adv.", "example": "I have enough time.", "exampleZh": "我有足够的时间。"},
+        {"en": "hungry", "zh": "饥饿的", "phonetic": "/ˈhʌŋɡri/", "pos": "adj.", "example": "I'm so hungry.", "exampleZh": "我太饿了。"},
+        {"en": "diary", "zh": "日记；记事簿", "phonetic": "/ˈdaɪəri/", "pos": "n.", "example": "I keep a diary every day.", "exampleZh": "我每天写日记。"},
+        {"en": "activity", "zh": "活动", "phonetic": "/ækˈtɪvəti/", "pos": "n.", "example": "There are many after-school activities.", "exampleZh": "有许多课外活动。"}
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Unit 2 How often do you exercise?",
+      "words": [
+        {"en": "exercise", "zh": "锻炼；练习", "phonetic": "/ˈeksərsaɪz/", "pos": "v. & n.", "example": "I exercise three times a week.", "exampleZh": "我每周锻炼三次。"},
+        {"en": "often", "zh": "常常；经常", "phonetic": "/ˈɒfn/", "pos": "adv.", "example": "How often do you read books?", "exampleZh": "你多久读一次书？"},
+        {"en": "twice", "zh": "两次；两倍", "phonetic": "/twaɪs/", "pos": "adv.", "example": "I brush my teeth twice a day.", "exampleZh": "我每天刷两次牙。"},
+        {"en": "maybe", "zh": "大概；或许；可能", "phonetic": "/ˈmeɪbi/", "pos": "adv.", "example": "Maybe she will come tomorrow.", "exampleZh": "也许她明天会来。"},
+        {"en": "percent", "zh": "百分之……", "phonetic": "/pərˈsent/", "pos": "n.", "example": "Ninety percent of students passed.", "exampleZh": "百分之九十的学生通过了。"},
+        {"en": "although", "zh": "虽然；尽管", "phonetic": "/ɔːlˈðəʊ/", "pos": "conj.", "example": "Although it rained, we went out.", "exampleZh": "尽管下雨了，我们还是出去了。"},
+        {"en": "through", "zh": "以；凭借；穿过", "phonetic": "/θruː/", "pos": "prep.", "example": "We walked through the park.", "exampleZh": "我们穿过了公园。"},
+        {"en": "mind", "zh": "头脑；心智", "phonetic": "/maɪnd/", "pos": "n.", "example": "Keep an open mind.", "exampleZh": "保持开放的心态。"},
+        {"en": "body", "zh": "身体", "phonetic": "/ˈbɒdi/", "pos": "n.", "example": "Exercise is good for your body.", "exampleZh": "运动对你的身体有好处。"},
+        {"en": "such", "zh": "这样的；如此的", "phonetic": "/sʌtʃ/", "pos": "adj.", "example": "She is such a nice person.", "exampleZh": "她是一个如此好的人。"},
+        {"en": "together", "zh": "在一起；共同", "phonetic": "/təˈɡeðər/", "pos": "adv.", "example": "Let's study together.", "exampleZh": "我们一起学习吧。"},
+        {"en": "result", "zh": "结果；成果", "phonetic": "/rɪˈzʌlt/", "pos": "n.", "example": "Hard work brings good results.", "exampleZh": "努力带来好结果。"}
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Unit 3 I'm more outgoing than my sister.",
+      "words": [
+        {"en": "outgoing", "zh": "外向的", "phonetic": "/ˈaʊtɡəʊɪŋ/", "pos": "adj.", "example": "She is outgoing and friendly.", "exampleZh": "她外向又友好。"},
+        {"en": "compare", "zh": "比较；对比", "phonetic": "/kəmˈpeər/", "pos": "v.", "example": "Don't compare yourself with others.", "exampleZh": "不要和别人比较。"},
+        {"en": "competition", "zh": "比赛；竞赛；竞争", "phonetic": "/ˌkɒmpəˈtɪʃn/", "pos": "n.", "example": "She won the singing competition.", "exampleZh": "她赢得了歌唱比赛。"},
+        {"en": "fantastic", "zh": "极好的；了不起的", "phonetic": "/fænˈtæstɪk/", "pos": "adj.", "example": "You did a fantastic job!", "exampleZh": "你做得太棒了！"},
+        {"en": "talent", "zh": "天赋；才能", "phonetic": "/ˈtælənt/", "pos": "n.", "example": "She has a talent for music.", "exampleZh": "她有音乐天赋。"},
+        {"en": "truly", "zh": "真正地；确实", "phonetic": "/ˈtruːli/", "pos": "adv.", "example": "I am truly sorry.", "exampleZh": "我真的很抱歉。"},
+        {"en": "care", "zh": "关心；在意", "phonetic": "/keər/", "pos": "v.", "example": "I care about you.", "exampleZh": "我关心你。"},
+        {"en": "serious", "zh": "严肃的；认真的", "phonetic": "/ˈsɪəriəs/", "pos": "adj.", "example": "Are you serious?", "exampleZh": "你是认真的吗？"},
+        {"en": "laugh", "zh": "笑；大笑", "phonetic": "/lɑːf/", "pos": "v.", "example": "We laughed happily.", "exampleZh": "我们开心地笑了。"},
+        {"en": "necessary", "zh": "必要的；必需的", "phonetic": "/ˈnesəsəri/", "pos": "adj.", "example": "Sleep is necessary for health.", "exampleZh": "睡眠对健康是必要的。"}
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Unit 4 What's the best movie theater?",
+      "words": [
+        {"en": "movie", "zh": "电影", "phonetic": "/ˈmuːvi/", "pos": "n.", "example": "Let's watch a movie.", "exampleZh": "我们去看电影吧。"},
+        {"en": "choose", "zh": "选择；挑选", "phonetic": "/tʃuːz/", "pos": "v.", "example": "Choose the best answer.", "exampleZh": "选择最佳答案。"},
+        {"en": "comfortable", "zh": "舒适的；舒服的", "phonetic": "/ˈkʌmftəbl/", "pos": "adj.", "example": "This chair is very comfortable.", "exampleZh": "这把椅子很舒服。"},
+        {"en": "cheap", "zh": "便宜的", "phonetic": "/tʃiːp/", "pos": "adj.", "example": "This is a cheap but good phone.", "exampleZh": "这是一个便宜但好的手机。"},
+        {"en": "fresh", "zh": "新鲜的；清新的", "phonetic": "/freʃ/", "pos": "adj.", "example": "The air here is fresh.", "exampleZh": "这里的空气很清新。"},
+        {"en": "pretty", "zh": "漂亮的；相当地", "phonetic": "/ˈprɪti/", "pos": "adj. & adv.", "example": "She looks pretty.", "exampleZh": "她看起来很漂亮。"},
+        {"en": "service", "zh": "接待；服务", "phonetic": "/ˈsɜːrvɪs/", "pos": "n.", "example": "The service here is excellent.", "exampleZh": "这里的服务很棒。"},
+        {"en": "common", "zh": "普通的；常见的", "phonetic": "/ˈkɒmən/", "pos": "adj.", "example": "It's a common mistake.", "exampleZh": "这是一个常见错误。"},
+        {"en": "role", "zh": "作用；角色", "phonetic": "/rəʊl/", "pos": "n.", "example": "Education plays an important role.", "exampleZh": "教育发挥着重要作用。"},
+        {"en": "everybody", "zh": "每人；所有人", "phonetic": "/ˈevribɒdi/", "pos": "pron.", "example": "Everybody makes mistakes.", "exampleZh": "每个人都会犯错。"}
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Unit 5 Do you want to watch a game show?",
+      "words": [
+        {"en": "show", "zh": "节目；表演；展示", "phonetic": "/ʃəʊ/", "pos": "n. & v.", "example": "It's my favorite TV show.", "exampleZh": "这是我最喜欢的电视节目。"},
+        {"en": "news", "zh": "新闻；消息", "phonetic": "/njuːz/", "pos": "n.", "example": "I watch the news every evening.", "exampleZh": "我每晚看新闻。"},
+        {"en": "stand", "zh": "忍受；站立", "phonetic": "/stænd/", "pos": "v.", "example": "I can't stand the noise.", "exampleZh": "我受不了这噪音。"},
+        {"en": "plan", "zh": "计划；打算", "phonetic": "/plæn/", "pos": "v. & n.", "example": "What's your plan for today?", "exampleZh": "你今天有什么计划？"},
+        {"en": "hope", "zh": "希望", "phonetic": "/həʊp/", "pos": "v. & n.", "example": "I hope you feel better soon.", "exampleZh": "我希望你快点好起来。"},
+        {"en": "discuss", "zh": "讨论；商量", "phonetic": "/dɪˈskʌs/", "pos": "v.", "example": "Let's discuss the problem.", "exampleZh": "我们来讨论一下这个问题。"},
+        {"en": "meaningless", "zh": "毫无意义的", "phonetic": "/ˈmiːnɪŋləs/", "pos": "adj.", "example": "Don't waste time on meaningless things.", "exampleZh": "不要在无意义的事上浪费时间。"},
+        {"en": "action", "zh": "行动", "phonetic": "/ˈækʃn/", "pos": "n.", "example": "It's time to take action.", "exampleZh": "是时候采取行动了。"},
+        {"en": "culture", "zh": "文化；文明", "phonetic": "/ˈkʌltʃər/", "pos": "n.", "example": "I'm interested in Chinese culture.", "exampleZh": "我对中国文化感兴趣。"},
+        {"en": "reason", "zh": "原因；理由", "phonetic": "/ˈriːzn/", "pos": "n.", "example": "What's the reason for your absence?", "exampleZh": "你缺席的原因是什么？"}
+      ]
+    }
+  ]
+}

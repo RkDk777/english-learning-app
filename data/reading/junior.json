@@ -1,0 +1,47 @@
+{
+  "level": "junior",
+  "passages": [
+    {
+      "id": "jr-01",
+      "title": "The Lost Wallet",
+      "topic": "日常生活",
+      "wordCount": 180,
+      "content": "Last Sunday, Tom went to the park with his friends. They played football and had a great time. When Tom was about to go home, he found a wallet on the ground. He picked it up and opened it. There was some money and an ID card inside.\n\nTom looked at the ID card and found the owner's address. It was not far from the park. He decided to return the wallet to its owner. He went to the address and knocked on the door. An old man opened the door. He was very surprised and happy to see his wallet. He thanked Tom again and again.\n\nTom felt proud of himself. He learned that helping others can bring true happiness.",
+      "questions": [
+        {"question": "Where did Tom find the wallet?", "options": ["In his school", "In the park", "On the street", "At home"], "answer": "In the park", "explanation": "根据文章第一句，Tom在公园里捡到了钱包。"},
+        {"question": "What was in the wallet?", "options": ["Only money", "Only an ID card", "Money and an ID card", "A photo"], "answer": "Money and an ID card", "explanation": "文章提到\"There was some money and an ID card inside.\""},
+        {"question": "How did the old man feel when he got his wallet back?", "options": ["Angry", "Sad", "Surprised and happy", "Worried"], "answer": "Surprised and happy", "explanation": "文章描述\"He was very surprised and happy to see his wallet.\""},
+        {"question": "What did Tom learn from this experience?", "options": ["Money is important", "Helping others brings true happiness", "Parks are dangerous", "Old people are always kind"], "answer": "Helping others brings true happiness", "explanation": "文章最后一句总结了这个道理。"},
+        {"question": "What's the best title for this passage?", "options": ["A Day in the Park", "The Lost Wallet", "Tom's Friends", "An Old Man"], "answer": "The Lost Wallet", "explanation": "整篇文章围绕Tom捡到钱包并归还的故事展开。"}
+      ]
+    },
+    {
+      "id": "jr-02",
+      "title": "Healthy Eating Habits",
+      "topic": "健康生活",
+      "wordCount": 200,
+      "content": "Eating healthy food is very important for teenagers. As students, we need enough energy for study and sports. Here are some tips for healthy eating.\n\nFirst, never skip breakfast. Breakfast is the most important meal of the day. A good breakfast gives you energy for the whole morning. You can have some bread, milk, eggs and fruit for breakfast.\n\nSecond, eat more vegetables and fruit. They are rich in vitamins and fiber. Try to eat at least five different kinds of fruits and vegetables every day. They help you stay healthy and prevent illness.\n\nThird, drink enough water. You should drink about 6 to 8 glasses of water every day. Avoid sugary drinks like cola and juice with added sugar. Water is the best choice.\n\nFinally, don't eat too much junk food. Hamburgers, chips and fried chicken are delicious, but they contain too much fat and salt. Eating too much junk food may lead to health problems like obesity.",
+      "questions": [
+        {"question": "Why is breakfast important?", "options": ["It's the cheapest meal", "It gives you energy for the whole morning", "It's the biggest meal", "All students eat breakfast"], "answer": "It gives you energy for the whole morning", "explanation": "文章提到\"A good breakfast gives you energy for the whole morning.\""},
+        {"question": "How many kinds of fruits and vegetables should we eat every day?", "options": ["At least two", "At least three", "At least five", "At least ten"], "answer": "At least five", "explanation": "文章建议\"Try to eat at least five different kinds of fruits and vegetables every day.\""},
+        {"question": "What is the best drink according to the passage?", "options": ["Cola", "Juice", "Milk", "Water"], "answer": "Water", "explanation": "文章强调\"Water is the best choice.\""},
+        {"question": "What may happen if we eat too much junk food?", "options": ["We may become taller", "We may have health problems", "We may study better", "We may run faster"], "answer": "We may have health problems", "explanation": "文章提到junk food \"may lead to health problems like obesity.\""},
+        {"question": "How many tips does the writer give?", "options": ["Two", "Three", "Four", "Five"], "answer": "Four", "explanation": "文章给出四条建议：吃早餐、多吃蔬果、多喝水、少吃垃圾食品。"}
+      ]
+    },
+    {
+      "id": "jr-03",
+      "title": "My English Teacher",
+      "topic": "校园生活",
+      "wordCount": 190,
+      "content": "Miss Li is our English teacher. She is one of the most popular teachers in our school. She is tall and has long black hair. She always wears a smile on her face, which makes her look very friendly.\n\nMiss Li's classes are always interesting. She uses games, songs and stories to teach us English. She often says, \"Learning English should be fun, not boring.\" When we have difficulties, she is always patient and ready to help. She teaches us not only English but also how to be a good person.\n\nLast month, I was afraid to give a speech in English. Miss Li encouraged me and helped me practice after class for several days. With her help, I did a great job and won the first prize in the speech competition. I will always remember her kindness.\n\nI want to become a teacher like Miss Li in the future. She has taught me that a good teacher can change a student's life.",
+      "questions": [
+        {"question": "What does Miss Li look like?", "options": ["Short with short hair", "Tall with long black hair", "Tall with short hair", "Short with long hair"], "answer": "Tall with long black hair", "explanation": "文章描述\"She is tall and has long black hair.\""},
+        {"question": "How does Miss Li make her classes interesting?", "options": ["By giving tests", "By using games, songs and stories", "By reading the textbook", "By asking students to read aloud"], "answer": "By using games, songs and stories", "explanation": "文章提到\"She uses games, songs and stories to teach us English.\""},
+        {"question": "What happened to the writer last month?", "options": ["He failed an exam", "He won a speech competition", "He changed his teacher", "He started learning English"], "answer": "He won a speech competition", "explanation": "文章提到Miss Li帮助作者准备演讲比赛并获得了第一名。"},
+        {"question": "What does the writer want to be in the future?", "options": ["A doctor", "An English speaker", "A teacher", "A singer"], "answer": "A teacher", "explanation": "文章最后一句话\"I want to become a teacher like Miss Li.\""},
+        {"question": "Which word best describes Miss Li?", "options": ["Strict", "Patient", "Serious", "Quiet"], "answer": "Patient", "explanation": "文章多次体现Miss Li的耐心，如\"she is always patient and ready to help.\""}
+      ]
+    }
+  ]
+}
