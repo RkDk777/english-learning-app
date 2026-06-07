@@ -134,7 +134,7 @@ export async function showVocabularyGrade(grade) {
         <div class="grid-2">
           ${data.units.map((unit, i) => `
             <div class="unit-card" data-unit="${i}">
-              <h4>📦 ${unit.unit != null ? 'Unit ' + unit.unit : ''}</h4>
+              <h4>📦 ${unit.unit > 0 ? 'Unit ' + unit.unit : ''}</h4>
               <div style="font-size:var(--fs-sm);color:var(--color-text-secondary);margin-bottom:4px;">${unit.title}</div>
               <div class="unit-word-count">${unit.words.length} 个单词</div>
             </div>
@@ -170,7 +170,7 @@ function showUnitPage(grade, unit, allWords) {
     <div class="page">
       <div class="page-header">
         <button class="btn btn-secondary btn-sm mb-1" id="btn-back">← 返回</button>
-        <h1>📦 ${unit.unit != null ? 'Unit ' + unit.unit + ': ' : ''}${unit.title}</h1>
+        <h1>📦 ${unit.unit > 0 ? 'Unit ' + unit.unit + ': ' : ''}${unit.title}</h1>
         <p>${words.length} 个单词</p>
       </div>
       <div class="vocab-mode-selector">
