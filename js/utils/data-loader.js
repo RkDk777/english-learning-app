@@ -55,12 +55,14 @@ class DataLoader {
 
   // Load all vocabulary files at once
   async loadAllVocabulary() {
-    const grades = ['grade7', 'grade8', 'grade9', 'grade10', 'grade11', 'grade12'];
+    const keys = ['grade7','grade8','grade9',
+      'book_b1','book_b2','book_b3',
+      'book_xb1','book_xb2','book_xb3','book_xb4'];
     const results = await Promise.all(
-      grades.map(g => this.loadVocabulary(g).catch(() => null))
+      keys.map(g => this.loadVocabulary(g).catch(() => null))
     );
     const map = {};
-    grades.forEach((g, i) => { map[g] = results[i]; });
+    keys.forEach((g, i) => { map[g] = results[i]; });
     return map;
   }
 

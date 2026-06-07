@@ -1,0 +1,420 @@
+{
+  "grade": "选择性必修 第四册",
+  "textbook": "2019人教版高中英语",
+  "units": [
+    {
+      "unit": 1,
+      "title": "选必四 U1 Science Fiction",
+      "words": [
+        {
+          "en": "fiction",
+          "zh": "小说",
+          "phonetic": "/ˈfɪkʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "test out",
+          "zh": "测试",
+          "phonetic": "",
+          "pos": "phr.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "bonus",
+          "zh": "奖金",
+          "phonetic": "/ˈboʊnəs/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "ridiculous",
+          "zh": "荒谬的",
+          "phonetic": "/rɪˈdɪkjələs/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "integrity",
+          "zh": "诚信",
+          "phonetic": "/ɪnˈteɡrəti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "dignity",
+          "zh": "尊严",
+          "phonetic": "/ˈdɪɡnəti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "salary",
+          "zh": "薪水",
+          "phonetic": "/ˈsæləri/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "absurd",
+          "zh": "荒谬的",
+          "phonetic": "/əbˈsɜːrd/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "appointment",
+          "zh": "预约",
+          "phonetic": "/əˈpɔɪntmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "nail",
+          "zh": "指甲；钉子",
+          "phonetic": "/neɪl/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "guilty",
+          "zh": "内疚的",
+          "phonetic": "/ˈɡɪlti/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "suspend",
+          "zh": "暂停",
+          "phonetic": "/səˈspend/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "ladder",
+          "zh": "梯子",
+          "phonetic": "/ˈlædər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "dismiss",
+          "zh": "解散",
+          "phonetic": "/dɪsˈmɪs/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "declare",
+          "zh": "宣称",
+          "phonetic": "/dɪˈkler/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "whereas",
+          "zh": "然而",
+          "phonetic": "/ˌwerˈæz/",
+          "pos": "conj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "rumour",
+          "zh": "谣言",
+          "phonetic": "/ˈruːmər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "presume",
+          "zh": "假设",
+          "phonetic": "/prɪˈzuːm/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "fare",
+          "zh": "车费",
+          "phonetic": "/fer/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "weekly",
+          "zh": "每周的",
+          "phonetic": "/ˈwiːkli/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "calculate",
+          "zh": "计算",
+          "phonetic": "/ˈkælkjuleɪt/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "gramme",
+          "zh": "克",
+          "phonetic": "/ɡræm/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "flour",
+          "zh": "面粉",
+          "phonetic": "/ˈflaʊər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "venue",
+          "zh": "场地",
+          "phonetic": "/ˈvenjuː/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "alien",
+          "zh": "外星人",
+          "phonetic": "/ˈeɪliən/",
+          "pos": "n.&adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "superior",
+          "zh": "更好的",
+          "phonetic": "/suːˈpɪriər/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "inaction",
+          "zh": "不行动",
+          "phonetic": "/ɪnˈækʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "labour",
+          "zh": "劳动",
+          "phonetic": "/ˈleɪbər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "leather",
+          "zh": "皮革",
+          "phonetic": "/ˈleðər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "lever",
+          "zh": "操纵杆",
+          "phonetic": "/ˈliːvər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "panel",
+          "zh": "控制板",
+          "phonetic": "/ˈpænl/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "inch",
+          "zh": "英寸",
+          "phonetic": "/ɪntʃ/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "backwards",
+          "zh": "向后",
+          "phonetic": "/ˈbækwərdz/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "grip",
+          "zh": "紧握",
+          "phonetic": "/ɡrɪp/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "hazy",
+          "zh": "模糊的",
+          "phonetic": "/ˈheɪzi/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "niece",
+          "zh": "侄女",
+          "phonetic": "/niːs/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "fetch",
+          "zh": "拿来",
+          "phonetic": "/fetʃ/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "lamp",
+          "zh": "灯",
+          "phonetic": "/læmp/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "turn out",
+          "zh": "结果是",
+          "phonetic": "",
+          "pos": "phr.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "pace",
+          "zh": "速度",
+          "phonetic": "/peɪs/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "division",
+          "zh": "分开",
+          "phonetic": "/dɪˈvɪʒn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "urge",
+          "zh": "冲动；催促",
+          "phonetic": "/ɜːrdʒ/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "random",
+          "zh": "随机的",
+          "phonetic": "/ˈrændəm/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "maximum",
+          "zh": "最大",
+          "phonetic": "/ˈmæksɪməm/",
+          "pos": "adj.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "explode",
+          "zh": "爆炸",
+          "phonetic": "/ɪkˈsploʊd/",
+          "pos": "vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "jolt",
+          "zh": "震动",
+          "phonetic": "/dʒoʊlt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "flip",
+          "zh": "翻转",
+          "phonetic": "/flɪp/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "stun",
+          "zh": "使震惊",
+          "phonetic": "/stʌn/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "mud",
+          "zh": "泥",
+          "phonetic": "/mʌd/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "overstatement",
+          "zh": "夸大",
+          "phonetic": "/ˈoʊvərsteɪtmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "handkerchief",
+          "zh": "手帕",
+          "phonetic": "/ˈhæŋkərtʃɪf/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        }
+      ]
+    }
+  ]
+}

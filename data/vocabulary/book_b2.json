@@ -1,0 +1,1932 @@
+{
+  "grade": "必修 第二册",
+  "textbook": "2019人教版高中英语",
+  "units": [
+    {
+      "unit": 1,
+      "title": "1 Cultural Heritage",
+      "words": [
+        {
+          "en": "heritage",
+          "zh": "遗产",
+          "phonetic": "/ˈherɪtɪdʒ/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "creatively",
+          "zh": "创造性地",
+          "phonetic": "/kriˈeɪtɪvli/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "creative",
+          "zh": "创造性的",
+          "phonetic": "/kriˈeɪtɪv/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "temple",
+          "zh": "寺庙",
+          "phonetic": "/ˈtempl/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "relic",
+          "zh": "遗迹",
+          "phonetic": "/ˈrelɪk/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "mount",
+          "zh": "山；安装",
+          "phonetic": "/maʊnt/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "former",
+          "zh": "以前的",
+          "phonetic": "/ˈfɔːrmər/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "clue",
+          "zh": "线索",
+          "phonetic": "/kluː/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "preserve",
+          "zh": "保存",
+          "phonetic": "/prɪˈzɜːrv/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "promote",
+          "zh": "促进",
+          "phonetic": "/prəˈmoʊt/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "application",
+          "zh": "申请",
+          "phonetic": "/ˌæplɪˈkeɪʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "take part in",
+          "zh": "参加",
+          "phonetic": "",
+          "pos": "phr.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "give way to",
+          "zh": "让步于",
+          "phonetic": "",
+          "pos": "phr.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "balance",
+          "zh": "平衡",
+          "phonetic": "/ˈbæləns/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "proposal",
+          "zh": "提议",
+          "phonetic": "/prəˈpoʊzl/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "protest",
+          "zh": "抗议",
+          "phonetic": "/prəˈtest, ˈproʊtest/",
+          "pos": "n.&vi.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "likely",
+          "zh": "可能的",
+          "phonetic": "/ˈlaɪkli/",
+          "pos": "adj.&adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "committee",
+          "zh": "委员会",
+          "phonetic": "/kəˈmɪti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "establish",
+          "zh": "建立",
+          "phonetic": "/ɪˈstæblɪʃ/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "limit",
+          "zh": "限制",
+          "phonetic": "/ˈlɪmɪt/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "prevent",
+          "zh": "阻止",
+          "phonetic": "/prɪˈvent/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "contribution",
+          "zh": "贡献",
+          "phonetic": "/ˌkɑːntrɪˈbjuːʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "contribute",
+          "zh": "捐献",
+          "phonetic": "/kənˈtrɪbjuːt/",
+          "pos": "vi.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "department",
+          "zh": "部门",
+          "phonetic": "/dɪˈpɑːrtmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "fund",
+          "zh": "基金",
+          "phonetic": "/fʌnd/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "throughout",
+          "zh": "遍及",
+          "phonetic": "/θruːˈaʊt/",
+          "pos": "prep.&adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "quality",
+          "zh": "质量",
+          "phonetic": "/ˈkwɑːləti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "tradition",
+          "zh": "传统",
+          "phonetic": "/trəˈdɪʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "opinion",
+          "zh": "意见",
+          "phonetic": "/əˈpɪnjən/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "quote",
+          "zh": "引用",
+          "phonetic": "/kwoʊt/",
+          "pos": "vt.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "paraphrase",
+          "zh": "释义；改写",
+          "phonetic": "/ˈpærəfreɪz/",
+          "pos": "n.&vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "comparison",
+          "zh": "比较",
+          "phonetic": "/kəmˈpærɪsn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "contrast",
+          "zh": "对比",
+          "phonetic": "/ˈkɑːntræst/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "identify",
+          "zh": "确认",
+          "phonetic": "/aɪˈdentɪfaɪ/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "forever",
+          "zh": "永远",
+          "phonetic": "/fərˈevər/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "issue",
+          "zh": "问题",
+          "phonetic": "/ˈɪʃuː/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "conduct",
+          "zh": "实施；行为",
+          "phonetic": "/kənˈdʌkt, ˈkɑːndʌkt/",
+          "pos": "vt.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "attempt",
+          "zh": "尝试",
+          "phonetic": "/əˈtempt/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "worthwhile",
+          "zh": "值得的",
+          "phonetic": "/ˌwɜːrθˈwaɪl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "entrance",
+          "zh": "入口",
+          "phonetic": "/ˈentrəns/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "process",
+          "zh": "过程",
+          "phonetic": "/ˈprɑːses/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "overseas",
+          "zh": "海外的",
+          "phonetic": "/ˌoʊvərˈsiːz/",
+          "pos": "adj.&adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "exit",
+          "zh": "出口",
+          "phonetic": "/ˈeksɪt/",
+          "pos": "n.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "roof",
+          "zh": "屋顶",
+          "phonetic": "/ruːf/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "dragon",
+          "zh": "龙",
+          "phonetic": "/ˈdræɡən/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "forgive",
+          "zh": "原谅",
+          "phonetic": "/fərˈɡɪv/",
+          "pos": "vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "digital",
+          "zh": "数字的",
+          "phonetic": "/ˈdɪdʒɪtl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "image",
+          "zh": "形象",
+          "phonetic": "/ˈɪmɪdʒ/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "cave",
+          "zh": "洞穴",
+          "phonetic": "/keɪv/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "throughout",
+          "zh": "遍及",
+          "phonetic": "/θruːˈaʊt/",
+          "pos": "prep.&adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "professional",
+          "zh": "专业的",
+          "phonetic": "/prəˈfeʃənl/",
+          "pos": "adj.&n.",
+          "example": "",
+          "exampleZh": ""
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "2 Wildlife Protection",
+      "words": [
+        {
+          "en": "poster",
+          "zh": "海报",
+          "phonetic": "/ˈpoʊstər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "illegal",
+          "zh": "非法的",
+          "phonetic": "/ɪˈliːɡl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "hunt",
+          "zh": "打猎",
+          "phonetic": "/hʌnt/",
+          "pos": "vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "species",
+          "zh": "物种",
+          "phonetic": "/ˈspiːʃiːz/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "shark",
+          "zh": "鲨鱼",
+          "phonetic": "/ʃɑːrk/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "fin",
+          "zh": "鳍",
+          "phonetic": "/fɪn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "on earth",
+          "zh": "究竟",
+          "phonetic": "",
+          "pos": "phr.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "die out",
+          "zh": "灭绝",
+          "phonetic": "",
+          "pos": "phr.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "alarming",
+          "zh": "令人惊恐的",
+          "phonetic": "/əˈlɑːrmɪŋ/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "alarm",
+          "zh": "惊恐",
+          "phonetic": "/əˈlɑːrm/",
+          "pos": "vt.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "rate",
+          "zh": "比率",
+          "phonetic": "/reɪt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "extinction",
+          "zh": "灭绝",
+          "phonetic": "/ɪkˈstɪŋkʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "mass",
+          "zh": "大量的",
+          "phonetic": "/mæs/",
+          "pos": "adj.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "habitat",
+          "zh": "栖息地",
+          "phonetic": "/ˈhæbɪtæt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "aware",
+          "zh": "意识到",
+          "phonetic": "/əˈwer/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "endanger",
+          "zh": "使遭危险",
+          "phonetic": "/ɪnˈdeɪndʒər/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "average",
+          "zh": "平均的",
+          "phonetic": "/ˈævərɪdʒ/",
+          "pos": "adj.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "living",
+          "zh": "生活",
+          "phonetic": "/ˈlɪvɪŋ/",
+          "pos": "adj.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "measure",
+          "zh": "措施",
+          "phonetic": "/ˈmeʒər/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "authority",
+          "zh": "权威",
+          "phonetic": "/əˈθɔːrəti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "pressure",
+          "zh": "压力",
+          "phonetic": "/ˈpreʃər/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "whale",
+          "zh": "鲸",
+          "phonetic": "/weɪl/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "antelope",
+          "zh": "羚羊",
+          "phonetic": "/ˈæntɪloʊp/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "reserve",
+          "zh": "保护区；保留",
+          "phonetic": "/rɪˈzɜːrv/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "plain",
+          "zh": "平原",
+          "phonetic": "/pleɪn/",
+          "pos": "n.&adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "observe",
+          "zh": "观察",
+          "phonetic": "/əbˈzɜːrv/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "beauty",
+          "zh": "美",
+          "phonetic": "/ˈbjuːti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "remind",
+          "zh": "提醒",
+          "phonetic": "/rɪˈmaɪnd/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "fur",
+          "zh": "毛皮",
+          "phonetic": "/fɜːr/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "sacred",
+          "zh": "神圣的",
+          "phonetic": "/ˈseɪkrɪd/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "shoot",
+          "zh": "射击",
+          "phonetic": "/ʃuːt/",
+          "pos": "vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "profit",
+          "zh": "利润",
+          "phonetic": "/ˈprɑːfɪt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "attack",
+          "zh": "攻击",
+          "phonetic": "/əˈtæk/",
+          "pos": "n.&vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "effective",
+          "zh": "有效的",
+          "phonetic": "/ɪˈfektɪv/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "recover",
+          "zh": "恢复",
+          "phonetic": "/rɪˈkʌvər/",
+          "pos": "vi.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "remove",
+          "zh": "移除",
+          "phonetic": "/rɪˈmuːv/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "threat",
+          "zh": "威胁",
+          "phonetic": "/θret/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "exist",
+          "zh": "存在",
+          "phonetic": "/ɪɡˈzɪst/",
+          "pos": "vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "harmony",
+          "zh": "和谐",
+          "phonetic": "/ˈhɑːrməni/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "creature",
+          "zh": "生物",
+          "phonetic": "/ˈkriːtʃər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "goods",
+          "zh": "商品",
+          "phonetic": "/ɡʊdz/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "deer",
+          "zh": "鹿",
+          "phonetic": "/dɪr/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "reduce",
+          "zh": "减少",
+          "phonetic": "/rɪˈduːs/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "due",
+          "zh": "由于",
+          "phonetic": "/duː/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "insect",
+          "zh": "昆虫",
+          "phonetic": "/ˈɪnsekt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "net",
+          "zh": "网",
+          "phonetic": "/net/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "neighbourhood",
+          "zh": "社区",
+          "phonetic": "/ˈneɪbərhʊd/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "3 The Internet",
+      "words": [
+        {
+          "en": "blog",
+          "zh": "博客",
+          "phonetic": "/blɑːɡ/",
+          "pos": "n.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "blogger",
+          "zh": "博主",
+          "phonetic": "/ˈblɑːɡər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "engine",
+          "zh": "引擎",
+          "phonetic": "/ˈendʒɪn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "search engine",
+          "zh": "搜索引擎",
+          "phonetic": "",
+          "pos": "phr.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "chat",
+          "zh": "聊天",
+          "phonetic": "/tʃæt/",
+          "pos": "vi.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "stream",
+          "zh": "流播；溪流",
+          "phonetic": "/striːm/",
+          "pos": "vt.&vi.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "identity",
+          "zh": "身份",
+          "phonetic": "/aɪˈdentəti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "convenient",
+          "zh": "方便的",
+          "phonetic": "/kənˈviːniənt/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "cash",
+          "zh": "现金",
+          "phonetic": "/kæʃ/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "update",
+          "zh": "更新",
+          "phonetic": "/ˌʌpˈdeɪt/",
+          "pos": "vt.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "database",
+          "zh": "数据库",
+          "phonetic": "/ˈdeɪtəbeɪs/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "software",
+          "zh": "软件",
+          "phonetic": "/ˈsɔːftwer/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "network",
+          "zh": "网络",
+          "phonetic": "/ˈnetwɜːrk/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "stuck",
+          "zh": "卡住的",
+          "phonetic": "/stʌk/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "keep sb company",
+          "zh": "陪伴某人",
+          "phonetic": "",
+          "pos": "phr.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "surf",
+          "zh": "冲浪",
+          "phonetic": "/sɜːrf/",
+          "pos": "vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "inspire",
+          "zh": "激励",
+          "phonetic": "/ɪnˈspaɪər/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "access",
+          "zh": "通道；访问",
+          "phonetic": "/ˈækses/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "charity",
+          "zh": "慈善",
+          "phonetic": "/ˈtʃærəti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "tough",
+          "zh": "艰难的",
+          "phonetic": "/tʌf/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "province",
+          "zh": "省",
+          "phonetic": "/ˈprɑːvɪns/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "conference",
+          "zh": "会议",
+          "phonetic": "/ˈkɑːnfərəns/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "resident",
+          "zh": "居民",
+          "phonetic": "/ˈrezɪdənt/",
+          "pos": "n.&adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "plus",
+          "zh": "加",
+          "phonetic": "/plʌs/",
+          "pos": "conj.&prep.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "function",
+          "zh": "功能",
+          "phonetic": "/ˈfʌŋkʃn/",
+          "pos": "n.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "battery",
+          "zh": "电池",
+          "phonetic": "/ˈbætəri/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "confirm",
+          "zh": "确认",
+          "phonetic": "/kənˈfɜːrm/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "press",
+          "zh": "按；压",
+          "phonetic": "/pres/",
+          "pos": "vt.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "button",
+          "zh": "按钮",
+          "phonetic": "/ˈbʌtn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "file",
+          "zh": "文件",
+          "phonetic": "/faɪl/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "discount",
+          "zh": "折扣",
+          "phonetic": "/ˈdɪskaʊnt/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "account",
+          "zh": "账户",
+          "phonetic": "/əˈkaʊnt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "click",
+          "zh": "点击",
+          "phonetic": "/klɪk/",
+          "pos": "vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "privacy",
+          "zh": "隐私",
+          "phonetic": "/ˈpraɪvəsi/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "theft",
+          "zh": "盗窃",
+          "phonetic": "/θeft/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "rude",
+          "zh": "粗鲁的",
+          "phonetic": "/ruːd/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "target",
+          "zh": "目标",
+          "phonetic": "/ˈtɑːrɡɪt/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "false",
+          "zh": "虚假的",
+          "phonetic": "/fɔːls/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "particular",
+          "zh": "特定的",
+          "phonetic": "/pərˈtɪkjələr/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "embarrassing",
+          "zh": "令人尴尬的",
+          "phonetic": "/ɪmˈbærəsɪŋ/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "upset",
+          "zh": "不安的",
+          "phonetic": "/ʌpˈset/",
+          "pos": "adj.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "guideline",
+          "zh": "指南",
+          "phonetic": "/ˈɡaɪdlaɪn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "author",
+          "zh": "作者",
+          "phonetic": "/ˈɔːθər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "tip",
+          "zh": "提示；小费",
+          "phonetic": "/tɪp/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "familiar",
+          "zh": "熟悉的",
+          "phonetic": "/fəˈmɪliər/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "define",
+          "zh": "定义",
+          "phonetic": "/dɪˈfaɪn/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "case",
+          "zh": "情况；案件",
+          "phonetic": "/keɪs/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "4 History and Traditions",
+      "words": [
+        {
+          "en": "Confucius",
+          "zh": "孔子",
+          "phonetic": "/kənˈfjuːʃəs/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "philosophy",
+          "zh": "哲学",
+          "phonetic": "/fɪˈlɑːsəfi/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "descendant",
+          "zh": "后代",
+          "phonetic": "/dɪˈsendənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "individual",
+          "zh": "个人；单独的",
+          "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+          "pos": "adj.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "heel",
+          "zh": "脚后跟",
+          "phonetic": "/hiːl/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "kingdom",
+          "zh": "王国",
+          "phonetic": "/ˈkɪŋdəm/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "chief",
+          "zh": "首领",
+          "phonetic": "/tʃiːf/",
+          "pos": "adj.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "puzzle",
+          "zh": "谜",
+          "phonetic": "/ˈpʌzl/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "nearby",
+          "zh": "附近的",
+          "phonetic": "/ˌnɪrˈbaɪ/",
+          "pos": "adj.&adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "belong",
+          "zh": "属于",
+          "phonetic": "/bɪˈlɔːŋ/",
+          "pos": "vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "defence",
+          "zh": "防御",
+          "phonetic": "/dɪˈfens/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "legal",
+          "zh": "法律的",
+          "phonetic": "/ˈliːɡl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "surround",
+          "zh": "围绕",
+          "phonetic": "/səˈraʊnd/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "evidence",
+          "zh": "证据",
+          "phonetic": "/ˈevɪdəns/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "achievement",
+          "zh": "成就",
+          "phonetic": "/əˈtʃiːvmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "location",
+          "zh": "位置",
+          "phonetic": "/loʊˈkeɪʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "conquer",
+          "zh": "征服",
+          "phonetic": "/ˈkɑːŋkər/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "battle",
+          "zh": "战役",
+          "phonetic": "/ˈbætl/",
+          "pos": "n.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "port",
+          "zh": "港口",
+          "phonetic": "/pɔːrt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "fascinating",
+          "zh": "迷人的",
+          "phonetic": "/ˈfæsɪneɪtɪŋ/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "charge",
+          "zh": "收费；控告",
+          "phonetic": "/tʃɑːrdʒ/",
+          "pos": "n.&vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "amount",
+          "zh": "数量",
+          "phonetic": "/əˈmaʊnt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "gallery",
+          "zh": "画廊",
+          "phonetic": "/ˈɡæləri/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "approach",
+          "zh": "方法；接近",
+          "phonetic": "/əˈproʊtʃ/",
+          "pos": "n.&vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "ensure",
+          "zh": "确保",
+          "phonetic": "/ɪnˈʃʊr/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "landscape",
+          "zh": "风景",
+          "phonetic": "/ˈlændskeɪp/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "generous",
+          "zh": "慷慨的",
+          "phonetic": "/ˈdʒenərəs/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "butter",
+          "zh": "黄油",
+          "phonetic": "/ˈbʌtər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "honey",
+          "zh": "蜂蜜",
+          "phonetic": "/ˈhʌni/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "ancestor",
+          "zh": "祖先",
+          "phonetic": "/ˈænsestər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "position",
+          "zh": "位置",
+          "phonetic": "/pəˈzɪʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "courtyard",
+          "zh": "庭院",
+          "phonetic": "/ˈkɔːrtjɑːrd/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "snack",
+          "zh": "小吃",
+          "phonetic": "/snæk/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "eager",
+          "zh": "渴望的",
+          "phonetic": "/ˈiːɡər/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "poet",
+          "zh": "诗人",
+          "phonetic": "/ˈpoʊət/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "county",
+          "zh": "郡；县",
+          "phonetic": "/ˈkaʊnti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "feast",
+          "zh": "盛宴",
+          "phonetic": "/fiːst/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "roll",
+          "zh": "卷；滚动",
+          "phonetic": "/roʊl/",
+          "pos": "n.&vi.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "greet",
+          "zh": "问候",
+          "phonetic": "/ɡriːt/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "pub",
+          "zh": "酒吧",
+          "phonetic": "/pʌb/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "custom",
+          "zh": "风俗",
+          "phonetic": "/ˈkʌstəm/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "striking",
+          "zh": "引人注目的",
+          "phonetic": "/ˈstraɪkɪŋ/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "crowd",
+          "zh": "人群",
+          "phonetic": "/kraʊd/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "transition",
+          "zh": "过渡",
+          "phonetic": "/trænˈzɪʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "5 Music",
+      "words": [
+        {
+          "en": "classical",
+          "zh": "古典的",
+          "phonetic": "/ˈklæsɪkl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "hip-hop",
+          "zh": "嘻哈",
+          "phonetic": "/ˈhɪphɒp/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "techno",
+          "zh": "电子音乐",
+          "phonetic": "/ˈteknoʊ/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "energy",
+          "zh": "能量",
+          "phonetic": "/ˈenərdʒi/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "soul",
+          "zh": "灵魂",
+          "phonetic": "/soʊl/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "bagpipes",
+          "zh": "风笛",
+          "phonetic": "/ˈbæɡpaɪps/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "stringed",
+          "zh": "弦的",
+          "phonetic": "/strɪŋd/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "virtual",
+          "zh": "虚拟的",
+          "phonetic": "/ˈvɜːrtʃuəl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "choir",
+          "zh": "合唱团",
+          "phonetic": "/ˈkwaɪər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "composition",
+          "zh": "作曲",
+          "phonetic": "/ˌkɑːmpəˈzɪʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "opportunity",
+          "zh": "机会",
+          "phonetic": "/ˌɑːpərˈtuːnəti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "performance",
+          "zh": "表演",
+          "phonetic": "/pərˈfɔːrməns/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "performer",
+          "zh": "表演者",
+          "phonetic": "/pərˈfɔːrmər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "onto",
+          "zh": "到……上",
+          "phonetic": "/ˈɑːntuː/",
+          "pos": "prep.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "studio",
+          "zh": "工作室",
+          "phonetic": "/ˈstuːdioʊ/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "ordinary",
+          "zh": "普通的",
+          "phonetic": "/ˈɔːrdneri/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "enable",
+          "zh": "使能够",
+          "phonetic": "/ɪˈneɪbl/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "prove",
+          "zh": "证明",
+          "phonetic": "/pruːv/",
+          "pos": "vt.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "award",
+          "zh": "奖；授予",
+          "phonetic": "/əˈwɔːrd/",
+          "pos": "vt.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "composer",
+          "zh": "作曲家",
+          "phonetic": "/kəmˈpoʊzər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "conductor",
+          "zh": "指挥",
+          "phonetic": "/kənˈdʌktər/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "original",
+          "zh": "原来的",
+          "phonetic": "/əˈrɪdʒənl/",
+          "pos": "adj.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "phenomenon",
+          "zh": "现象",
+          "phonetic": "/fɪˈnɑːmɪnən/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "stage",
+          "zh": "舞台",
+          "phonetic": "/steɪdʒ/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "altogether",
+          "zh": "总共",
+          "phonetic": "/ˌɔːltəˈɡeðər/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "thus",
+          "zh": "因此",
+          "phonetic": "/ðʌs/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "band",
+          "zh": "乐队",
+          "phonetic": "/bænd/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "rap",
+          "zh": "说唱",
+          "phonetic": "/ræp/",
+          "pos": "n.&vi.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "nowadays",
+          "zh": "如今",
+          "phonetic": "/ˈnaʊədeɪz/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "gradual",
+          "zh": "逐渐的",
+          "phonetic": "/ˈɡrædʒuəl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "capable",
+          "zh": "有能力的",
+          "phonetic": "/ˈkeɪpəbl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "relief",
+          "zh": "减轻；宽慰",
+          "phonetic": "/rɪˈliːf/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "cure",
+          "zh": "治愈",
+          "phonetic": "/kjʊr/",
+          "pos": "vt.&n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "absorbed",
+          "zh": "被吸引住的",
+          "phonetic": "/əbˈzɔːrbd/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "previous",
+          "zh": "先前的",
+          "phonetic": "/ˈpriːviəs/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "unemployed",
+          "zh": "失业的",
+          "phonetic": "/ˌʌnɪmˈplɔɪd/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "romantic",
+          "zh": "浪漫的",
+          "phonetic": "/roʊˈmæntɪk/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "album",
+          "zh": "专辑",
+          "phonetic": "/ˈælbəm/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "impact",
+          "zh": "影响",
+          "phonetic": "/ˈɪmpækt/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "aim",
+          "zh": "目标",
+          "phonetic": "/eɪm/",
+          "pos": "n.&vi.&vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "equipment",
+          "zh": "设备",
+          "phonetic": "/ɪˈkwɪpmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "talent",
+          "zh": "天赋",
+          "phonetic": "/ˈtælənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "assume",
+          "zh": "假定",
+          "phonetic": "/əˈsuːm/",
+          "pos": "vt.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "reaction",
+          "zh": "反应",
+          "phonetic": "/riˈækʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "treatment",
+          "zh": "治疗",
+          "phonetic": "/ˈtriːtmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "moreover",
+          "zh": "此外",
+          "phonetic": "/mɔːrˈoʊvər/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "somehow",
+          "zh": "不知怎么地",
+          "phonetic": "/ˈsʌmhaʊ/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "outline",
+          "zh": "概述",
+          "phonetic": "/ˈaʊtlaɪn/",
+          "pos": "n.&vt.",
+          "example": "",
+          "exampleZh": ""
+        }
+      ]
+    }
+  ]
+}

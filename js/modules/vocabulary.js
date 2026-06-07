@@ -6,14 +6,23 @@ import { createQuiz } from '../components/quiz.js';
 import { createWordList } from '../components/word-list.js';
 import { generateVocabQuiz, generateSpellingQuiz, generateListeningQuiz, calculateScore } from '../utils/quiz-engine.js';
 
-const GRADE_INFO = {
-  grade7: { name: '初一（七年级）', sub: '上下册共22单元 · 716词', icon: '📗' },
-  grade8: { name: '初二（八年级）', sub: '上下册共20单元 · 500+词', icon: '📘' },
-  grade9: { name: '初三（九年级）', sub: '全一册共14单元 · 500+词', icon: '📙' },
-  grade10: { name: '高一', sub: '必修1-3 · 500+词', icon: '📒' },
-  grade11: { name: '高二', sub: '选择性必修1-4 · 500+词', icon: '📓' },
-  grade12: { name: '高三', sub: '高考冲刺词汇', icon: '📔' },
+const JUNIOR_BOOKS = {
+  grade7: { name: '初一（七年级）', sub: '上下册 · 716词', icon: '📗' },
+  grade8: { name: '初二（八年级）', sub: '上下册 · 437词', icon: '📘' },
+  grade9: { name: '初三（九年级）', sub: '全一册 · 352词', icon: '📙' },
 };
+
+const SENIOR_BOOKS = {
+  book_b1:  { name: '必修 第一册', sub: 'Welcome + U1-U5 · 253词', icon: '📒' },
+  book_b2:  { name: '必修 第二册', sub: 'U1-U5 · 237词', icon: '📒' },
+  book_b3:  { name: '必修 第三册', sub: 'U1-U5 · 256词', icon: '📒' },
+  book_xb1: { name: '选择性必修 第一册', sub: 'U1-U5 · 171词', icon: '📓' },
+  book_xb2: { name: '选择性必修 第二册', sub: 'U1-U5 · 244词', icon: '📓' },
+  book_xb3: { name: '选择性必修 第三册', sub: 'U1-U5 · 136词', icon: '📓' },
+  book_xb4: { name: '选择性必修 第四册', sub: 'U1-U5 · 51词', icon: '📓' },
+};
+
+const ALL_BOOKS = { ...JUNIOR_BOOKS, ...SENIOR_BOOKS };
 
 function getMain() { return document.getElementById('main-content'); }
 
@@ -23,31 +32,22 @@ export async function showVocabularyHome() {
     <div class="page">
       <div class="page-header">
         <h1>📚 单词学习</h1>
-        <p>选择年级开始学习，使用闪卡记忆或测验巩固</p>
+        <p>选择教材开始学习，使用闪卡记忆或测验巩固</p>
       </div>
-      <div class="grid-3" id="grade-grid">
-        ${Object.entries(GRADE_INFO).map(([key, info]) => `
-          <div class="grade-card" data-grade="${key}">
-            <div class="grade-icon">${info.icon}</div>
-            <h3>${info.name}</h3>
-            <div class="grade-subtitle">${info.sub}</div>
-            <div class="grade-stats" id="stats-${key}">加载中...</div>
-          </div>
-        `).join('')}
-      </div>
+      ${renderSection('🏫 初中', JUNIOR_BOOKS)}
+      ${renderSection('🎓 高中', SENIOR_BOOKS)}
     </div>
   `;
 
-  // Bind grade cards
+  // Bind cards
   getMain().querySelectorAll('.grade-card').forEach(card => {
     card.addEventListener('click', () => {
-      const grade = card.dataset.grade;
-      router.navigate(`/vocabulary/${grade}`);
+      router.navigate(`/vocabulary/${card.dataset.book}`);
     });
   });
 
-  // Load stats for each grade
-  for (const key of Object.keys(GRADE_INFO)) {
+  // Load stats
+  for (const key of Object.keys(ALL_BOOKS)) {
     try {
       const data = await dataLoader.loadVocabulary(key);
       const allWords = [];
@@ -68,9 +68,27 @@ export async function showVocabularyHome() {
   }
 }
 
+function renderSection(title, books) {
+  return `
+    <div class="flex justify-between items-center mb-2" style="margin-top:28px;">
+      <h2 style="font-size:var(--fs-xl);font-weight:700;color:var(--color-text);">${title}</h2>
+    </div>
+    <div class="grid-3 mb-3" style="gap:16px;">
+      ${Object.entries(books).map(([key, info]) => `
+        <div class="grade-card" data-book="${key}">
+          <div class="grade-icon">${info.icon}</div>
+          <h3>${info.name}</h3>
+          <div class="grade-subtitle">${info.sub}</div>
+          <div class="grade-stats" id="stats-${key}">加载中...</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
 // ========== Grade Detail (Units) ==========
 export async function showVocabularyGrade(grade) {
-  const info = GRADE_INFO[grade] || { name: grade };
+  const info = ALL_BOOKS[grade] || { name: grade, icon: '📚', sub: '' };
   getMain().innerHTML = `<div class="page"><div class="page-header"><h1>${info.icon} ${info.name} 单词</h1><p>加载中...</p></div><div class="spinner"></div></div>`;
 
   try {

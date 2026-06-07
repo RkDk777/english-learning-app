@@ -80,7 +80,7 @@ async function startExam(level) {
     // Load data
     const vocabGrades = level === 'junior'
       ? ['grade7', 'grade8', 'grade9']
-      : ['grade10', 'grade11', 'grade12'];
+      : ['book_b1','book_b2','book_b3','book_xb1','book_xb2','book_xb3','book_xb4'];
 
     const [grammarData, ...vocabDataArr] = await Promise.all([
       dataLoader.loadGrammar(level),
