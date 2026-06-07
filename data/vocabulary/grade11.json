@@ -1,55 +1,498 @@
 {
   "grade": "高二",
-  "semester": "全学年",
+  "semester": "选择性必修1-4",
+  "textbook": "2019人教版高中英语",
   "units": [
     {
       "unit": 1,
-      "title": "Unit 1 People of Achievement",
+      "title": "选必U1-B2 人物成就与科技创新",
       "words": [
-        {"en": "achievement", "zh": "成就；成绩", "phonetic": "/əˈtʃiːvmənt/", "pos": "n.", "example": "Winning the award was a great achievement.", "exampleZh": "获奖是一项伟大的成就。"},
-        {"en": "commitment", "zh": "承诺；投入；奉献", "phonetic": "/kəˈmɪtmənt/", "pos": "n.", "example": "He showed great commitment to his work.", "exampleZh": "他对工作表现出极大的投入。"},
-        {"en": "academic", "zh": "学术的；学业的", "phonetic": "/ˌækəˈdemɪk/", "pos": "adj.", "example": "She has excellent academic performance.", "exampleZh": "她有出色的学业表现。"},
-        {"en": "objective", "zh": "目标；客观的", "phonetic": "/əbˈdʒektɪv/", "pos": "n. & adj.", "example": "Set a clear objective before you start.", "exampleZh": "开始前设定一个明确的目标。"},
-        {"en": "evaluate", "zh": "评估；评价", "phonetic": "/ɪˈvæljueɪt/", "pos": "v.", "example": "Teachers evaluate students' progress regularly.", "exampleZh": "老师定期评估学生的进步。"},
-        {"en": "distinct", "zh": "清晰的；明显的；不同的", "phonetic": "/dɪˈstɪŋkt/", "pos": "adj.", "example": "There are distinct differences between the two.", "exampleZh": "两者之间有明显的差异。"},
-        {"en": "insist", "zh": "坚持；坚决要求", "phonetic": "/ɪnˈsɪst/", "pos": "v.", "example": "She insists on doing things her own way.", "exampleZh": "她坚持按照自己的方式做事。"},
-        {"en": "conclusion", "zh": "结论；推论", "phonetic": "/kənˈkluːʒn/", "pos": "n.", "example": "Don't jump to conclusions.", "exampleZh": "不要急于下结论。"},
-        {"en": "circumstance", "zh": "条件；环境；状况", "phonetic": "/ˈsɜːrkəmstæns/", "pos": "n.", "example": "Under no circumstances should you give up.", "exampleZh": "在任何情况下都不要放弃。"},
-        {"en": "consequence", "zh": "结果；后果", "phonetic": "/ˈkɒnsɪkwəns/", "pos": "n.", "example": "Think about the consequences before you act.", "exampleZh": "行动之前考虑后果。"},
-        {"en": "remarkable", "zh": "非凡的；显著的", "phonetic": "/rɪˈmɑːrkəbl/", "pos": "adj.", "example": "She has made remarkable progress.", "exampleZh": "她取得了显著的进步。"},
-        {"en": "apparently", "zh": "据……所知；看来；显然", "phonetic": "/əˈpærəntli/", "pos": "adv.", "example": "Apparently, he didn't receive the message.", "exampleZh": "看来他没有收到消息。"}
+        {
+          "en": "achievement",
+          "zh": "成就",
+          "phonetic": "/əˈtʃiːvmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "commitment",
+          "zh": "承诺",
+          "phonetic": "/kəˈmɪtmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "academic",
+          "zh": "学术的",
+          "phonetic": "/ˌækəˈdemɪk/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "objective",
+          "zh": "目标",
+          "phonetic": "/əbˈdʒektɪv/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "evaluate",
+          "zh": "评估",
+          "phonetic": "/ɪˈvæljueɪt/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "distinct",
+          "zh": "明显的",
+          "phonetic": "/dɪˈstɪŋkt/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "insist",
+          "zh": "坚持",
+          "phonetic": "/ɪnˈsɪst/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "conclusion",
+          "zh": "结论",
+          "phonetic": "/kənˈkluːʒn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "circumstance",
+          "zh": "环境",
+          "phonetic": "/ˈsɜːrkəmstæns/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "consequence",
+          "zh": "后果",
+          "phonetic": "/ˈkɑːnsɪkwens/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "remarkable",
+          "zh": "非凡的",
+          "phonetic": "/rɪˈmɑːrkəbl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "apparently",
+          "zh": "显然",
+          "phonetic": "/əˈpærəntli/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "innovation",
+          "zh": "创新",
+          "phonetic": "/ˌɪnəˈveɪʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "available",
+          "zh": "可获得的",
+          "phonetic": "/əˈveɪləbl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "forecast",
+          "zh": "预测",
+          "phonetic": "/ˈfɔːrkæst/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "artificial",
+          "zh": "人工的",
+          "phonetic": "/ˌɑːrtɪˈfɪʃl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "predict",
+          "zh": "预测",
+          "phonetic": "/prɪˈdɪkt/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "combine",
+          "zh": "结合",
+          "phonetic": "/kəmˈbaɪn/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "occupation",
+          "zh": "职业",
+          "phonetic": "/ˌɑːkjuˈpeɪʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "opportunity",
+          "zh": "机会",
+          "phonetic": "/ˌɑːpərˈtuːnəti/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "absence",
+          "zh": "缺席",
+          "phonetic": "/ˈæbsəns/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "preference",
+          "zh": "偏好",
+          "phonetic": "/ˈprefrəns/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "environment",
+          "zh": "环境",
+          "phonetic": "/ɪnˈvaɪrənmənt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "pollution",
+          "zh": "污染",
+          "phonetic": "/pəˈluːʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "sustainable",
+          "zh": "可持续的",
+          "phonetic": "/səˈsteɪnəbl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "restore",
+          "zh": "恢复",
+          "phonetic": "/rɪˈstɔːr/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "release",
+          "zh": "释放",
+          "phonetic": "/rɪˈliːs/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "campaign",
+          "zh": "运动",
+          "phonetic": "/kæmˈpeɪn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "strategy",
+          "zh": "策略",
+          "phonetic": "/ˈstrætədʒi/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "threat",
+          "zh": "威胁",
+          "phonetic": "/θret/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        }
       ]
     },
     {
       "unit": 2,
-      "title": "Unit 2 Looking into the Future",
+      "title": "选必U3-B4 诗歌健康与人生",
       "words": [
-        {"en": "innovation", "zh": "创新；革新", "phonetic": "/ˌɪnəˈveɪʃn/", "pos": "n.", "example": "Innovation is key to progress.", "exampleZh": "创新是进步的关键。"},
-        {"en": "available", "zh": "可获得的；可利用的", "phonetic": "/əˈveɪləbl/", "pos": "adj.", "example": "Is this book available online?", "exampleZh": "这本书在网上能买到吗？"},
-        {"en": "forecast", "zh": "预测；预报", "phonetic": "/ˈfɔːrkæst/", "pos": "v. & n.", "example": "Experts forecast economic growth next year.", "exampleZh": "专家预测明年经济增长。"},
-        {"en": "artificial", "zh": "人工的；人造的", "phonetic": "/ˌɑːrtɪˈfɪʃl/", "pos": "adj.", "example": "Artificial intelligence is changing the world.", "exampleZh": "人工智能正在改变世界。"},
-        {"en": "predict", "zh": "预言；预测", "phonetic": "/prɪˈdɪkt/", "pos": "v.", "example": "It's hard to predict the future.", "exampleZh": "很难预测未来。"},
-        {"en": "combine", "zh": "结合；联合", "phonetic": "/kəmˈbaɪn/", "pos": "v.", "example": "Combine theory with practice.", "exampleZh": "把理论与实践结合起来。"},
-        {"en": "occupation", "zh": "职业；占领", "phonetic": "/ˌɒkjuˈpeɪʃn/", "pos": "n.", "example": "Teaching is a noble occupation.", "exampleZh": "教学是一种崇高的职业。"},
-        {"en": "opportunity", "zh": "机会；时机", "phonetic": "/ˌɒpəˈtjuːnəti/", "pos": "n.", "example": "Don't miss this opportunity.", "exampleZh": "不要错过这个机会。"},
-        {"en": "absence", "zh": "缺席；不在", "phonetic": "/ˈæbsəns/", "pos": "n.", "example": "In the absence of evidence, we can't judge.", "exampleZh": "在没有证据的情况下，我们不能判断。"},
-        {"en": "preference", "zh": "偏爱；偏好", "phonetic": "/ˈprefrəns/", "pos": "n.", "example": "I have a preference for classical music.", "exampleZh": "我偏爱古典音乐。"}
-      ]
-    },
-    {
-      "unit": 3,
-      "title": "Unit 3 Environmental Protection",
-      "words": [
-        {"en": "environment", "zh": "环境", "phonetic": "/ɪnˈvaɪrənmənt/", "pos": "n.", "example": "Protecting the environment is everyone's duty.", "exampleZh": "保护环境是每个人的责任。"},
-        {"en": "pollution", "zh": "污染", "phonetic": "/pəˈluːʃn/", "pos": "n.", "example": "Air pollution is a serious problem.", "exampleZh": "空气污染是一个严重的问题。"},
-        {"en": "sustainable", "zh": "可持续的", "phonetic": "/səˈsteɪnəbl/", "pos": "adj.", "example": "We need sustainable development.", "exampleZh": "我们需要可持续发展。"},
-        {"en": "carbon", "zh": "碳", "phonetic": "/ˈkɑːrbən/", "pos": "n.", "example": "We should reduce our carbon footprint.", "exampleZh": "我们应该减少碳足迹。"},
-        {"en": "restore", "zh": "恢复；修复", "phonetic": "/rɪˈstɔːr/", "pos": "v.", "example": "We must restore the damaged ecosystem.", "exampleZh": "我们必须恢复受损的生态系统。"},
-        {"en": "release", "zh": "释放；发布", "phonetic": "/rɪˈliːs/", "pos": "v. & n.", "example": "The factory releases harmful gases.", "exampleZh": "工厂释放有害气体。"},
-        {"en": "campaign", "zh": "运动；战役", "phonetic": "/kæmˈpeɪn/", "pos": "n.", "example": "They started a campaign to save the forest.", "exampleZh": "他们发起了一场拯救森林的运动。"},
-        {"en": "strategy", "zh": "策略；战略", "phonetic": "/ˈstrætədʒi/", "pos": "n.", "example": "We need a new strategy.", "exampleZh": "我们需要一个新的策略。"},
-        {"en": "threat", "zh": "威胁；恐吓", "phonetic": "/θret/", "pos": "n.", "example": "Climate change is a global threat.", "exampleZh": "气候变化是全球性的威胁。"},
-        {"en": "extinction", "zh": "灭绝", "phonetic": "/ɪkˈstɪŋkʃn/", "pos": "n.", "example": "Many species are in danger of extinction.", "exampleZh": "许多物种面临灭绝的危险。"}
+        {
+          "en": "brilliant",
+          "zh": "杰出的",
+          "phonetic": "/ˈbrɪliənt/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "contribution",
+          "zh": "贡献",
+          "phonetic": "/ˌkɑːntrɪˈbjuːʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "revolution",
+          "zh": "革命",
+          "phonetic": "/ˌrevəˈluːʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "enthusiasm",
+          "zh": "热情",
+          "phonetic": "/ɪnˈθuːziæzəm/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "cautious",
+          "zh": "谨慎的",
+          "phonetic": "/ˈkɔːʃəs/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "suspect",
+          "zh": "怀疑",
+          "phonetic": "/səˈspekt/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "blame",
+          "zh": "责备",
+          "phonetic": "/bleɪm/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "handle",
+          "zh": "处理",
+          "phonetic": "/ˈhændl/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "expose",
+          "zh": "暴露",
+          "phonetic": "/ɪkˈspoʊz/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "absorb",
+          "zh": "吸收",
+          "phonetic": "/əbˈzɔːrb/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "poetry",
+          "zh": "诗歌",
+          "phonetic": "/ˈpoʊətri/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "emotion",
+          "zh": "情感",
+          "phonetic": "/ɪˈmoʊʃn/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "convey",
+          "zh": "传达",
+          "phonetic": "/kənˈveɪ/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "transform",
+          "zh": "转变",
+          "phonetic": "/trænsˈfɔːrm/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "sorrow",
+          "zh": "悲伤",
+          "phonetic": "/ˈsɑːroʊ/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "exchange",
+          "zh": "交换",
+          "phonetic": "/ɪksˈtʃeɪndʒ/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "eventually",
+          "zh": "最终",
+          "phonetic": "/ɪˈventʃuəli/",
+          "pos": "adv.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "abuse",
+          "zh": "滥用",
+          "phonetic": "/əˈbjuːz/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "ban",
+          "zh": "禁止",
+          "phonetic": "/bæn/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "quit",
+          "zh": "戒掉",
+          "phonetic": "/kwɪt/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "tough",
+          "zh": "艰苦的",
+          "phonetic": "/tʌf/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "mental",
+          "zh": "精神的",
+          "phonetic": "/ˈmentl/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "strengthen",
+          "zh": "加强",
+          "phonetic": "/ˈstreŋθn/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "accustomed",
+          "zh": "习惯的",
+          "phonetic": "/əˈkʌstəmd/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "desperate",
+          "zh": "绝望的",
+          "phonetic": "/ˈdespərət/",
+          "pos": "adj.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "withdraw",
+          "zh": "退出",
+          "phonetic": "/wɪðˈdrɔː/",
+          "pos": "v.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "effect",
+          "zh": "效果",
+          "phonetic": "/ɪˈfekt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "phenomenon",
+          "zh": "现象",
+          "phonetic": "/fɪˈnɑːmɪnən/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "conflict",
+          "zh": "冲突",
+          "phonetic": "/ˈkɑːnflɪkt/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        },
+        {
+          "en": "harmony",
+          "zh": "和谐",
+          "phonetic": "/ˈhɑːrməni/",
+          "pos": "n.",
+          "example": "",
+          "exampleZh": ""
+        }
       ]
     }
   ]
