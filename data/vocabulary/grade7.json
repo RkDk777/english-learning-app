@@ -1,6 +1,6 @@
 {
-  "grade": "七年级",
-  "semester": "全学年",
+  "grade": "初一（七年级）",
+  "semester": "全学年（上+下册）",
   "textbook": "人教版 Go for it! (2012审定版)",
   "units": [
     {
@@ -339,7 +339,7 @@
     },
     {
       "unit": 1,
-      "title": "上册 Unit 1 My name's Gina.",
+      "title": "Unit 1 My name's Gina.",
       "words": [
         {
           "en": "name",
@@ -609,7 +609,7 @@
     },
     {
       "unit": 2,
-      "title": "上册 Unit 2 This is my sister.",
+      "title": "Unit 2 This is my sister.",
       "words": [
         {
           "en": "sister",
@@ -823,7 +823,7 @@
     },
     {
       "unit": 3,
-      "title": "上册 Unit 3 Is this your pencil?",
+      "title": "Unit 3 Is this your pencil?",
       "words": [
         {
           "en": "pencil",
@@ -1117,7 +1117,7 @@
     },
     {
       "unit": 4,
-      "title": "上册 Unit 4 Where's my schoolbag?",
+      "title": "Unit 4 Where's my schoolbag?",
       "words": [
         {
           "en": "where",
@@ -1347,7 +1347,7 @@
     },
     {
       "unit": 5,
-      "title": "上册 Unit 5 Do you have a soccer ball?",
+      "title": "Unit 5 Do you have a soccer ball?",
       "words": [
         {
           "en": "do",
@@ -1657,7 +1657,7 @@
     },
     {
       "unit": 6,
-      "title": "上册 Unit 6 Do you like bananas?",
+      "title": "Unit 6 Do you like bananas?",
       "words": [
         {
           "en": "banana",
@@ -1943,7 +1943,7 @@
     },
     {
       "unit": 7,
-      "title": "上册 Unit 7 How much are these socks?",
+      "title": "Unit 7 How much are these socks?",
       "words": [
         {
           "en": "much",
@@ -2181,7 +2181,7 @@
     },
     {
       "unit": 8,
-      "title": "上册 Unit 8 When is your birthday?",
+      "title": "Unit 8 When is your birthday?",
       "words": [
         {
           "en": "when",
@@ -2419,7 +2419,7 @@
     },
     {
       "unit": 9,
-      "title": "上册 Unit 9 My favorite subject is science.",
+      "title": "Unit 9 My favorite subject is science.",
       "words": [
         {
           "en": "favorite",
@@ -2649,7 +2649,7 @@
     },
     {
       "unit": 10,
-      "title": "下册 Unit 1 Can you play the guitar?",
+      "title": "Unit 1 Can you play the guitar?",
       "words": [
         {
           "en": "guitar",
@@ -2863,7 +2863,7 @@
     },
     {
       "unit": 11,
-      "title": "下册 Unit 2 What time do you go to school?",
+      "title": "Unit 2 What time do you go to school?",
       "words": [
         {
           "en": "up",
@@ -3125,7 +3125,7 @@
     },
     {
       "unit": 12,
-      "title": "下册 Unit 3 How do you get to school?",
+      "title": "Unit 3 How do you get to school?",
       "words": [
         {
           "en": "train",
@@ -3403,7 +3403,7 @@
     },
     {
       "unit": 13,
-      "title": "下册 Unit 4 Don't eat in class.",
+      "title": "Unit 4 Don't eat in class.",
       "words": [
         {
           "en": "rule",
@@ -3665,7 +3665,7 @@
     },
     {
       "unit": 14,
-      "title": "下册 Unit 5 Why do you like pandas?",
+      "title": "Unit 5 Why do you like pandas?",
       "words": [
         {
           "en": "panda",
@@ -3967,7 +3967,7 @@
     },
     {
       "unit": 15,
-      "title": "下册 Unit 6 I'm watching TV.",
+      "title": "Unit 6 I'm watching TV.",
       "words": [
         {
           "en": "newspaper",
@@ -4197,7 +4197,7 @@
     },
     {
       "unit": 16,
-      "title": "下册 Unit 7 It's raining!",
+      "title": "Unit 7 It's raining!",
       "words": [
         {
           "en": "rain",
@@ -4491,7 +4491,7 @@
     },
     {
       "unit": 17,
-      "title": "下册 Unit 8 Is there a post office near here?",
+      "title": "Unit 8 Is there a post office near here?",
       "words": [
         {
           "en": "post",
@@ -4753,7 +4753,7 @@
     },
     {
       "unit": 18,
-      "title": "下册 Unit 9 What does he look like?",
+      "title": "Unit 9 What does he look like?",
       "words": [
         {
           "en": "curly",
@@ -5047,7 +5047,7 @@
     },
     {
       "unit": 19,
-      "title": "下册 Unit 10 I'd like some noodles.",
+      "title": "Unit 10 I'd like some noodles.",
       "words": [
         {
           "en": "noodle",
@@ -5317,7 +5317,7 @@
     },
     {
       "unit": 20,
-      "title": "下册 Unit 11 How was your school trip?",
+      "title": "Unit 11 How was your school trip?",
       "words": [
         {
           "en": "milk",
@@ -5587,7 +5587,7 @@
     },
     {
       "unit": 21,
-      "title": "下册 Unit 12 What did you do last weekend?",
+      "title": "Unit 12 What did you do last weekend?",
       "words": [
         {
           "en": "camp",

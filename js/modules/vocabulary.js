@@ -7,12 +7,12 @@ import { createWordList } from '../components/word-list.js';
 import { generateVocabQuiz, generateSpellingQuiz, generateListeningQuiz, calculateScore } from '../utils/quiz-engine.js';
 
 const GRADE_INFO = {
-  grade7: { name: '七年级', sub: '初一 · 约500词', icon: '📗' },
-  grade8: { name: '八年级', sub: '初二 · 约400词', icon: '📘' },
-  grade9: { name: '九年级', sub: '初三 · 约400词', icon: '📙' },
-  grade10: { name: '高一', sub: '高中必修 · 约500词', icon: '📒' },
-  grade11: { name: '高二', sub: '高中选修 · 约500词', icon: '📓' },
-  grade12: { name: '高三', sub: '高考冲刺 · 约500词', icon: '📔' },
+  grade7: { name: '初一（七年级）', sub: '上下册共22单元 · 716词', icon: '📗' },
+  grade8: { name: '初二（八年级）', sub: '上下册共20单元 · 500+词', icon: '📘' },
+  grade9: { name: '初三（九年级）', sub: '全一册共14单元 · 500+词', icon: '📙' },
+  grade10: { name: '高一', sub: '必修1-3 · 500+词', icon: '📒' },
+  grade11: { name: '高二', sub: '选择性必修1-4 · 500+词', icon: '📓' },
+  grade12: { name: '高三', sub: '高考冲刺词汇', icon: '📔' },
 };
 
 function getMain() { return document.getElementById('main-content'); }
