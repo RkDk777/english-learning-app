@@ -11,6 +11,9 @@ import { showListeningHome } from './modules/listening.js';
 import { showExamHome } from './modules/exam.js';
 import { showStats } from './modules/stats.js';
 import { showReaderHome, showReaderBook } from './modules/reader.js';
+import { showLogin, showAccountSettings, initSidebarUser } from './modules/account.js';
+import { initAuth, getProfile } from './utils/auth.js';
+import { pullAll } from './utils/sync.js';
 
 // ========== Home Page ==========
 function showHome() {
@@ -137,21 +140,29 @@ function setupRoutes() {
     .on('/exam', showExamHome)
     .on('/stats', showStats)
     .on('/reader', showReaderHome)
-    .on('/reader/:grade', (ctx) => showReaderBook(ctx.params.grade));
+    .on('/reader/:grade', (ctx) => showReaderBook(ctx.params.grade))
+    .on('/login', () => showLogin('login'))
+    .on('/account', showAccountSettings);
 }
 
 // ========== Init ==========
-function init() {
+async function init() {
   try { setupRoutes(); } catch(e) { console.error('Routes error:', e); return; }
   try { initTheme(); } catch(e) { console.error('Theme error:', e); }
   try { initSidebar(); } catch(e) { console.error('Sidebar error:', e); }
+  try { initSidebarUser(); } catch(e) { console.error('User widget error:', e); }
+  try { await initAuth(); } catch(e) { console.error('Auth init error:', e); }
+  // Pull cloud data if logged in
+  if (getProfile()) {
+    try { await pullAll(); } catch(e) { console.error('Sync pull error:', e); }
+  }
   try { router.start(); } catch(e) { console.error('Router start error:', e); }
   console.log('✅ App initialized');
 }
 
-// Start when DOM is ready
+// Start when DOM is ready (init is async)
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', init);
+  document.addEventListener('DOMContentLoaded', () => init());
 } else {
   init();
 }

@@ -25,6 +25,16 @@ class Storage {
     } catch (e) {
       console.warn('localStorage write failed:', e);
     }
+    // Auto-sync to cloud
+    this._markDirty();
+  }
+
+  _markDirty() {
+    if (!this._syncMarkDirty) {
+      import('./sync.js').then(m => { this._syncMarkDirty = m.markDirty; m.markDirty(); });
+    } else {
+      this._syncMarkDirty();
+    }
   }
 
   // --- Word Progress ---
