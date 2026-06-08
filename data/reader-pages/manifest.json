@@ -1,0 +1,534 @@
+{
+  "grade7": {
+    "id": "grade7",
+    "name": "初一（七年级）",
+    "parts": [
+      {
+        "part": "part1",
+        "source": "初一上.pdf",
+        "pages": [
+          {
+            "file": "grade7_part1_01.jpg",
+            "size_kb": 214.4
+          },
+          {
+            "file": "grade7_part1_02.jpg",
+            "size_kb": 232.9
+          },
+          {
+            "file": "grade7_part1_03.jpg",
+            "size_kb": 236.6
+          },
+          {
+            "file": "grade7_part1_04.jpg",
+            "size_kb": 238.0
+          },
+          {
+            "file": "grade7_part1_05.jpg",
+            "size_kb": 234.7
+          },
+          {
+            "file": "grade7_part1_06.jpg",
+            "size_kb": 243.6
+          },
+          {
+            "file": "grade7_part1_07.jpg",
+            "size_kb": 151.0
+          }
+        ],
+        "total": 7
+      },
+      {
+        "part": "part2",
+        "source": "初一下.pdf",
+        "pages": [
+          {
+            "file": "grade7_part2_01.jpg",
+            "size_kb": 224.4
+          },
+          {
+            "file": "grade7_part2_02.jpg",
+            "size_kb": 245.7
+          },
+          {
+            "file": "grade7_part2_03.jpg",
+            "size_kb": 249.6
+          },
+          {
+            "file": "grade7_part2_04.jpg",
+            "size_kb": 248.7
+          },
+          {
+            "file": "grade7_part2_05.jpg",
+            "size_kb": 256.6
+          },
+          {
+            "file": "grade7_part2_06.jpg",
+            "size_kb": 255.7
+          },
+          {
+            "file": "grade7_part2_07.jpg",
+            "size_kb": 235.1
+          },
+          {
+            "file": "grade7_part2_08.jpg",
+            "size_kb": 261.3
+          },
+          {
+            "file": "grade7_part2_09.jpg",
+            "size_kb": 58.2
+          }
+        ],
+        "total": 9
+      }
+    ]
+  },
+  "grade8": {
+    "id": "grade8",
+    "name": "初二（八年级）",
+    "parts": [
+      {
+        "part": "part1",
+        "source": "初二上.pdf",
+        "pages": [
+          {
+            "file": "grade8_part1_01.jpg",
+            "size_kb": 244.6
+          },
+          {
+            "file": "grade8_part1_02.jpg",
+            "size_kb": 212.5
+          },
+          {
+            "file": "grade8_part1_03.jpg",
+            "size_kb": 233.8
+          },
+          {
+            "file": "grade8_part1_04.jpg",
+            "size_kb": 253.4
+          },
+          {
+            "file": "grade8_part1_05.jpg",
+            "size_kb": 247.3
+          },
+          {
+            "file": "grade8_part1_06.jpg",
+            "size_kb": 240.2
+          },
+          {
+            "file": "grade8_part1_07.jpg",
+            "size_kb": 257.5
+          },
+          {
+            "file": "grade8_part1_08.jpg",
+            "size_kb": 255.0
+          },
+          {
+            "file": "grade8_part1_09.jpg",
+            "size_kb": 248.8
+          },
+          {
+            "file": "grade8_part1_10.jpg",
+            "size_kb": 248.5
+          },
+          {
+            "file": "grade8_part1_11.jpg",
+            "size_kb": 246.7
+          },
+          {
+            "file": "grade8_part1_12.jpg",
+            "size_kb": 77.0
+          }
+        ],
+        "total": 12
+      },
+      {
+        "part": "part2",
+        "source": "初二下.pdf",
+        "pages": [
+          {
+            "file": "grade8_part2_01.jpg",
+            "size_kb": 286.4
+          },
+          {
+            "file": "grade8_part2_02.jpg",
+            "size_kb": 292.5
+          },
+          {
+            "file": "grade8_part2_03.jpg",
+            "size_kb": 286.7
+          },
+          {
+            "file": "grade8_part2_04.jpg",
+            "size_kb": 308.2
+          },
+          {
+            "file": "grade8_part2_05.jpg",
+            "size_kb": 295.4
+          },
+          {
+            "file": "grade8_part2_06.jpg",
+            "size_kb": 296.3
+          },
+          {
+            "file": "grade8_part2_07.jpg",
+            "size_kb": 306.1
+          },
+          {
+            "file": "grade8_part2_08.jpg",
+            "size_kb": 283.5
+          },
+          {
+            "file": "grade8_part2_09.jpg",
+            "size_kb": 296.1
+          },
+          {
+            "file": "grade8_part2_10.jpg",
+            "size_kb": 287.9
+          },
+          {
+            "file": "grade8_part2_11.jpg",
+            "size_kb": 286.4
+          },
+          {
+            "file": "grade8_part2_12.jpg",
+            "size_kb": 291.6
+          }
+        ],
+        "total": 12
+      }
+    ]
+  },
+  "grade9": {
+    "id": "grade9",
+    "name": "初三（九年级）",
+    "parts": [
+      {
+        "part": "",
+        "source": "初三.pdf",
+        "pages": [
+          {
+            "file": "grade9_01.jpg",
+            "size_kb": 238.0
+          },
+          {
+            "file": "grade9_02.jpg",
+            "size_kb": 265.9
+          },
+          {
+            "file": "grade9_03.jpg",
+            "size_kb": 243.2
+          },
+          {
+            "file": "grade9_04.jpg",
+            "size_kb": 251.3
+          },
+          {
+            "file": "grade9_05.jpg",
+            "size_kb": 266.3
+          },
+          {
+            "file": "grade9_06.jpg",
+            "size_kb": 249.3
+          },
+          {
+            "file": "grade9_07.jpg",
+            "size_kb": 246.6
+          },
+          {
+            "file": "grade9_08.jpg",
+            "size_kb": 260.7
+          },
+          {
+            "file": "grade9_09.jpg",
+            "size_kb": 265.2
+          },
+          {
+            "file": "grade9_10.jpg",
+            "size_kb": 255.8
+          },
+          {
+            "file": "grade9_11.jpg",
+            "size_kb": 249.1
+          },
+          {
+            "file": "grade9_12.jpg",
+            "size_kb": 275.7
+          },
+          {
+            "file": "grade9_13.jpg",
+            "size_kb": 251.7
+          },
+          {
+            "file": "grade9_14.jpg",
+            "size_kb": 254.2
+          },
+          {
+            "file": "grade9_15.jpg",
+            "size_kb": 250.6
+          }
+        ],
+        "total": 15
+      }
+    ]
+  },
+  "book_b1": {
+    "id": "book_b1",
+    "name": "必修 第一册",
+    "parts": [
+      {
+        "part": "",
+        "source": "必修一.pdf",
+        "pages": [
+          {
+            "file": "book_b1_01.jpg",
+            "size_kb": 223.0
+          },
+          {
+            "file": "book_b1_02.jpg",
+            "size_kb": 254.4
+          },
+          {
+            "file": "book_b1_03.jpg",
+            "size_kb": 244.7
+          },
+          {
+            "file": "book_b1_04.jpg",
+            "size_kb": 246.8
+          },
+          {
+            "file": "book_b1_05.jpg",
+            "size_kb": 232.2
+          },
+          {
+            "file": "book_b1_06.jpg",
+            "size_kb": 211.0
+          }
+        ],
+        "total": 6
+      }
+    ]
+  },
+  "book_b2": {
+    "id": "book_b2",
+    "name": "必修 第二册",
+    "parts": [
+      {
+        "part": "",
+        "source": "必修二.pdf",
+        "pages": [
+          {
+            "file": "book_b2_01.jpg",
+            "size_kb": 211.3
+          },
+          {
+            "file": "book_b2_02.jpg",
+            "size_kb": 253.6
+          },
+          {
+            "file": "book_b2_03.jpg",
+            "size_kb": 241.1
+          },
+          {
+            "file": "book_b2_04.jpg",
+            "size_kb": 237.8
+          },
+          {
+            "file": "book_b2_05.jpg",
+            "size_kb": 255.0
+          },
+          {
+            "file": "book_b2_06.jpg",
+            "size_kb": 252.4
+          }
+        ],
+        "total": 6
+      }
+    ]
+  },
+  "book_b3": {
+    "id": "book_b3",
+    "name": "必修 第三册",
+    "parts": [
+      {
+        "part": "",
+        "source": "必修三.pdf",
+        "pages": [
+          {
+            "file": "book_b3_01.jpg",
+            "size_kb": 224.4
+          },
+          {
+            "file": "book_b3_02.jpg",
+            "size_kb": 262.2
+          },
+          {
+            "file": "book_b3_03.jpg",
+            "size_kb": 262.4
+          },
+          {
+            "file": "book_b3_04.jpg",
+            "size_kb": 282.2
+          },
+          {
+            "file": "book_b3_05.jpg",
+            "size_kb": 248.9
+          },
+          {
+            "file": "book_b3_06.jpg",
+            "size_kb": 128.6
+          }
+        ],
+        "total": 6
+      }
+    ]
+  },
+  "book_xb1": {
+    "id": "book_xb1",
+    "name": "选择性必修 第一册",
+    "parts": [
+      {
+        "part": "",
+        "source": "选修一.pdf",
+        "pages": [
+          {
+            "file": "book_xb1_01.jpg",
+            "size_kb": 247.3
+          },
+          {
+            "file": "book_xb1_02.jpg",
+            "size_kb": 277.0
+          },
+          {
+            "file": "book_xb1_03.jpg",
+            "size_kb": 279.5
+          },
+          {
+            "file": "book_xb1_04.jpg",
+            "size_kb": 270.4
+          },
+          {
+            "file": "book_xb1_05.jpg",
+            "size_kb": 270.7
+          },
+          {
+            "file": "book_xb1_06.jpg",
+            "size_kb": 245.4
+          }
+        ],
+        "total": 6
+      }
+    ]
+  },
+  "book_xb2": {
+    "id": "book_xb2",
+    "name": "选择性必修 第二册",
+    "parts": [
+      {
+        "part": "",
+        "source": "选修二.pdf",
+        "pages": [
+          {
+            "file": "book_xb2_01.jpg",
+            "size_kb": 209.4
+          },
+          {
+            "file": "book_xb2_02.jpg",
+            "size_kb": 242.5
+          },
+          {
+            "file": "book_xb2_03.jpg",
+            "size_kb": 243.6
+          },
+          {
+            "file": "book_xb2_04.jpg",
+            "size_kb": 242.1
+          },
+          {
+            "file": "book_xb2_05.jpg",
+            "size_kb": 248.6
+          },
+          {
+            "file": "book_xb2_06.jpg",
+            "size_kb": 245.0
+          },
+          {
+            "file": "book_xb2_07.jpg",
+            "size_kb": 66.2
+          }
+        ],
+        "total": 7
+      }
+    ]
+  },
+  "book_xb3": {
+    "id": "book_xb3",
+    "name": "选择性必修 第三册",
+    "parts": [
+      {
+        "part": "",
+        "source": "选修三.pdf",
+        "pages": [
+          {
+            "file": "book_xb3_01.jpg",
+            "size_kb": 240.3
+          },
+          {
+            "file": "book_xb3_02.jpg",
+            "size_kb": 293.0
+          },
+          {
+            "file": "book_xb3_03.jpg",
+            "size_kb": 259.1
+          },
+          {
+            "file": "book_xb3_04.jpg",
+            "size_kb": 281.7
+          },
+          {
+            "file": "book_xb3_05.jpg",
+            "size_kb": 269.2
+          },
+          {
+            "file": "book_xb3_06.jpg",
+            "size_kb": 192.6
+          }
+        ],
+        "total": 6
+      }
+    ]
+  },
+  "book_xb4": {
+    "id": "book_xb4",
+    "name": "选择性必修 第四册",
+    "parts": [
+      {
+        "part": "",
+        "source": "选修四.pdf",
+        "pages": [
+          {
+            "file": "book_xb4_01.jpg",
+            "size_kb": 270.2
+          },
+          {
+            "file": "book_xb4_02.jpg",
+            "size_kb": 286.3
+          },
+          {
+            "file": "book_xb4_03.jpg",
+            "size_kb": 265.5
+          },
+          {
+            "file": "book_xb4_04.jpg",
+            "size_kb": 258.3
+          },
+          {
+            "file": "book_xb4_05.jpg",
+            "size_kb": 248.5
+          }
+        ],
+        "total": 5
+      }
+    ]
+  }
+}

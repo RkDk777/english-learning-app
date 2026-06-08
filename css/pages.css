@@ -295,148 +295,95 @@
   }
 }
 
-/* ========== Reader (教材词汇表) ========== */
-.reader-toolbar {
+/* ========== Reader (教材原版图片) ========== */
+.gallery-toolbar {
   display: flex;
-  gap: 8px;
-  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
   flex-wrap: wrap;
 }
 
-.reader-units {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.reader-unit {
-  background: var(--bg-card);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-}
-
-.reader-unit-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 14px 20px;
-  background: var(--bg-hover);
-  border-bottom: 1px solid var(--color-border);
-  user-select: none;
-}
-
-.reader-unit-header:hover {
-  background: var(--color-border);
-}
-
-.reader-unit-header h2 {
-  font-size: var(--fs-lg);
-  font-weight: 700;
-  color: var(--color-text);
-  margin: 0;
-}
-
-.reader-unit-count {
+.gallery-page-info {
   font-size: var(--fs-sm);
-  color: var(--color-text-muted);
-  background: var(--bg-card);
-  padding: 3px 10px;
-  border-radius: 12px;
-}
-
-.reader-word-table-wrap {
-  overflow-x: auto;
-}
-
-.reader-word-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: var(--fs-sm);
-}
-
-.reader-word-table thead th {
-  background: var(--bg-hover);
   color: var(--color-text-secondary);
   font-weight: 600;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  padding: 10px 14px;
-  text-align: left;
-  border-bottom: 2px solid var(--color-border);
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-.reader-word-table tbody td {
-  padding: 9px 14px;
-  border-bottom: 1px solid var(--color-border);
-  color: var(--color-text);
-  line-height: 1.5;
-}
-
-.reader-word-row {
-  cursor: pointer;
-  transition: background 0.15s;
-}
-
-.reader-word-row:nth-child(even) {
-  background: var(--bg-hover);
-}
-
-.reader-word-row:hover {
-  background: var(--color-primary);
-  color: #fff;
-}
-
-.reader-word-row:hover td {
-  color: #fff;
-}
-
-.reader-word-num {
-  color: var(--color-text-muted);
-  font-size: 12px;
+  min-width: 60px;
   text-align: center;
 }
 
-.reader-word-en {
-  font-weight: 600;
+.gallery-image-wrap {
+  text-align: center;
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid var(--color-border);
+}
+
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  transition: box-shadow var(--transition-fast);
+}
+
+.gallery-image:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.gallery-image-caption {
+  margin-top: 10px;
+  font-size: var(--fs-sm);
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.gallery-image-caption:hover {
   color: var(--color-primary);
 }
 
-.reader-word-phonetic {
-  font-family: 'Segoe UI', 'Arial Unicode MS', sans-serif;
+/* Page number dots */
+.gallery-dot {
+  width: 32px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--bg-card);
   color: var(--color-text-secondary);
-  font-size: 13px;
-}
-
-.reader-word-pos {
-  color: var(--color-text-muted);
+  cursor: pointer;
   font-size: 12px;
+  transition: all var(--transition-fast);
 }
 
-.reader-word-zh {
-  color: var(--color-text);
+.gallery-dot:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.gallery-dot.active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
 }
 
 @media (max-width: 768px) {
-  .reader-word-table th:nth-child(3),
-  .reader-word-table td:nth-child(3) {
-    display: none;
+  .gallery-toolbar {
+    gap: 8px;
   }
 
-  .reader-unit-header {
-    padding: 10px 14px;
+  .gallery-image-wrap {
+    padding: 8px;
   }
 
-  .reader-unit-header h2 {
-    font-size: var(--fs-base);
-  }
-
-  .reader-word-table thead th,
-  .reader-word-table tbody td {
-    padding: 7px 8px;
+  .gallery-dot {
+    width: 26px;
+    height: 24px;
+    font-size: 11px;
   }
 }
