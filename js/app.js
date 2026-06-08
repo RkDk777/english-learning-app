@@ -14,6 +14,9 @@ import { showReaderHome, showReaderBook } from './modules/reader.js';
 import { showLogin, showAccountSettings, initSidebarUser } from './modules/account.js';
 import { initAuth, getProfile } from './utils/auth.js';
 import { pullAll } from './utils/sync.js';
+import { showSocial } from './modules/social.js';
+import { showChat } from './modules/chat.js';
+import { showProfile } from './modules/profile.js';
 
 // ========== Home Page ==========
 function showHome() {
@@ -142,7 +145,10 @@ function setupRoutes() {
     .on('/reader', showReaderHome)
     .on('/reader/:grade', (ctx) => showReaderBook(ctx.params.grade))
     .on('/login', () => showLogin('login'))
-    .on('/account', showAccountSettings);
+    .on('/account', showAccountSettings)
+    .on('/social', showSocial)
+    .on('/chat/:userId', (ctx) => showChat(ctx.params.userId))
+    .on('/profile/:userId', (ctx) => showProfile(ctx.params.userId));
 }
 
 // ========== Init ==========
@@ -157,6 +163,7 @@ async function init() {
     try { await pullAll(); } catch(e) { console.error('Sync pull error:', e); }
   }
   try { router.start(); } catch(e) { console.error('Router start error:', e); }
+  window.appRouter = router;
   console.log('✅ App initialized');
 }
 

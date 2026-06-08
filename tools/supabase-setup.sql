@@ -58,7 +58,75 @@ CREATE POLICY "Users can update own learning data"
   ON learning_data FOR UPDATE
   USING (auth.uid() = user_id);
 
--- 5. 头像桶 RLS 策略
--- (在 Dashboard → Storage → avatars → Policies 中添加)
--- 允许所有人读取公开文件
--- 允许登录用户上传到自己的文件夹 (user_id/)
+-- 5. 好友系统
+CREATE TABLE IF NOT EXISTS friendships (
+  id BIGSERIAL PRIMARY KEY,
+  user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  friend_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  status TEXT DEFAULT 'pending',
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  UNIQUE(user_id, friend_id)
+);
+
+-- 6. 私聊消息 (Realtime)
+CREATE TABLE IF NOT EXISTS chat_messages (
+  id BIGSERIAL PRIMARY KEY,
+  sender_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  receiver_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  content TEXT NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 7. 留言板
+CREATE TABLE IF NOT EXISTS wall_posts (
+  id BIGSERIAL PRIMARY KEY,
+  user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  author_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  content TEXT NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- 8. Realtime 监听
+ALTER PUBLICATION supabase_realtime ADD TABLE chat_messages;
+
+-- 9. profiles 允许所有人搜索
+DROP POLICY IF EXISTS "Users can read own profile" ON profiles;
+CREATE POLICY "Anyone can read profiles"
+  ON profiles FOR SELECT
+  USING (true);
+
+-- 10. 社交表 RLS
+ALTER TABLE friendships ENABLE ROW LEVEL SECURITY;
+ALTER TABLE chat_messages ENABLE ROW LEVEL SECURITY;
+ALTER TABLE wall_posts ENABLE ROW LEVEL SECURITY;
+
+-- friendships: 用户可读写自己的好友关系
+CREATE POLICY "Users can read own friendships"
+  ON friendships FOR SELECT
+  USING (auth.uid() = user_id OR auth.uid() = friend_id);
+
+CREATE POLICY "Users can insert own friendships"
+  ON friendships FOR INSERT
+  WITH CHECK (auth.uid() = user_id);
+
+CREATE POLICY "Users can update own friendships"
+  ON friendships FOR UPDATE
+  USING (auth.uid() = user_id OR auth.uid() = friend_id);
+
+-- chat: 用户可读写参与的消息
+CREATE POLICY "Users can read own chats"
+  ON chat_messages FOR SELECT
+  USING (auth.uid() = sender_id OR auth.uid() = receiver_id);
+
+CREATE POLICY "Users can insert own chats"
+  ON chat_messages FOR INSERT
+  WITH CHECK (auth.uid() = sender_id);
+
+-- wall_posts: 所有人可读，登录用户可写
+CREATE POLICY "Anyone can read wall posts"
+  ON wall_posts FOR SELECT
+  USING (true);
+
+CREATE POLICY "Users can insert wall posts"
+  ON wall_posts FOR INSERT
+  WITH CHECK (auth.uid() = author_id);
