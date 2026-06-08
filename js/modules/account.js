@@ -87,10 +87,9 @@ export function showLogin(mode = 'login') {
 
     try {
       await signUp(email, pwd, name);
-      errEl.style.color = 'var(--color-success)';
-      errEl.textContent = '注册成功！请查收邮箱验证邮件，然后登录。';
-      // Switch to login after 2s
-      setTimeout(() => showLogin('login'), 2000);
+      // Email confirmation disabled — auto login
+      await pullAll();
+      router.navigate('/');
     } catch (err) {
       errEl.style.color = 'var(--color-danger)';
       errEl.textContent = err.message || '注册失败';
