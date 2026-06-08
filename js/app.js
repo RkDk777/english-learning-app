@@ -10,6 +10,7 @@ import { showReadingHome } from './modules/reading.js';
 import { showListeningHome } from './modules/listening.js';
 import { showExamHome } from './modules/exam.js';
 import { showStats } from './modules/stats.js';
+import { showReaderHome, showReaderBook } from './modules/reader.js';
 
 // ========== Home Page ==========
 function showHome() {
@@ -134,7 +135,9 @@ function setupRoutes() {
     .on('/reading', showReadingHome)
     .on('/listening', showListeningHome)
     .on('/exam', showExamHome)
-    .on('/stats', showStats);
+    .on('/stats', showStats)
+    .on('/reader', showReaderHome)
+    .on('/reader/:grade', (ctx) => showReaderBook(ctx.params.grade));
 }
 
 // ========== Init ==========
