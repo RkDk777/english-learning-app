@@ -1122,3 +1122,57 @@
   background: var(--color-warning-bg);
   color: var(--color-warning);
 }
+
+/* ========== Rank 0 (总榜榜首) ========== */
+.rank-zero {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%) !important;
+  border-radius: var(--radius-lg) !important;
+  padding: 16px 16px !important;
+  margin-bottom: 12px;
+}
+
+.rank-zero .leaderboard-rank,
+.rank-zero .leaderboard-name,
+.rank-zero .leaderboard-score {
+  color: #5D3A1A !important;
+}
+
+.rank-zero-badge {
+  font-size: 1.8rem !important;
+}
+
+.leaderboard-divider {
+  text-align: center;
+  margin: 8px 0 16px;
+  font-size: var(--fs-sm);
+  color: var(--color-text-muted);
+  position: relative;
+}
+
+.leaderboard-divider::before,
+.leaderboard-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  border-top: 1px solid var(--color-border);
+}
+
+.leaderboard-divider::before {
+  left: 0;
+}
+
+.leaderboard-divider::after {
+  right: 0;
+}
+
+.leaderboard-divider span {
+  background: var(--bg-body);
+  padding: 0 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.leaderboard-row.is-me {
+  border-left: 3px solid var(--color-primary);
+}

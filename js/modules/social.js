@@ -44,6 +44,21 @@ export async function showSocial() {
     masteredWords: learningMap[f.userId] || 0,
   })).sort((a, b) => b.masteredWords - a.masteredWords);
 
+  // ===== Leaderboard: load ALL users =====
+  const { data: allProfiles } = await supabase.from('profiles').select('*');
+  const allUsers = (allProfiles || []).map(p => ({
+    userId: p.id,
+    profile: p,
+    masteredWords: learningMap[p.id] || 0,
+  })).sort((a, b) => b.masteredWords - a.masteredWords);
+
+  // Find the designated top user (rank 0) — anyone with 2000+ mastered words
+  const topUser = allUsers.find(u => u.masteredWords >= 2000);
+  // Remove top user from regular list so they only appear once
+  const ranked = topUser
+    ? allUsers.filter(u => u.userId !== topUser.userId)
+    : allUsers;
+
   getMain().innerHTML = `
     <div class="page">
       <div class="page-header">
@@ -149,26 +164,51 @@ export async function showSocial() {
   }
 
   function renderLeaderboard() {
-    const ranked = [...friendsWithStats].sort((a, b) => b.masteredWords - a.masteredWords);
-    content.innerHTML = `
+    let html = `
       <div class="leaderboard">
-        <h3 style="text-align:center;margin-bottom:16px;">🏆 好友学习排行榜</h3>
-        ${ranked.length === 0 ? '<p class="text-muted text-center">还没有好友</p>' : ''}
-        ${ranked.map((f, i) => {
-          const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `${i + 1}`;
-          return `
-            <div class="leaderboard-row ${i < 3 ? 'top' : ''}">
-              <span class="leaderboard-rank">${medal}</span>
-              <div class="leaderboard-avatar">
-                ${f.profile?.avatar_url ? `<img src="${f.profile.avatar_url}">` : `<span>${(f.profile?.nickname || '?')[0]?.toUpperCase()}</span>`}
-              </div>
-              <div class="leaderboard-name">${f.profile?.nickname || '用户'}</div>
-              <div class="leaderboard-score">📚 ${f.masteredWords} 词</div>
-            </div>
-          `;
-        }).join('')}
-      </div>
+        <h3 style="text-align:center;margin-bottom:16px;">🏆 学习总排行榜</h3>
     `;
+
+    // --- Rank 0: The Top User ---
+    if (topUser) {
+      html += `
+        <div class="leaderboard-row top rank-zero">
+          <span class="leaderboard-rank rank-zero-badge">👑 0</span>
+          <div class="leaderboard-avatar">
+            ${topUser.profile?.avatar_url ? `<img src="${topUser.profile.avatar_url}">` : `<span>${(topUser.profile?.nickname || '?')[0]?.toUpperCase()}</span>`}
+          </div>
+          <div class="leaderboard-name">${topUser.profile?.nickname || '英语学习助手'}</div>
+          <div class="leaderboard-score">📚 ${topUser.masteredWords || 2368} 词</div>
+        </div>
+        <div class="leaderboard-divider">
+          <span>— 排行榜 —</span>
+        </div>
+      `;
+    }
+
+    // --- Rank 1-N ---
+    if (ranked.length === 0) {
+      html += '<p class="text-muted text-center">暂无其他用户</p>';
+    } else {
+      ranked.forEach((u, i) => {
+        const pos = i + 1;
+        const medal = pos === 1 ? '🥇' : pos === 2 ? '🥈' : pos === 3 ? '🥉' : `${pos}`;
+        const isMe = u.userId === profile.id;
+        html += `
+          <div class="leaderboard-row ${pos <= 3 ? 'top' : ''} ${isMe ? 'is-me' : ''}">
+            <span class="leaderboard-rank">${medal}</span>
+            <div class="leaderboard-avatar" onclick="window.appRouter?.navigate('/profile/${u.userId}')" style="cursor:pointer;">
+              ${u.profile?.avatar_url ? `<img src="${u.profile.avatar_url}">` : `<span>${(u.profile?.nickname || '?')[0]?.toUpperCase()}</span>`}
+            </div>
+            <div class="leaderboard-name">${u.profile?.nickname || '用户'}${isMe ? ' (你)' : ''}</div>
+            <div class="leaderboard-score">📚 ${u.masteredWords} 词</div>
+          </div>
+        `;
+      });
+    }
+
+    html += '</div>';
+    content.innerHTML = html;
   }
 
   showTab('friends');
