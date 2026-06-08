@@ -1,5 +1,5 @@
 /**
- * 英语学习助手 - 应用入口
+ * 英语练习 - 应用入口
  */
 import { router } from './router.js';
 import { storage } from './utils/storage.js';
@@ -17,11 +17,24 @@ import { pullAll } from './utils/sync.js';
 import { showSocial } from './modules/social.js';
 import { showChat } from './modules/chat.js';
 import { showProfile } from './modules/profile.js';
+import { showAdminPanel } from './modules/admin.js';
+import { showLeaderboard } from './modules/leaderboard.js';
+import { showFeedback } from './modules/feedback.js';
+import { isAdmin } from './utils/auth.js';
 
 // ========== Home Page ==========
-function showHome() {
+async function showHome() {
   const main = document.getElementById('main-content');
   if (!main) return;
+
+  // Load announcement
+  let announcement = null;
+  try {
+    const { getSupabase } = await import('./lib/supabase.js');
+    const supabase = await getSupabase();
+    const { data } = await supabase.from('announcements').select('*').order('created_at', { ascending: false }).limit(1);
+    if (data && data.length > 0) announcement = data[0];
+  } catch {}
 
   const wordProgress = storage.getWordProgress();
   const masteredWords = Object.values(wordProgress).filter(p => p.status === 'mastered').length;
@@ -32,9 +45,9 @@ function showHome() {
 
   main.innerHTML = `
     <div class="page">
+      ${announcement ? `<div class="announcement-bar"><strong>📢 公告：</strong>${escHtml(announcement.content)}</div>` : ''}
       <div class="home-hero">
-        <h1>📚 英语学习助手</h1>
-        <p>覆盖初中到高中全部单词和语法，系统提升英语水平</p>
+        <h1>📚 英语练习</h1>
       </div>
 
       <div class="home-quick-stats">
@@ -148,7 +161,10 @@ function setupRoutes() {
     .on('/account', showAccountSettings)
     .on('/social', showSocial)
     .on('/chat/:userId', (ctx) => showChat(ctx.params.userId))
-    .on('/profile/:userId', (ctx) => showProfile(ctx.params.userId));
+    .on('/profile/:userId', (ctx) => showProfile(ctx.params.userId))
+    .on('/admin', showAdminPanel)
+    .on('/leaderboard', showLeaderboard)
+    .on('/feedback', showFeedback);
 }
 
 // ========== Init ==========
@@ -162,10 +178,14 @@ async function init() {
   if (getProfile()) {
     try { await pullAll(); } catch(e) { console.error('Sync pull error:', e); }
   }
+  // Auth guard: redirect to login for all routes except /login
+  router.setAuthGuard(() => !!getProfile());
   try { router.start(); } catch(e) { console.error('Router start error:', e); }
   window.appRouter = router;
   console.log('✅ App initialized');
 }
+
+function escHtml(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 
 // Start when DOM is ready (init is async)
 if (document.readyState === 'loading') {

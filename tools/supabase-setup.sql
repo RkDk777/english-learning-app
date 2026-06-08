@@ -130,3 +130,59 @@ CREATE POLICY "Anyone can read wall posts"
 CREATE POLICY "Users can insert wall posts"
   ON wall_posts FOR INSERT
   WITH CHECK (auth.uid() = author_id);
+
+-- 11. 管理员表
+CREATE TABLE IF NOT EXISTS admins (
+  user_id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+ALTER TABLE admins ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anyone can read admins"
+  ON admins FOR SELECT
+  USING (true);
+
+-- 12. 系统公告表
+CREATE TABLE IF NOT EXISTS announcements (
+  id BIGSERIAL PRIMARY KEY,
+  author_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  content TEXT NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+ALTER TABLE announcements ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anyone can read announcements"
+  ON announcements FOR SELECT
+  USING (true);
+
+CREATE POLICY "Only admins can insert announcements"
+  ON announcements FOR INSERT
+  WITH CHECK (EXISTS (SELECT 1 FROM admins WHERE user_id = auth.uid()));
+
+CREATE POLICY "Only admins can update announcements"
+  ON announcements FOR UPDATE
+  USING (EXISTS (SELECT 1 FROM admins WHERE user_id = auth.uid()));
+
+CREATE POLICY "Only admins can delete announcements"
+  ON announcements FOR DELETE
+  USING (EXISTS (SELECT 1 FROM admins WHERE user_id = auth.uid()));
+
+-- 13. 用户反馈表
+CREATE TABLE IF NOT EXISTS feedback (
+  id BIGSERIAL PRIMARY KEY,
+  author_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  content TEXT NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+ALTER TABLE feedback ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anyone can read feedback"
+  ON feedback FOR SELECT
+  USING (true);
+
+CREATE POLICY "Logged in users can insert feedback"
+  ON feedback FOR INSERT
+  WITH CHECK (auth.uid() = author_id);
