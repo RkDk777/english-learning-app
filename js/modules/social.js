@@ -47,7 +47,14 @@ export async function showSocial() {
       pending = newPending;
       // Update badge count
       const badge = getMain().querySelector('#pending-count');
-      if (badge) badge.textContent = newPending.length;
+      if (badge) {
+        badge.textContent = newPending.length;
+        badge.style.background = newPending.length > 0 ? 'var(--color-danger)' : 'none';
+        badge.style.color = newPending.length > 0 ? '#fff' : 'var(--color-text-secondary)';
+        badge.style.padding = newPending.length > 0 ? '2px 6px' : '0';
+        badge.style.borderRadius = newPending.length > 0 ? '10px' : '0';
+        badge.style.fontSize = newPending.length > 0 ? '11px' : 'inherit';
+      }
       if (window._socialActiveTab === 'pending') renderPending();
     }
   }, 5000);
@@ -90,6 +97,7 @@ export async function showSocial() {
         <div class="flex gap-1" style="flex-wrap:wrap;">
           <input type="text" class="input" id="social-search" placeholder="搜索用户昵称...">
           <button class="btn btn-primary btn-sm" id="btn-search">🔍 搜索</button>
+          <button class="btn btn-secondary btn-sm" id="btn-refresh" title="刷新">🔄</button>
         </div>
       </div>
 
@@ -126,6 +134,20 @@ export async function showSocial() {
       const q = getMain().querySelector('#social-search').value.trim();
       if (q) searchUsers(q);
     }
+  });
+
+  // Refresh button: reload friends + pending
+  getMain().querySelector('#btn-refresh').addEventListener('click', async () => {
+    const btn = getMain().querySelector('#btn-refresh');
+    btn.textContent = '⏳';
+    btn.disabled = true;
+    const data = await loadData();
+    friends = data.friends;
+    pending = data.pending;
+    statusMap = await buildStatusMap();
+    btn.textContent = '🔄';
+    btn.disabled = false;
+    showTab(window._socialActiveTab || 'friends');
   });
 
   function renderFriends() {
@@ -188,6 +210,29 @@ export async function showSocial() {
     });
   }
 
+  // Build friendship status map for leaderboard buttons
+  async function buildStatusMap() {
+    const [myReqs, theirReqs] = await Promise.all([
+      supabase.from('friendships').select('*').eq('user_id', profile.id),
+      supabase.from('friendships').select('*').eq('friend_id', profile.id),
+    ]);
+    const map = {};
+    (myReqs.data || []).forEach(f => { map[f.friend_id] = f.status; });
+    (theirReqs.data || []).forEach(f => { map[f.user_id] = f.status; });
+    return map;
+  }
+
+  let statusMap = await buildStatusMap();
+
+  async function sendFriendRequest(userId, btn) {
+    await supabase.from('friendships').insert({ user_id: profile.id, friend_id: userId, status: 'pending' });
+    btn.textContent = '已发送';
+    btn.disabled = true;
+    btn.classList.add('btn-secondary');
+    btn.classList.remove('btn-primary');
+    statusMap[userId] = 'pending';
+  }
+
   function renderLeaderboard() {
     let html = `
       <div class="leaderboard">
@@ -196,6 +241,13 @@ export async function showSocial() {
 
     // --- Rank 0: The Top User ---
     if (topUser) {
+      const tStat = statusMap[topUser.userId];
+      let tBtn = '';
+      if (topUser.userId !== profile.id) {
+        if (tStat === 'accepted') tBtn = '<span class="tag success" style="font-size:11px;">好友</span>';
+        else if (tStat === 'pending') tBtn = '<span class="tag warning" style="font-size:11px;">已申请</span>';
+        else tBtn = '<button class="btn btn-primary btn-sm lb-add-btn" data-user="' + topUser.userId + '">+ 加好友</button>';
+      }
       html += `
         <div class="leaderboard-row top rank-zero">
           <span class="leaderboard-rank rank-zero-badge">👑 0</span>
@@ -204,6 +256,7 @@ export async function showSocial() {
           </div>
           <div class="leaderboard-name">${topUser.profile?.nickname || '英语学习助手'}</div>
           <div class="leaderboard-score">📚 ${topUser.masteredWords || 2368} 词</div>
+          ${tBtn ? `<div class="friend-actions">${tBtn}</div>` : ''}
         </div>
         <div class="leaderboard-divider">
           <span>— 排行榜 —</span>
@@ -219,6 +272,13 @@ export async function showSocial() {
         const pos = i + 1;
         const medal = pos === 1 ? '🥇' : pos === 2 ? '🥈' : pos === 3 ? '🥉' : `${pos}`;
         const isMe = u.userId === profile.id;
+        const uStat = statusMap[u.userId];
+        let addBtn = '';
+        if (!isMe) {
+          if (uStat === 'accepted') addBtn = '<span class="tag success" style="font-size:11px;">好友</span>';
+          else if (uStat === 'pending') addBtn = '<span class="tag warning" style="font-size:11px;">已申请</span>';
+          else addBtn = '<button class="btn btn-primary btn-sm lb-add-btn" data-user="' + u.userId + '">+ 加好友</button>';
+        }
         html += `
           <div class="leaderboard-row ${pos <= 3 ? 'top' : ''} ${isMe ? 'is-me' : ''}">
             <span class="leaderboard-rank">${medal}</span>
@@ -227,6 +287,7 @@ export async function showSocial() {
             </div>
             <div class="leaderboard-name">${u.profile?.nickname || '用户'}${isMe ? ' (你)' : ''}</div>
             <div class="leaderboard-score">📚 ${u.masteredWords} 词</div>
+            ${addBtn ? `<div class="friend-actions">${addBtn}</div>` : ''}
           </div>
         `;
       });
@@ -234,6 +295,14 @@ export async function showSocial() {
 
     html += '</div>';
     content.innerHTML = html;
+
+    // Bind add-friend buttons in leaderboard
+    content.querySelectorAll('.lb-add-btn').forEach(btn => {
+      btn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        await sendFriendRequest(btn.dataset.user, btn);
+      });
+    });
   }
 
   showTab('friends');
