@@ -11,26 +11,50 @@ export async function showSocial() {
 
   const supabase = await getSupabase();
 
-  // Load friends + pending requests
-  const [friendsRes, pendingRes] = await Promise.all([
-    supabase.from('friendships').select('*, friend:friend_id(*)').eq('user_id', profile.id).eq('status', 'accepted'),
-    supabase.from('friendships').select('*, user:user_id(*)').eq('friend_id', profile.id).eq('status', 'pending'),
-  ]);
+  async function loadData() {
+    // Load friends + pending requests
+    // Pending: find requests WHERE friend_id = me AND status = 'pending'
+    const [friendsRes, pendingRes] = await Promise.all([
+      supabase.from('friendships').select('*, friend:friend_id(id, nickname, avatar_url)').eq('user_id', profile.id).eq('status', 'accepted'),
+      supabase.from('friendships').select('id, user_id, user:user_id(id, nickname, avatar_url)').eq('friend_id', profile.id).eq('status', 'pending'),
+    ]);
 
-  const friends = (friendsRes.data || []).map(f => ({
-    id: f.id, userId: f.friend_id, profile: f.friend,
-  }));
-  // Also get friends where I'm the friend (bidirectional)
-  const friendsOf = (await supabase.from('friendships').select('*, user:user_id(*)').eq('friend_id', profile.id).eq('status', 'accepted')).data || [];
-  friendsOf.forEach(f => {
-    if (!friends.find(x => x.userId === f.user_id)) {
-      friends.push({ id: f.id, userId: f.user_id, profile: f.user });
+    const friends = (friendsRes.data || []).map(f => ({
+      id: f.id, userId: f.friend_id, profile: f.friend || null,
+    }));
+    // Also get friends where I'm the friend (bidirectional)
+    const friendsOf = (await supabase.from('friendships').select('*, user:user_id(id, nickname, avatar_url)').eq('friend_id', profile.id).eq('status', 'accepted')).data || [];
+    friendsOf.forEach(f => {
+      if (!friends.find(x => x.userId === f.user_id)) {
+        friends.push({ id: f.id, userId: f.user_id, profile: f.user || null });
+      }
+    });
+
+    const pending = (pendingRes.data || []).filter(r => r.user_id !== profile.id);
+
+    return { friends, pending };
+  }
+
+  let { friends, pending } = await loadData();
+
+  // Poll for new friend requests every 5s
+  let pollTimer = setInterval(async () => {
+    const res = await supabase.from('friendships')
+      .select('id, user_id, user:user_id(id, nickname, avatar_url)')
+      .eq('friend_id', profile.id).eq('status', 'pending');
+    const newPending = (res.data || []).filter(r => r.user_id !== profile.id);
+    if (newPending.length !== pending.length) {
+      pending = newPending;
+      // Update badge count
+      const badge = getMain().querySelector('#pending-count');
+      if (badge) badge.textContent = newPending.length;
+      if (window._socialActiveTab === 'pending') renderPending();
     }
-  });
+  }, 5000);
 
-  const pending = (pendingRes.data || []).filter(r => r.user_id !== profile.id);
-
-  // Get all friends' learning stats
+  // Cleanup timer when navigating away
+  const cleanupPoll = () => { clearInterval(pollTimer); };
+  window.addEventListener('hashchange', cleanupPoll, { once: true });
   const learningRes = await supabase.from('learning_data').select('user_id, word_progress');
   const learningMap = {};
   (learningRes.data || []).forEach(d => {
@@ -71,7 +95,7 @@ export async function showSocial() {
 
       <div class="flex gap-2 mb-3" style="flex-wrap:wrap;">
         <button class="btn btn-sm btn-secondary social-tab active" data-tab="friends">好友 (${friends.length})</button>
-        <button class="btn btn-sm btn-secondary social-tab" data-tab="pending">好友申请 (${pending.length})</button>
+        <button class="btn btn-sm btn-secondary social-tab" data-tab="pending">好友申请 <span id="pending-count" style="${pending.length > 0 ? 'background:var(--color-danger);color:#fff;padding:2px 6px;border-radius:10px;font-size:11px;' : ''}">${pending.length}</span></button>
         <button class="btn btn-sm btn-secondary social-tab" data-tab="leaderboard">🏆 排行榜</button>
       </div>
 
@@ -82,6 +106,7 @@ export async function showSocial() {
   const content = getMain().querySelector('#social-content');
 
   function showTab(tab) {
+    window._socialActiveTab = tab;
     getMain().querySelectorAll('.social-tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
     if (tab === 'friends') renderFriends();
     else if (tab === 'pending') renderPending();
