@@ -57,7 +57,8 @@ class DataLoader {
   async loadAllVocabulary() {
     const keys = ['grade7','grade8','grade9',
       'book_b1','book_b2','book_b3',
-      'book_xb1','book_xb2','book_xb3','book_xb4'];
+      'book_xb1','book_xb2','book_xb3','book_xb4',
+      'vocab_3500'];
     const results = await Promise.all(
       keys.map(g => this.loadVocabulary(g).catch(() => null))
     );

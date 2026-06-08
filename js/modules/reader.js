@@ -29,6 +29,10 @@ export async function showReaderHome() {
       <div class="grid-3" style="gap:14px;">
         ${['book_b1','book_b2','book_b3','book_xb1','book_xb2','book_xb3','book_xb4'].map(k => bookCard(manifest[k])).join('')}
       </div>
+      <h2 style="font-size:var(--fs-xl);font-weight:700;margin:28px 0 12px;">📕 词汇手册</h2>
+      <div class="grid-3" style="gap:14px;">
+        ${['vocab_3500'].map(k => bookCard(manifest[k])).join('')}
+      </div>
     </div>
   `;
 

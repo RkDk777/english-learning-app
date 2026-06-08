@@ -530,5 +530,238 @@
         "total": 5
       }
     ]
+  },
+  "vocab_3500": {
+    "id": "vocab_3500",
+    "name": "高中英语词汇 3500（必背）",
+    "parts": [
+      {
+        "part": "",
+        "source": "高中英语词汇3500词（必背）.pdf",
+        "pages": [
+          {
+            "file": "vocab_3500_01.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_02.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_03.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_04.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_05.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_06.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_07.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_08.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_09.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_10.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_11.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_12.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_13.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_14.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_15.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_16.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_17.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_18.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_19.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_20.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_21.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_22.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_23.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_24.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_25.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_26.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_27.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_28.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_29.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_30.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_31.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_32.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_33.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_34.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_35.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_36.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_37.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_38.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_39.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_40.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_41.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_42.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_43.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_44.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_45.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_46.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_47.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_48.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_49.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_50.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_51.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_52.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_53.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_54.jpg",
+            "size_kb": 0
+          },
+          {
+            "file": "vocab_3500_55.jpg",
+            "size_kb": 0
+          }
+        ],
+        "total": 55
+      }
+    ]
   }
 }

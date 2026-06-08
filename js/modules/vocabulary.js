@@ -22,7 +22,11 @@ const SENIOR_BOOKS = {
   book_xb4: { name: '选择性必修 第四册', sub: 'U1-U5 · 240词', icon: '📓' },
 };
 
-const ALL_BOOKS = { ...JUNIOR_BOOKS, ...SENIOR_BOOKS };
+const REF_BOOKS = {
+  vocab_3500: { name: '高中英语词汇 3500', sub: '必背词汇手册 · 3503词', icon: '📕' },
+};
+
+const ALL_BOOKS = { ...JUNIOR_BOOKS, ...SENIOR_BOOKS, ...REF_BOOKS };
 
 function getMain() { return document.getElementById('main-content'); }
 
@@ -36,6 +40,7 @@ export async function showVocabularyHome() {
       </div>
       ${renderSection('🏫 初中', JUNIOR_BOOKS)}
       ${renderSection('🎓 高中', SENIOR_BOOKS)}
+      ${renderSection('📕 词汇手册', REF_BOOKS)}
     </div>
   `;
 
